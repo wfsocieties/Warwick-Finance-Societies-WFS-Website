@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body{
+    background: linear-gradient(45deg, #50b8e7, #84cdee, #b9e2f5, #dcf0fa, #edf7fc, #9bf4bc, #84e5a8, #67d28f, #4fc179, #38ae63);
+    background-size: 2000% 2000%;
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
