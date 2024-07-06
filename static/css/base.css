@@ -5,6 +5,8 @@
     overflow: hidden;
 }
 
+/*Here for sake of example*/
+
 ::-webkit-scrollbar {
     display: none;
   }
