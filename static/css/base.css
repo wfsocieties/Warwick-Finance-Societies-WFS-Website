@@ -5,16 +5,20 @@
     overflow: hidden;
 }
 
-/*Here for sake of example*/
+/* For gradient */
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #145585, #295674, #199cb6, #00ffff, #00d4ff, #199cb6, #00d4ff, #00ffff, #199cb6, #295674); 
+  background-size: 1500% 100%; 
+  animation: gradientAnimation 15s ease infinite; 
+}
 
-::-webkit-scrollbar {
-    display: none;
+@keyframes gradientAnimation {
+  0% {
+      background-position: 0% 50%; 
   }
-  
-  body{
-    background: linear-gradient(45deg, #50b8e7, #84cdee, #b9e2f5, #dcf0fa, #edf7fc, #9bf4bc, #84e5a8, #67d28f, #4fc179, #38ae63);
-    background-size: 2000% 2000%;
-    -webkit-animation: AnimationName 17s ease infinite;
-    -moz-animation: AnimationName 17s ease infinite;
-    animation: AnimationName 17s ease infinite;
+  100% {
+      background-position: 100% 50%; 
+  }
 }
