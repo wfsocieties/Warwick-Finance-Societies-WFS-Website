@@ -54,12 +54,42 @@ body {
   right: 0;
 }
 
-/* If screen size is too small, get rid of hover effects (had issues with toggle bar) */
+/* Ensure footer icons are responsive */
+.footer-icons {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-icons li {
+  margin-left: 15px;
+}
+
+/* Hover feature */
+.footer-icons li a:hover .fa-map-marker-alt,
+.footer-icons li a:hover .fa-envelope,
+.footer-icons li a:hover .fa-instagram,
+.footer-icons li a:hover .fa-whatsapp,
+.footer-icons li a:hover .fa-linkedin,
+.footer-icons li a:hover .fa-facebook {
+  color: #f59120;
+}
+
+/* If screen size is too small, make adjustments to hover effects and icons */
 @media (max-width: 768px) {
   .hvr-underline-from-center:before {
       display: none; 
   }
   .hvr-underline-from-center:hover:before {
       visibility: hidden; 
+  }
+
+  .footer-icons {
+    justify-content: center;
+  }
+
+  .footer-icons li {
+    margin-left: 10px;
   }
 }
