@@ -46,17 +46,3 @@
 .video-background-content p {
   font-size: 1.5rem;
 }
-
-/* More content section styles */
-section {
-  padding-top: 5rem; 
-  padding-bottom: 5rem; 
-}
-
-section h2 {
-  font-size: 2.5rem; 
-}
-
-section p {
-  font-size: 1.2rem; 
-}
