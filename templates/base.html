@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html>
     <head>
         <!-- Importing libraries -->
@@ -9,12 +8,11 @@
         <!-- Base CSS -->
         <link rel="stylesheet" href="/static/css/base.css">
 
+        <!-- Home CSS -->
+        <link rel="stylesheet" href="/static/css/home.css">
+
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
         <!-- Font Awesome CSS -->
         <script src="https://kit.fontawesome.com/40c81ad454.js" crossorigin="anonymous"></script>
@@ -60,10 +58,10 @@
 
     <body>
         <!-- Navbar -->
-        <div class="navbar navbar-expand-md navbar-dark" style="background-color:#080e30">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#080e30">
             <div class="container-fluid">
                 <!-- WFS Logo for Navbar -->
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="{{ url_for('home') }}">
                     <img src="/static/images/base/WFS Warwick University Warwick Finance Societies Logo.png" height="30" alt="WFS Warwick University Warwick Finance Societies Logo">
                 </a>
             
@@ -76,29 +74,26 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-3">
-                            <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">Home</a>
+                          <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="{{ url_for('home') }}">Home</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">About Us</a>
+                          <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="{{ url_for('aboutUs') }}">About Us</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">Divisions</a>
+                          <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">Divisions</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">Sponsors</a>
+                          <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">Sponsors</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">Join WFS</a>
+                          <a class="nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">Join WFS</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     
-
-        <!-- Base code thats included in other HTML pages -->
-        
-        <!-- Base code so HTML pages can have own stuff -->
+        <!-- Base code that's included in other HTML pages -->
         {% block content %}
         {% endblock %}
 
@@ -147,5 +142,8 @@
                 </ul>
             </footer>
         </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </html>

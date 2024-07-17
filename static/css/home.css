@@ -1,0 +1,62 @@
+/* Video background styles */
+.video-background-holder {
+  position: relative;
+  height: 100vh; 
+  width: 100%;
+  overflow: hidden; 
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; 
+}
+
+/* For the black overlay on video */
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%; 
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+}
+
+.video-background-content {
+  position: absolute;
+  top: 30%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2; 
+  color: white;
+  width: 100%;
+}
+
+.video-background-content h1 {
+  font-size: 3.5rem; 
+  margin-bottom: 20px; 
+}
+
+.video-background-content p {
+  font-size: 1.5rem;
+}
+
+/* More content section styles */
+section {
+  padding-top: 5rem; 
+  padding-bottom: 5rem; 
+}
+
+section h2 {
+  font-size: 2.5rem; 
+}
+
+section p {
+  font-size: 1.2rem; 
+}
