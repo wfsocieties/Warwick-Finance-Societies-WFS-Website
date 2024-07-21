@@ -5,6 +5,38 @@
   box-sizing: border-box;
 }
 
+/* For hero image */
+.hero-image {
+  background-size: cover; 
+  background-position: center; 
+  height: 400px; 
+  width: 100vw; 
+  position: relative; 
+  margin-bottom: 0; 
+}
+
+.hero-image .mask {
+  background-color: rgba(0, 0, 0, 0.6); 
+  height: 100%; 
+  width: 100%; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+
+.hero-image .d-flex {
+  position: relative; 
+  z-index: 1; 
+}
+
+/* Border below hero image */
+.border-bottom {
+  height: 8px; 
+  background-color: #080e30; 
+  width: 100vw; 
+  position: relative;
+  margin: 0; 
+}
 
 /* For gradient */
 /*
