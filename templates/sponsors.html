@@ -1,32 +1,27 @@
-{% extends 'base.html' %} 
+{% extends 'base.html' %}
 
-<!-- Title -->
 {% block title %}
 WFS Warwick Finance Societies - Sponsors
 {% endblock %}
 
 {% block content %}
-<!-- HTML Code -->
-
 <!-- Hero image -->
 <div class="hero-image position-relative" style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');">
     <div class="mask">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="container text-center">
-          <h1 class="display-4 mb-2 text-white">
-            Warwick Finance Societies <br> Sponsors
-          </h1>
-          <div class="row mt-2 mb-5">
-            <div class="col text-center lead mb-0 text-white">Possible sentence include here</div>
-          </div>
-
-            <a class="btn btn-lg mt-4 mb-4 btn-outline-dark active hvr-glow hvr-pulse hvr-shutter-out-horizontal" 
-            style="background:#f59120; border-width: 2px; border-color: #000000; border-radius: 10px;" href="#" role="button"
-            >
-            Sponsor WFS
-            </a>
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="container text-center">
+                <h1 class="display-4 mb-2 text-white">
+                    Warwick Finance Societies <br> Sponsors
+                </h1>
+                <div class="row mt-2 mb-5">
+                    <div class="col text-center lead mb-0 text-white">Possible sentence include here</div>
+                </div>
+                <a class="btn btn-lg mt-4 mb-4 btn-outline-dark active hvr-glow hvr-pulse hvr-shutter-out-horizontal" 
+                style="background:#f59120; border-width: 2px; border-color: #000000; border-radius: 10px;" href="#" role="button">
+                Sponsor WFS
+                </a>
+            </div>
         </div>
-      </div>
     </div>
 </div>
 
@@ -34,63 +29,255 @@ WFS Warwick Finance Societies - Sponsors
 <div class="border-bottom"></div>
 
 <!-- Main content -->
- <div id="mainContent" style="height:100%">
+<div id="mainContent" style="height:100%">
     <br><br>
 
+    <!-- Sponsors -->
     <div class="container">
         <div class="row">
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 1" data-bs-toggle="modal" data-bs-target="#modal1">
             </div>
+
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 2" data-bs-toggle="modal" data-bs-target="#modal2">
             </div>
+         
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 3" data-bs-toggle="modal" data-bs-target="#modal3">
             </div>
+          
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 4" data-bs-toggle="modal" data-bs-target="#modal4">
             </div>
         </div>
+
         <div class="row">
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 5" data-bs-toggle="modal" data-bs-target="#modal5">
             </div>
+            
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 6" data-bs-toggle="modal" data-bs-target="#modal6">
             </div>
+          
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 7" data-bs-toggle="modal" data-bs-target="#modal7">
             </div>
+          
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 8" data-bs-toggle="modal" data-bs-target="#modal8">
             </div>
         </div>
+
         <div class="row justify-content-center">
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 9" data-bs-toggle="modal" data-bs-target="#modal9">
             </div>
+           
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 10" data-bs-toggle="modal" data-bs-target="#modal10">
             </div>
+            
             <div class="col-3 d-flex justify-content-center align-items-center mt-2 mb-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" 
-                class="img-fluid fixed-size" alt="WFS Warwick University Warwick Finance Societies Sponsor">
+                class="img-fluid fixed-size clickable-image" alt="Sponsor 11" data-bs-toggle="modal" data-bs-target="#modal11">
             </div>
         </div>
     </div>
 
-<br><br><br><br>
+    <br><br><br><br>
+</div>
+
+<!-- Modals -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel1">Sponsor 1</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 1.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel2">Sponsor 2</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 2.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel3">Sponsor 3</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 3.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel4">Sponsor 4</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 4.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modalLabel5" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel5">Sponsor 5</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 5.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modalLabel6" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel6">Sponsor 6</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 6.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modalLabel7" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel7">Sponsor 7</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 7.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modalLabel8" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel8">Sponsor 8</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 8.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal9" tabindex="-1" aria-labelledby="modalLabel9" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel9">Sponsor 9</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 9.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal10" tabindex="-1" aria-labelledby="modalLabel10" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel10">Sponsor 10</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 10.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal11" tabindex="-1" aria-labelledby="modalLabel11" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel11">Sponsor 11</h5>
+            </div>
+            <div class="modal-body">
+                <p>Details about Sponsor 11.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 {% endblock %}
+
+<!-- JS for modal functionality -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
