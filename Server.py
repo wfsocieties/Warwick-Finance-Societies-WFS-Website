@@ -12,6 +12,10 @@ def aboutUs():
 @app.route("/sponsors", methods=["POST","GET"])
 def sponsors():
     return render_template("sponsors.html")
+
+@app.route("/divisions", methods=["POST","GET"])
+def divisions():
+    return render_template("divisions.html")
     
 
 if __name__ == "__main__":
