@@ -25,6 +25,10 @@ def divisionSpecificTemp():
 @app.route("/divisionMarkets", methods=["POST","GET"])
 def divisionMarkets():
     return render_template("divisionMarkets.html")
+
+@app.route("/divisionQuantFinance", methods=["POST","GET"])
+def divisionQuantFinance():
+    return render_template("divisionQuantFinance.html")
     
 # Ensures framework works
 if __name__ == "__main__":
