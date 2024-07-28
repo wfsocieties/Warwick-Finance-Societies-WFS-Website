@@ -105,19 +105,6 @@ WFS Warwick Finance Societies - Sponsorship Division
 </div>
 
 <!-- JavaScript to ensure images are relative as possible to the text box for responsiveness -->
-<script>
-  $(document).ready(function() {
-    adjustImageHeight();
-  });
-
-  $(window).resize(function(){
-    adjustImageHeight();
-  });
-
-  function adjustImageHeight() {
-    var textHeight = $(".divisionBox .col-12.col-md-8").outerHeight();
-    $(".divisionBox img").css("height", textHeight);
-  }
-</script>
+<script src="/static/javascript/divisionSpecific.js"></script>
 
 {% endblock %}
