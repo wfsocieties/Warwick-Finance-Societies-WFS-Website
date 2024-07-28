@@ -53,6 +53,10 @@ def divisionInsights():
 @app.route("/divisionStrategyAndMarketing", methods=["POST","GET"])
 def divisionStrategyAndMarketing():
     return render_template("divisionStrategyAndMarketing.html")
+
+@app.route("/divisionSponsorship", methods=["POST","GET"]) 
+def divisionSponsorship():
+    return render_template("divisionSponsorship.html")
     
 # Ensures framework works
 if __name__ == "__main__":
