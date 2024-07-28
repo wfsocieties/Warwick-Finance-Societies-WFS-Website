@@ -69,6 +69,10 @@ def divisionCareers():
 @app.route("/divisionShard", methods=["POST","GET"])
 def divisionShard():
     return render_template("divisionShard.html")
+
+@app.route("/divisionAlumni", methods=["POST","GET"])
+def divisionAlumni():
+    return render_template("divisionAlumni.html")
     
 # Ensures framework works
 if __name__ == "__main__":
