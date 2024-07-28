@@ -1,0 +1,9 @@
+.divisionBox {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px 0;
+}
+.divisionBox img {
+    max-width: 100%;
+    object-fit: cover;
+}

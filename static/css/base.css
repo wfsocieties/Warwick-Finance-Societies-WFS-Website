@@ -360,3 +360,17 @@ body {
       animation: none;
   }
 }
+
+/* For divisions */
+.img-fluid-divisions {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.division-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
