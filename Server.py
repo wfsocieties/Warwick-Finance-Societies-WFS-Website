@@ -33,6 +33,10 @@ def divisionQuantFinance():
 @app.route("/divisionInvestmentBanking", methods=["POST","GET"])
 def divisionInvestmentBanking():
     return render_template("divisionInvestmentBanking.html")
+
+@app.route("/divisionVentureCapitalAndPrivateEquity", methods=["POST","GET"])
+def divisionVentureCapitalAndPrivateEquity():
+    return render_template("divisionVentureCapitalAndPrivateEquity.html")
     
 # Ensures framework works
 if __name__ == "__main__":
