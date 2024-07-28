@@ -89,6 +89,10 @@ def divisionTour():
 @app.route("/divisionSocials", methods=["POST","GET"])
 def divisionSocials():
     return render_template("divisionSocials.html")
+
+@app.route("/divisionBall", methods=["POST","GET"])
+def divisionBall():
+    return render_template("divisionBall.html")
     
 # Ensures framework works
 if __name__ == "__main__":
