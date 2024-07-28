@@ -21,6 +21,5 @@ def sponsors():
 def divisionSpecificTemp():
     return render_template("divisionSpecificTemp.html")
     
-
 if __name__ == "__main__":
     app.run(debug=True)

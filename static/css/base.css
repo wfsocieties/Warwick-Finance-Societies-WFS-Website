@@ -38,6 +38,11 @@
   margin: 0; 
 }
 
+/* Stops banner image from overflowing */
+body {
+  overflow-x: hidden;
+}
+
 /* For gradient */
 /*
 body {
