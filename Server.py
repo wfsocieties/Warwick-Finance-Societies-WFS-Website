@@ -20,6 +20,12 @@ def sponsors():
 @app.route("/divisionSpecificTemp", methods=["POST","GET"])
 def divisionSpecificTemp():
     return render_template("divisionSpecificTemp.html")
+
+# Specific divisions
+@app.route("/divisionMarkets", methods=["POST","GET"])
+def divisionMarkets():
+    return render_template("divisionMarkets.html")
     
+# Ensures framework works
 if __name__ == "__main__":
     app.run(debug=True)
