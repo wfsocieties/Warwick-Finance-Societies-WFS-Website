@@ -43,29 +43,6 @@ body {
   overflow-x: hidden;
 }
 
-/* For gradient */
-/*
-body {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, #145585, #295674, #199cb6, #00ffff, #00d4ff, #199cb6, #00d4ff, #00ffff, #199cb6, #295674); 
-  background-size: 1500% 100%; 
-  animation: gradientAnimation 15s ease infinite;
-  font-family: Arial, sans-serif;
-  overflow-x: hidden; 
-  overflow-y: auto; 
-}
-
-@keyframes gradientAnimation {
-  0% {
-      background-position: 0% 50%; 
-  }
-  100% {
-      background-position: 100% 50%; 
-  }
-}
-*/
-
 /* For sticky navbar */
 .navbar.fixed-top {
   position: sticky;
@@ -378,4 +355,4 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
-}
+} 
