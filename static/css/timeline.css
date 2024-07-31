@@ -1,0 +1,350 @@
+/* Timeline defaults */
+.h--timeline-container *,
+.h--timeline-events * {
+  outline: 0;
+}
+
+.h--timeline-container,
+.h--timeline-events {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.h--timeline-navigation-container ul,
+.h--timeline-navigation-container li,
+.h--timeline-events ol,
+.h--timeline-events li,
+.h--timeline-line ol,
+.h--timeline-line li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.h--timeline {
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.h--timeline--loaded {
+  opacity: 1;
+}
+
+.h--timeline-container {
+  height: 100px;
+}
+
+.h--timeline-dates {
+  position: relative;
+  height: 100%;
+  margin: 0 40px;
+  overflow: hidden;
+}
+
+/* Timeline blur effect for start and end */
+.h--timeline-dates::after,
+.h--timeline-dates::before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  height: 100%;
+  width: 50px;
+}
+
+.h--timeline-dates::before {
+  left: 0;
+  background: linear-gradient(to right, hsl(0, 0%, 100%), hsla(0, 0%, 100%, 0));
+}
+
+.h--timeline-dates::after {
+  right: 0;
+  background: linear-gradient(to left, hsl(0, 0%, 100%), hsla(0, 0%, 100%, 0));
+}
+
+/* Timeline horizontal line */
+.h--timeline-line {
+  position: absolute;
+  z-index: 1;
+  left: -20px;
+  top: 49px;
+  height: 2px;
+  background-color: #f7f7f7;
+  transition: transform 0.4s;
+}
+
+.h--timeline-filling-line {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #f59120;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.3s;
+}
+
+/* Bullet points */
+.h--timeline-date {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 0.75rem;
+  color: #000;
+  user-select: none;
+  text-decoration: none;
+}
+
+.h--timeline-date:hover {
+  font-weight: 600;
+}
+
+.h--timeline-date::after,
+.h--timeline-date::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -8px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f59120;
+  background-color: #f7f7f7;
+  transition: background-color 0.3s, border-color 0.3s, top 0.3s;
+}
+
+.h--timeline-date::before {
+  bottom: -3px;
+  height: 9px;
+  width: 9px;
+  border-width: 0;
+  border-color: transparent;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.h--timeline-date:hover::before,
+.h--timeline-date:hover::after {
+  transition: background-color 0.3s, border-color .3s, top .3s;
+}
+
+.h--timeline-date:hover::after {
+  background-color: #f7f7f7;
+  border-color: #f59120;
+}
+
+.h--timeline-date--selected {
+  pointer-events: none;
+}
+
+.h--timeline-date--selected::after {
+  background-color: #f7f7f7;
+  border-color: #f59120;
+}
+
+.h--timeline-date--selected::before {
+  background-color: #f59120;
+}
+
+.h--timeline-date--older-event::after {
+  background-color: #f59120;
+  border-color: #f59120;
+}
+
+/* Carousel navigation */
+.h--timeline-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;  
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f7f7f7;
+  color: #f59120;  
+  transition: border-color 0.3s, color 0.3s;
+  text-decoration: none;  
+}
+
+.h--timeline-navigation:hover {
+  border-color: #f59120;
+  color: #f59120;
+}
+
+.h--timeline-navigation--prev {
+  left: 0;
+}
+
+.h--timeline-navigation--next {
+  right: 0;
+}
+
+.h--timeline-navigation--inactive {
+  cursor: not-allowed;
+  color: #ccc;  
+}
+
+.h--timeline-navigation--inactive:hover {
+  border-color: #f7f7f7;
+}
+
+/* Timeline events container */
+.h--timeline-events {
+  overflow: hidden;
+  transition: height .4s;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.h--timeline-event {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 1rem;
+  transform: translateX(-100%);
+  padding: 1px 5%;
+  opacity: 0;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out;
+}
+
+.h--timeline-event-content {
+  max-width: 800px;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  border: 1px solid #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 0 50px 0 rgba(0,0,0,.1);
+}
+
+.h--timeline-event--selected {
+  position: relative;
+  top: 0;
+  z-index: 2;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Timeline animations */
+.h--timeline-event--enter-right,
+.h--timeline-event--leave-right {
+  animation-name: cd-enter-right;
+}
+
+.h--timeline-event--enter-left,
+.h--timeline-event--leave-left {
+  animation-name: cd-enter-left;
+}
+
+.h--timeline-event--leave-right,
+.h--timeline-event--leave-left {
+  animation-direction: reverse;
+}
+
+.h--timeline-event-title {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.h--timeline-event-date {
+  display: block;
+  font-style: italic;
+  margin: 0.5rem auto;
+  margin: 1rem auto;
+}
+
+.h--timeline-event-date::before {
+  content: '- ';
+}
+
+@keyframes cd-enter-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes cd-enter-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/* Overwrites */
+/* Change the position of dates top / bottom / top */
+.h--timeline-date::after,
+.h--timeline-date::before {
+  background-color: #f59120;
+}
+
+.h--timeline-date--selected::after {
+  background-color: #f7f7f7;
+  border-color: #f59120;
+}
+
+.h--timeline-date--older-event::after {
+  background-color: #f59120;
+  border-color: #f59120;
+}
+
+.h--timeline-line li:nth-child(even) .h--timeline-date {
+  bottom: -48px;
+}
+
+.h--timeline-line li .h--timeline-date--selected::after,
+.h--timeline-line li .h--timeline-date:hover::after {
+  width: 21px;
+  height: 21px;
+  bottom: -11px;
+  background-color: #f7f7f7;
+  border-color: #f59120;
+}
+
+.h--timeline-line li:nth-child(even) .h--timeline-date::after {
+  bottom: 40px;
+}
+
+.h--timeline-line li:nth-child(even) .h--timeline-date:hover::after,
+.h--timeline-line li:nth-child(even) .h--timeline-date--selected::after {
+  bottom: 37px;
+}
+
+.h--timeline-line li:nth-child(even) .h--timeline-date::before {
+  bottom: 45px;
+}
+
+.h--timeline-line li:nth-child(odd) .h--timeline-date:hover::before,
+.h--timeline-line li:nth-child(odd) .h--timeline-date--selected::before {
+  bottom: -3px;
+}
