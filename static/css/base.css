@@ -356,3 +356,63 @@ body {
   justify-content: center;
   height: 100%;
 } 
+
+/* Image slider */
+.execSlider {
+  position: relative;
+  width: 100%;
+  height: 370px;
+  overflow: hidden;
+}
+
+.execItem {
+  position: absolute;
+  width: 200px;
+  height: 320px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  left: calc(50% - 100px); 
+  top: 0;
+  transition: transform 0.5s, filter 0.5s, opacity 0.5s;
+}
+
+.execItem img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.execItem h1 {
+  margin: 0;
+  padding: 10px;
+  font-size: 1.25rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#execNext, #execPrev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  background-color: transparent; 
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+#execNext {
+  right: 20px;
+}
+
+#execPrev {
+  left: 20px;
+}

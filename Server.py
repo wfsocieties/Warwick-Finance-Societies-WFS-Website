@@ -11,7 +11,7 @@ def divisions():
 
 @app.route("/aboutUs", methods=["POST","GET"])
 def aboutUs():
-    return render_template("aboutus.html")
+    return render_template("aboutUs.html")
 
 @app.route("/sponsors", methods=["POST","GET"])
 def sponsors():
