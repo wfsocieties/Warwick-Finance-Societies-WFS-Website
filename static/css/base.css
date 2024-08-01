@@ -464,22 +464,38 @@ body {
   left: 20px;
 }
 
-/* Custom font sizes for different screen sizes */
-.nav-link {
-  font-size: 1rem; /* Default size for large screens */
+
+
+.navbar-nav .nav-item .nav-link {
+  white-space: nowrap; /* Prevents text from wrapping */
+  font-size: 16px; /* Default font size */
+  padding: 8px 12px; /* Default padding */
 }
-@media (max-width: 992px) { /* md screens and below */
-  .nav-link {
-      font-size: 0.875rem; /* Slightly smaller font size */
+
+@media (max-width: 1200px) {
+  .navbar-nav .nav-item .nav-link {
+      font-size: 15px; /* Slightly smaller font for large screens */
+      padding: 7px 10px; /* Reduce padding for larger screens */
   }
 }
-@media (max-width: 768px) { /* sm screens and below */
-  .nav-link {
-      font-size: 0.75rem; /* Smaller font size */
+
+@media (max-width: 992px) {
+  .navbar-nav .nav-item .nav-link {
+      font-size: 14px; /* Medium screen font size */
+      padding: 6px 8px; /* Reduce padding for medium screens */
   }
 }
-@media (max-width: 576px) { /* xs screens and below */
-  .nav-link {
-      font-size: 0.625rem; /* Even smaller font size */
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-item .nav-link {
+      font-size: 13px; /* Smaller font size for small screens */
+      padding: 5px 7px; /* Further reduce padding for small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-nav .nav-item .nav-link {
+      font-size: 12px; /* Smallest font size for extra small screens */
+      padding: 4px 5px; /* Minimize padding for extra small screens */
   }
 }
