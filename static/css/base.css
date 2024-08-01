@@ -361,48 +361,48 @@ body {
 
 /* For drop menu responsiveness */ 
 .dropdown-menu {
-  background-color: #0c154a; /* Keep the background color consistent */
+  background-color: #0c154a; 
 }
 
 .dropdown-item {
-  font-size: 14px; /* Adjust the font size to match the smaller text size in the navbar */
-  padding: 8px 12px; /* Adjust padding for consistency */
-  color: #ffffff; /* Ensure text color is white */
+  font-size: 14px; 
+  padding: 8px 12px; 
+  color: #ffffff; 
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-  background-color: #f59120; /* Set the background color on hover/focus */
-  color: #ffffff; /* Ensure text color remains white on hover/focus */
+  background-color: #f59120;
+  color: #ffffff; 
 }
 
 /* If screen size is too small, make adjustments to hover effects and icons */
 @media (max-width: 768px) {
 
   .dropdown-menu {
-    font-size: 14px; /* Match font size with navbar items */
+    font-size: 14px; 
   }
 
   .dropdown-item {
-      font-size: 14px; /* Ensure dropdown items have the same font size */
-      padding: 8px 10px; /* Adjust padding for consistency */
+      font-size: 14px; 
+      padding: 8px 10px; 
   }
 
   /* Hover and focus states for dropdown items */
   .dropdown-item:hover,
   .dropdown-item:focus {
-      background-color: #f59120; /* Ensure the background color on hover/focus matches */
-      color: #ffffff; /* Ensure the text color on hover/focus remains white */
+      background-color: #f59120; 
+      color: #ffffff; 
   }
 
 
   .navbar-nav .nav-item {
-      margin: 0; /* Reset margin to fit items better */
+      margin: 0; 
   }
   
   .navbar-nav .nav-link {
-      font-size: 14px; /* Reduce font size to fit better on smaller screens */
-      padding: 8px 10px; /* Adjust padding for better spacing */
+      font-size: 14px; 
+      padding: 8px 10px; 
   }
 
   .hvr-underline-from-center:before,
@@ -432,19 +432,19 @@ body {
   }
 
   .hvr-shutter-out-vertical {
-    background: transparent !important; /* Make background transparent */
-    color: #ffffff; /* Ensure text color remains visible */
+    background: transparent !important; 
+    color: #ffffff; 
   }
 
   .hvr-shutter-out-vertical:before {
-    display: none !important; /* Hide the pseudo-element */
+    display: none !important; 
   }
 
   .hvr-shutter-out-vertical:hover,
   .hvr-shutter-out-vertical:focus,
   .hvr-shutter-out-vertical:active {
-    color: #ffffff; /* Ensure text color remains visible on interaction */
-    background: transparent !important; /* Ensure background remains transparent on interaction */
+    color: #ffffff; 
+    background: transparent !important; 
   }
 }
 
