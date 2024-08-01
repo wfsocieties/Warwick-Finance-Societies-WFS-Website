@@ -123,8 +123,8 @@ body {
 }
 
 .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
-  color: #f59120; /* Change text color on hover if needed */
-  background: #f59120; /* Change background color on hover */
+  color: #f59120;
+  background: #f59120; 
 }
 
 .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
@@ -359,34 +359,92 @@ body {
   color: #f59120;
 }
 
+/* For drop menu responsiveness */ 
+.dropdown-menu {
+  background-color: #0c154a; /* Keep the background color consistent */
+}
+
+.dropdown-item {
+  font-size: 14px; /* Adjust the font size to match the smaller text size in the navbar */
+  padding: 8px 12px; /* Adjust padding for consistency */
+  color: #ffffff; /* Ensure text color is white */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #f59120; /* Set the background color on hover/focus */
+  color: #ffffff; /* Ensure text color remains white on hover/focus */
+}
+
 /* If screen size is too small, make adjustments to hover effects and icons */
 @media (max-width: 768px) {
-  .hvr-underline-from-center:before {
-      display: none; 
-  }
-  .hvr-underline-from-center:hover:before {
-      visibility: hidden; 
+
+  .dropdown-menu {
+    font-size: 14px; /* Match font size with navbar items */
   }
 
-  .footer-icons {
-    justify-content: center;
+  .dropdown-item {
+      font-size: 14px; /* Ensure dropdown items have the same font size */
+      padding: 8px 10px; /* Adjust padding for consistency */
   }
 
-  .footer-icons li {
-    margin-left: 10px;
+  /* Hover and focus states for dropdown items */
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+      background-color: #f59120; /* Ensure the background color on hover/focus matches */
+      color: #ffffff; /* Ensure the text color on hover/focus remains white */
   }
 
+
+  .navbar-nav .nav-item {
+      margin: 0; /* Reset margin to fit items better */
+  }
+  
+  .navbar-nav .nav-link {
+      font-size: 14px; /* Reduce font size to fit better on smaller screens */
+      padding: 8px 10px; /* Adjust padding for better spacing */
+  }
+
+  .hvr-underline-from-center:before,
   .hvr-glow,
-  .hvr-bob {
+  .hvr-bob,
+  .hvr-shutter-out-vertical {
       box-shadow: none;
       transition-property: none;
       animation: none;
+      color: inherit;
+      background: inherit;
   }
 
-  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active,
-  .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  .hvr-underline-from-center:hover:before,
+  .hvr-glow:hover,
+  .hvr-bob:hover,
+  .hvr-shutter-out-vertical:hover,
+  .hvr-underline-from-center:focus:before,
+  .hvr-glow:focus,
+  .hvr-bob:focus,
+  .hvr-shutter-out-vertical:focus {
       box-shadow: none;
       animation: none;
+      transition-property: none;
+      color: inherit;
+      background: inherit;
+  }
+
+  .hvr-shutter-out-vertical {
+    background: transparent !important; /* Make background transparent */
+    color: #ffffff; /* Ensure text color remains visible */
+  }
+
+  .hvr-shutter-out-vertical:before {
+    display: none !important; /* Hide the pseudo-element */
+  }
+
+  .hvr-shutter-out-vertical:hover,
+  .hvr-shutter-out-vertical:focus,
+  .hvr-shutter-out-vertical:active {
+    color: #ffffff; /* Ensure text color remains visible on interaction */
+    background: transparent !important; /* Ensure background remains transparent on interaction */
   }
 }
 
@@ -464,38 +522,37 @@ body {
   left: 20px;
 }
 
-
-
+/* To ensure navbar is responsive */
 .navbar-nav .nav-item .nav-link {
-  white-space: nowrap; /* Prevents text from wrapping */
-  font-size: 16px; /* Default font size */
-  padding: 8px 12px; /* Default padding */
+  white-space: nowrap; 
+  font-size: 16px;
+  padding: 8px 12px; 
 }
 
 @media (max-width: 1200px) {
   .navbar-nav .nav-item .nav-link {
-      font-size: 15px; /* Slightly smaller font for large screens */
-      padding: 7px 10px; /* Reduce padding for larger screens */
+      font-size: 15px; 
+      padding: 7px 10px; 
   }
 }
 
 @media (max-width: 992px) {
   .navbar-nav .nav-item .nav-link {
-      font-size: 14px; /* Medium screen font size */
-      padding: 6px 8px; /* Reduce padding for medium screens */
+      font-size: 14px; 
+      padding: 6px 8px; 
   }
 }
 
 @media (max-width: 768px) {
   .navbar-nav .nav-item .nav-link {
-      font-size: 13px; /* Smaller font size for small screens */
-      padding: 5px 7px; /* Further reduce padding for small screens */
+      font-size: 13px;
+      padding: 5px 7px; 
   }
 }
 
 @media (max-width: 576px) {
   .navbar-nav .nav-item .nav-link {
-      font-size: 12px; /* Smallest font size for extra small screens */
-      padding: 4px 5px; /* Minimize padding for extra small screens */
+      font-size: 12px; 
+      padding: 4px 5px; 
   }
 }
