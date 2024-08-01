@@ -463,3 +463,23 @@ body {
 #execPrev {
   left: 20px;
 }
+
+/* Custom font sizes for different screen sizes */
+.nav-link {
+  font-size: 1rem; /* Default size for large screens */
+}
+@media (max-width: 992px) { /* md screens and below */
+  .nav-link {
+      font-size: 0.875rem; /* Slightly smaller font size */
+  }
+}
+@media (max-width: 768px) { /* sm screens and below */
+  .nav-link {
+      font-size: 0.75rem; /* Smaller font size */
+  }
+}
+@media (max-width: 576px) { /* xs screens and below */
+  .nav-link {
+      font-size: 0.625rem; /* Even smaller font size */
+  }
+}
