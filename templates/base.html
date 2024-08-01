@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="/static/css/timeline.css">
 
     <!-- Execs -->
-     <link rel="stylesheet" href="/static/css/execs.css"
+    <link rel="stylesheet" href="/static/css/execs.css">
+
+    <!-- Exec navbar -->
+    <link rel="stylesheet" href="/static/css/execNavbar.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -86,16 +89,19 @@
             <!-- Actual links -->
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item mx-3">
+                    <li class="nav-item mx-5">
                       <a class="btn active nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="{{ url_for('home') }}">Home</a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item mx-5">
                       <a class="btn active nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="{{ url_for('executivesAndDivisions') }}">Executives and Divisions</a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item mx-5">
                       <a class="btn active nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="{{ url_for('sponsors') }}">Sponsors</a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item mx-5">
+                        <a class="btn active nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item mx-5">
                       <a class="btn active nav-link text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#">Join WFS</a>
                     </li>
                 </ul>

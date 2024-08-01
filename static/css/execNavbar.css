@@ -1,0 +1,15 @@
+/* Remove the default dropdown toggle icon */
+.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Adjust dropdown menu position */
+}
+
+/* Ensure dropdown menu is hidden by default */
+.dropdown-menu {
+    display: none;
+}

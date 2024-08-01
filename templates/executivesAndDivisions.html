@@ -8,6 +8,75 @@ WFS Warwick Finance Societies - Executives and Divisions
 {% block content %}
 <!-- HTML Code -->
 
+<!-- Second navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0c154a;">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown mx-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownLeadership" role="button" aria-expanded="false">
+                        Leadership
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownLeadership" style="background-color: #0c154a;">
+                        <li><a class="dropdown-item hvr-radial-out text-white" href="{{ url_for('divisionBoard') }}">Board</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-white" href="{{ url_for('divisionAdvisory') }}">Advisory</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown mx-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownFlagships" role="button" aria-expanded="false">
+                        Flagships
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownFlagships">
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionMarkets') }}">Markets</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionQuantFinance') }}">Quant Finance</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionInvestmentBanking') }}">Investment Banking</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionSpeakerSeries') }}">Speaker Series</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown mx-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownFinance" role="button" aria-expanded="false">
+                        Finance
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownFinance">
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionVentureCapitalAndPrivateEquity') }}">Venture Capital & Private Equity</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionFintech') }}">Fintech</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionWomenInFinanceAndDiversity') }}">Women in Finance & Diversity</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionInsights') }}">Insights</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionCareers') }}">Careers</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown mx-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownEvents" role="button" aria-expanded="false">
+                        Events
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownEvents">
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionShard') }}">Shard</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionSocials') }}">Socials</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionBall') }}">Ball</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionSport') }}">Sport</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionTour') }}">Tour</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown mx-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownOperations" role="button" aria-expanded="false">
+                        Operations
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownOperations">
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionStrategyAndMarketing') }}">Strategy & Marketing</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionSponsorship') }}">Sponsorships</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionAlumni') }}">Alumni</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionPhotographer') }}">Photographer</a></li>
+                        <li><a class="dropdown-item hvr-radial-out text-black" href="{{ url_for('divisionTech') }}">Tech</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <!-- Hero image -->
 <div class="hero-image position-relative" style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp'); background-size: cover; background-position: center; width: 100vw; height: 50vh;">
     <div class="mask">
@@ -498,6 +567,8 @@ WFS Warwick Finance Societies - Executives and Divisions
     </div>
 
     <br><br><br><br><br><br><br>
+
+    <script src="/static/javascript/execNavbar.js"></script>
 </div>
 
 
