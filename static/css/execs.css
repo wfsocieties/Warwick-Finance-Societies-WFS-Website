@@ -1,27 +1,49 @@
-/* Card container to position overlay */
+/* Flex grid for cards */
 .card-container-exec {
     position: relative;
     overflow: hidden;
+    border-radius: 8px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Card image takes full width and height */
+/* Size for cards */
 .card-img-exec {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    display: block;
 }
 
-/* Card overlay style */
+/* Ensures words over image */
 .card-overlay-exec {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
     text-align: center;
-    width: 100%;
-    padding: 10px; 
-    background: rgba(0, 0, 0, 0); 
-    opacity: 1; 
-    transition: opacity 0.3s;
+    padding: 1rem;
+    font-size: calc(0.8rem + 0.5vw); 
+    overflow: hidden; 
+}
+
+/* CSS for words over division image */
+.card-title-exec {
+    margin: 0;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+/* Custom styles for maintaining 2 columns on very small screens */
+@media (max-width: 576px) {
+    .row > [class^="col-"] {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
