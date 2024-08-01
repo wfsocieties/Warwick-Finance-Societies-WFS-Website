@@ -84,48 +84,52 @@ body {
   transform: scale(1.1);
 }
 
-/* Radial out */
-.hvr-radial-out {
+/* Shutter out vertical hover effect */
+.hvr-shutter-out-vertical {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  overflow: hidden;
-  background: #0c154a; /* Initial background color */
-  color: #fff; /* Text color */
-  -webkit-transition: color 0.3s, background 0.3s;
-  transition: color 0.3s, background 0.3s;
+  background: #0c154a;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
-.hvr-radial-out:before {
+.hvr-shutter-out-vertical:before {
   content: "";
   position: absolute;
   z-index: -1;
   top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background: #f59120; /* Highlight color */
-  border-radius: 100%;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
+  background: #f59120;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
-.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
-  color: #0c154a; /* Text color change on hover */
-}
-
-.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
-  -webkit-transform: scale(2);
-  transform: scale(2);
-}
-
-.hvr-radial-out:hover {
+.hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {
+  color: #f59120; /* Change text color on hover if needed */
   background: #f59120; /* Change background color on hover */
+}
+
+.hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
 }
 
 /* Shutter out horizontal hover effect */
