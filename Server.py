@@ -5,13 +5,9 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")
 
-@app.route("/divisions", methods=["POST","GET"])
-def divisions():
-    return render_template("divisions.html")
-
-@app.route("/aboutUs", methods=["POST","GET"])
-def aboutUs():
-    return render_template("aboutUs.html")
+@app.route("/executivesAndDivisions", methods=["POST","GET"])
+def executivesAndDivisions():
+    return render_template("executivesAndDivisions.html")
 
 @app.route("/sponsors", methods=["POST","GET"])
 def sponsors():

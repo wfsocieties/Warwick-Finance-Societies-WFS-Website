@@ -6,6 +6,20 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease; 
+    cursor: pointer; 
+}
+
+/* Hover effect for card */
+.card-container-exec:hover {
+    transform: translateY(4px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* Active state for deeper press effect */
+.card-container-exec:active {
+    transform: translateY(8px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 /* Size for cards */
