@@ -60,3 +60,11 @@
         max-width: 50%;
     }
 }
+
+/* For board */
+.circle-img-board {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
