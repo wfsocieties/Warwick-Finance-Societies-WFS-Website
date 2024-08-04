@@ -607,58 +607,21 @@ body {
   }
 }
 
-/* General footer styles */
-footer {
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #080e30; 
-  color: #ffffff;
-  padding: 10px;
-}
-
 /* Ensure footer icons are responsive */
 .footer-icons {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap; 
+  justify-content: flex-end;
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .footer-icons li {
-  margin: 5px; 
+  margin-left: 15px;
 }
 
-/* Icon size adjustments */
 .footer-icons i {
   font-size: 2rem; 
-}
-
-/* For small screens */
-@media (max-width: 576px) {
-  .footer-icons i {
-    font-size: 1.5rem; 
-  }
-  
-  .footer-icons li {
-    margin: 5px 0; 
-  }
-}
-
-/* For very small screens */
-@media (max-width: 376px) { 
-  .footer-icons {
-    flex-direction: column; 
-    align-items: center; 
-  }
-
-  .footer-icons i {
-    font-size: 1.2rem; 
-  }
-
-  .footer-icons li {
-    margin: 5px 0; 
-  }
 }
 
 /* Hover feature for icons */
