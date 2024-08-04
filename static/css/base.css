@@ -628,3 +628,10 @@ body {
       padding: 4px 5px; 
   }
 }
+
+/* Footer responsiveness */
+@media (max-width: 576px) {
+  .footer-icons li {
+      margin: 5px 0;
+  }
+}
