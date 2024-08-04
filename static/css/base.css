@@ -409,16 +409,38 @@ body {
   right: 0;
 }
 
+/* Footer making responsive */
+footer {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #080e30; 
+  color: #ffffff;
+  padding: 10px;
+}
+
 /* Ensure footer icons are responsive */
 .footer-icons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center; /* Center icons on smaller screens */
+  flex-wrap: wrap; /* Allow wrapping of icons if needed */
   list-style-type: none;
   padding: 0;
 }
 
 .footer-icons li {
-  margin-left: 15px;
+  margin: 5px; /* Consistent margin on all sides */
+}
+
+/* For very small screens */
+@media (max-width: 376px) { 
+  .footer-icons {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .footer-icons li {
+    margin: 5px 0; 
+  }
 }
 
 /* Hover feature for icons */
