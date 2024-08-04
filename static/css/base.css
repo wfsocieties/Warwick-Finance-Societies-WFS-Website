@@ -635,3 +635,15 @@ body {
       margin: 5px 0;
   }
 }
+
+/* Responsiveness to change background when smaller screen */
+#mainContent {
+  height: 100vh;
+  transition: background-color 0.3s ease; 
+}
+
+@media (max-width: 576px) {
+  #mainContent {
+      background-color: #243282; 
+  }
+}
