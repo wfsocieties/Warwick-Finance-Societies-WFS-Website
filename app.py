@@ -30,9 +30,9 @@ def divisionQuantFinance():
 def divisionInvestmentBanking():
     return render_template("divisionInvestmentBanking.html")
 
-@app.route("/divisionVentureCapitalAndPrivateEquity", methods=["POST","GET"])
-def divisionVentureCapitalAndPrivateEquity():
-    return render_template("divisionVentureCapitalAndPrivateEquity.html")
+@app.route("/divisionAlternatives", methods=["POST","GET"])
+def divisionAlternatives():
+    return render_template("divisionAlternatives.html")
 
 @app.route("/divisionFintech", methods=["POST","GET"])
 def divisionFintech():
