@@ -645,3 +645,13 @@ body {
       background-color: #243282; 
   }
 }
+
+/* Hover text to orange */
+.text-hover-orange {
+  color: inherit; 
+  transition: color 0.3s ease; 
+}
+
+.text-hover-orange:hover {
+  color: #f59120 !important;
+}
