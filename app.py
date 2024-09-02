@@ -106,6 +106,11 @@ def divisionAdvisory():
 def divisionBoard():
     return render_template("divisionBoard.html")
 
+# Resources area 
+@app.route("/resourcesHub", methods=["POST","GET"])
+def resourcesHub(): 
+    return render_template("resourcesHub.html")
+
 # Form for webhooks
 @app.route("/webhook", methods=["POST"])
 def tallyWebhook():

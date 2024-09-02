@@ -1,0 +1,157 @@
+{% extends 'base.html' %}
+
+{% block title %}
+WFS Warwick Finance Societies - Sponsors
+{% endblock %}
+
+{% block content %}
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #0c154a; z-index: 1039; top: 54px;">
+    <div class="container-fluid">
+        <!-- Navbar toggler (visible on small screens and up) -->
+        <button class="navbar-toggler d-md-none ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: #ffffff;"></span>
+        </button>
+  
+        <!-- Navbar content -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <!-- Leadership Dropdown -->
+                <li class="nav-item dropdown mx-3 mx-md-4 mx-lg-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownLeadership" role="button" aria-expanded="false">
+                        Leadership
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownLeadership" style="background-color: #0c154a;">
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionBoard') }}" style="font-size: 0.9rem;">Board</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionAdvisory') }}" style="font-size: 0.9rem;">Advisory</a></li>
+                    </ul>
+                </li>
+                <!-- Flagships Dropdown -->
+                <li class="nav-item dropdown mx-3 mx-md-4 mx-lg-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownFlagships" role="button" aria-expanded="false">
+                        Flagships
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownFlagships" style="background-color: #0c154a;">
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionMarkets') }}" style="font-size: 0.9rem;">Markets</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionQuantFinance') }}" style="font-size: 0.9rem;">Quant Finance</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionInvestmentBanking') }}" style="font-size: 0.9rem;">Investment Banking</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionSpeakerSeries') }}" style="font-size: 0.9rem;">Speaker Series</a></li>
+                    </ul>
+                </li>
+                <!-- Finance Dropdown -->
+                <li class="nav-item dropdown mx-3 mx-md-4 mx-lg-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownFinance" role="button" aria-expanded="false">
+                        Finance
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownFinance" style="background-color: #0c154a;">
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionAlternatives') }}" style="font-size: 0.9rem;">Alternatives</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionFintech') }}" style="font-size: 0.9rem;">Fintech</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionWomenInFinanceAndDiversity') }}" style="font-size: 0.9rem;">Women in Finance & Diversity</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionInsights') }}" style="font-size: 0.9rem;">Insights</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionCareers') }}" style="font-size: 0.9rem;">Careers</a></li>
+                    </ul>
+                </li>
+                <!-- Events Dropdown -->
+                <li class="nav-item dropdown mx-3 mx-md-4 mx-lg-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownEvents" role="button" aria-expanded="false">
+                        Events
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownEvents" style="background-color: #0c154a;">
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionShard') }}" style="font-size: 0.9rem;">Shard</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionSocials') }}" style="font-size: 0.9rem;">Socials</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionBall') }}" style="font-size: 0.9rem;">Ball</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionSport') }}" style="font-size: 0.9rem;">Sport</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionTour') }}" style="font-size: 0.9rem;">Tour</a></li>
+                    </ul>
+                </li>
+                <!-- Operations Dropdown -->
+                <li class="nav-item dropdown mx-3 mx-md-4 mx-lg-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownOperations" role="button" aria-expanded="false">
+                        Operations
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownOperations" style="background-color: #0c154a;">
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionStrategyAndMarketing') }}" style="font-size: 0.9rem;">Strategy & Marketing</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionSponsorship') }}" style="font-size: 0.9rem;">Sponsorships</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionAlumni') }}" style="font-size: 0.9rem;">Alumni</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionPhotographer') }}" style="font-size: 0.9rem;">Photographer</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('divisionTech') }}" style="font-size: 0.9rem;">Tech</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero image -->
+<div class="hero-image position-relative" style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');">
+    <div class="mask">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="container text-center">
+                <h1 class="display-4 mb-2 text-white" data-aos="fade-down" data-aos-delay="400" data-aos-easing="ease-in-out">
+                    Warwick Finance Societies <br> Resources
+                  </h1>
+                <div class="row mt-2 mb-5">
+                    <div class="col text-center lead mb-0 text-white" data-aos="fade-down" data-aos-delay="100" data-aos-easing="ease-in-out">
+                        Sentence about resources
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Border below hero image -->
+<div class="border-bottom"></div>
+
+<!-- Main content -->
+<div id="mainContent" style="height:100%">
+    <!-- WFS Resource paragraph -->
+    <br><br>
+    <div class="jumbotron mx-5 jumbotron-fluid bg-white border-dark border rounded" style="border-width: 2px; border-radius: 10px;"
+    data-aos="zoom-in"
+    data-aos-easing="ease-in-out"
+    data-aos-delay="100"
+    data-aos-offset="200">
+        <div class="container">
+        <h1 class="display-4 text-center">introduce about the wfs resources or smth idk</h1>
+
+
+        <p class="lead text-center">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        </div>
+    </div>
+
+    <!-- All execs -->
+    <center>
+        <p class="h2 mt-5 mb-5 text-white"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-out"
+        data-aos-offset="250"
+        data-aos-delay="100">Division Resources</p>
+    </center> 
+
+    <div class="container mt-4">
+        <!-- Row 2 -->
+        <div class="row mb-4 d-flex justify-content-center">
+            <div class="col-md-3 col-sm-6 mb-4 hvr-shrink">
+                <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                data-aos="zoom-in"
+                data-aos-easing="ease-in-out"
+                data-aos-delay="100"
+                data-aos-offset="150"
+                style="cursor: pointer;"
+                onclick="window.location.href='{{ url_for('resourcesHub') }}'">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                    <div class="card-overlay-exec">
+                        <h3 class="card-title-exec">Alternatives</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+</div>
+
+{% endblock %}
