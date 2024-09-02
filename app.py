@@ -1,4 +1,8 @@
-from flask import Flask, render_template 
+from flask import Flask, render_template, request, jsonify
+import os
+import requests
+import urllib.parse
+
 app = Flask(__name__)
 
 @app.route("/", methods=["POST","GET"])
@@ -101,7 +105,55 @@ def divisionAdvisory():
 @app.route("/divisionBoard", methods=["POST","GET"]) 
 def divisionBoard():
     return render_template("divisionBoard.html")
+
+# Form for webhooks
+@app.route("/webhook", methods=["POST"])
+def tallyWebhook():
+    try:
+        print("Webhook received!")
+        payload = request.json
+        print("Payload:", payload)
+
+        # Extract data from payload
+        fields = payload.get('data', {}).get('fields', [])
+        
+        division = None
+        fileURL = None
+
+        for field in fields:
+            if field.get('type') == 'DROPDOWN' and 'value' in field:
+                # Get division text from options
+                division = field.get('options', [{}])[0].get('text', 'Unknown')
+            elif field.get('type') == 'FILE_UPLOAD' and 'value' in field:
+                # Extract file URL from the list of file objects
+                fileURL = field.get('value', [{}])[0].get('url')
+
+        if division and fileURL:
+            # Sanitise file name to remove query parameters
+            fileName = urllib.parse.unquote(fileURL.split("/")[-1].split("?")[0])
+            folderPath = os.path.join("uploads", division)
+            os.makedirs(folderPath, exist_ok=True)
+
+            filePath = os.path.join(folderPath, fileName)
+
+            # Check if URL and file are accessible
+            try:
+                fileResponse = requests.get(fileURL)
+
+                if fileResponse.status_code == 200:
+                    with open(filePath, "wb") as f:
+                        f.write(fileResponse.content)
+                    return jsonify({"status": "success", "file_path": filePath})
+                else:
+                    return jsonify({"status": "failed", "message": "Failed to retrieve file"}), 400
+            except Exception as e:
+                return jsonify({"status": "error", "message": "Error retrieving file"}), 500
+        
+        return jsonify({"status": "failed", "message": "data not found"})
     
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)})
+
 # Ensures framework works
 if __name__ == "__main__":
     app.run(debug=True)
