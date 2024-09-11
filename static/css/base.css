@@ -498,6 +498,23 @@ body {
   }
 }
 
+/* For text backgrounds */
+.custom-jumbotron {
+  border-width: 2px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; 
+  padding: 20px;
+}
+
+/* Optional hover or focus effects */
+.custom-jumbotron:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
 /* For divisions */
 .img-fluid-divisions {
   object-fit: cover;
