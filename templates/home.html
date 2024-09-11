@@ -100,9 +100,17 @@ WFS Warwick Finance Societies - Home
                   Welcome to <br> Warwick Finance Societies
                 </h1>
                 <div class="row mt-2 mb-5">
-                    <div class="col text-left lead mb-0 text-white" data-aos="fade-down" data-aos-delay="100" data-aos-easing="ease-in-out">One</div>
-                    <div class="col text-center lead mb-0 text-white" data-aos="fade-down" data-aos-delay="400" data-aos-easing="ease-in-out">Two</div>
-                    <div class="col text-right lead mb-0 text-white" data-aos="fade-down" data-aos-delay="700" data-aos-easing="ease-in-out">Three</div>
+                    <div class="col text-left lead mb-0 text-white" data-aos="fade-down" data-aos-delay="100" data-aos-easing="ease-in-out">
+                        Ambitious
+                    </div>
+
+                    <div class="col text-center lead mb-0 text-white" data-aos="fade-down" data-aos-delay="400" data-aos-easing="ease-in-out">
+                        Empowering
+                    </div>
+
+                    <div class="col text-right lead mb-0 text-white" data-aos="fade-down" data-aos-delay="700" data-aos-easing="ease-in-out">
+                        Dynamic
+                    </div>
                 </div>
                 <a class="btn btn-lg mt-4 mb-4 btn-outline-dark active hvr-glow hvr-pulse hvr-shutter-out-horizontal" 
                    style="background:#f59120; border-width: 2px; border-color: #000000; border-radius: 10px;" href="https://www.warwicksu.com/societies-sports/societies/warwickfinancesociet/#org-join" role="button"
@@ -121,6 +129,7 @@ WFS Warwick Finance Societies - Home
 
 <div id="mainContent" style="height: 100%;">
   <br><br>
+
   <!-- Society description -->
   <div class="jumbotron mx-5 jumbotron-fluid bg-white border-dark border rounded" style="border-width: 2px; border-radius: 10px;"
   data-aos="zoom-in"
@@ -206,69 +215,83 @@ WFS Warwick Finance Societies - Home
     data-aos-delay="100">WFS Sponsors</p>
   </center>
 
-  <div class="wrapper">
-    <div class="track">
-        <!-- Sponsors -->
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Da Vinci DERIVATIVES.png" 
-                 alt="Sponsor 1"
-                 style="filter: brightness(0) invert(1);">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Houlihan Lokey.png" 
-                 alt="Sponsor 2"
-                 style="filter: brightness(0) invert(1);">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies HSBC.png"
-                 alt="Sponsor 3"
-                 style="filter: brightness(0) invert(1);">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies MEDIOBANCA.png"
-                 alt="Sponsor 4"
-                 style="filter: brightness(0) invert(1);">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Money Maze Podcast.png"
-                 alt="Sponsor 5"
-                 style="filter: brightness(0) invert(1);">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Nomura.png"
-                 alt="Sponsor 6"
-                 style="filter: brightness(0) invert(1);">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Oliver Wyman.png" 
-                 alt="Sponsor 7"
-                 style="filter: brightness(0) invert(1);">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Point 72.png"
-                 alt="Sponsor 8"
-                 style="filter: brightness(0) invert(1);">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies SIG.png"
-                 alt="Sponsor 9"
-                 style="filter: brightness(0) invert(1);">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies WBS.png"
-                 alt="Sponsor 10">
-        </div>
-        <div class="logo">
-            <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies World Quant.png"
-                 alt="Sponsor 11"
-                 style="filter: brightness(0) invert(1);">
+    <!-- Image Slider Container -->
+    <div class="logoSlider-container">
+        <div class="logoSlider" id="sponsorSlider">
+            <!-- Slider Items (11 total, updated with sponsor logos) -->
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Da Vinci DERIVATIVES.png" 
+                    alt="Sponsor 1" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Houlihan Lokey.png" 
+                    alt="Sponsor 2" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies HSBC.png" 
+                    alt="Sponsor 3" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies MEDIOBANCA.png" 
+                    alt="Sponsor 4" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Money Maze Podcast.png" 
+                    alt="Sponsor 5" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Nomura.png" 
+                    alt="Sponsor 6" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Oliver Wyman.png" 
+                    alt="Sponsor 7" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies Point 72.png" 
+                    alt="Sponsor 8" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies SIG.png" 
+                    alt="Sponsor 9" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies WBS.png" 
+                    alt="Sponsor 10">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Sponsors/WFS Warwick Finance Societies World Quant.png" 
+                    alt="Sponsor 11" 
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button class="logoNavBtn" id="logoPrevSponsor">&lt;</button>
+            <button class="logoNavBtn" id="logoNextSponsor">&gt;</button>
         </div>
     </div>
-  </div>
-
 
   <center>
-    <a class="btn btn-lg mt-2 mb-4 btn-outline-dark btn-secondary active hvr-glow hvr-pulse hvr-shutter-out-horizontal" 
+    <a class="btn btn-lg mb-4 btn-outline-dark btn-secondary active hvr-glow hvr-pulse hvr-shutter-out-horizontal" 
     style="background:#f59120; border-width: 2px; border-radius: 10px;" href="{{ url_for('sponsors') }}" role="button"
     data-aos-delay="200"
     data-aos="zoom-in-up"
@@ -283,58 +306,224 @@ WFS Warwick Finance Societies - Home
     data-aos="fade-right"
     data-aos-easing="ease-in-out"
     data-aos-offset="250"
-    data-aos-delay="100">WFS Collabs</p>
+    data-aos-delay="100">WFS Collabs and Speakers</p>
   </center>
 
-  <div class="wrapper">
-    <div class="track">
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
-        </div>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" />
+    <!-- Image Slider Container -->
+    <div class="logoSlider-container">
+        <div class="logoSlider" id="collabSlider">
+            <!-- Slider Items (35 total, updated with Collabs logos) -->
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Augmentum.png" 
+                    alt="Collab 2"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Bank of England.png" 
+                    alt="Collab 3">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Barclays.png" 
+                    alt="Collab 4"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies BGF.png" 
+                    alt="Collab 5"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies BRI.png" 
+                    alt="Collab 6"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Citi.png" 
+                    alt="Collab 7"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies CVC.png" 
+                    alt="Collab 8"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Da Vinci DERIVATIVES.png" 
+                    alt="Collab 9"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Equiteq.png" 
+                    alt="Collab 10"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Evercore.png" 
+                    alt="Collab 11"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Goldman Sachs.png" 
+                    alt="Collab 12"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Houlihan Lokey.png" 
+                    alt="Collab 13"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies HSBC.png" 
+                    alt="Collab 14"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Jane Street.png" 
+                    alt="Collab 15"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies JPMorgan.png" 
+                    alt="Collab 16"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies KKR.png" 
+                    alt="Collab 17"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Maven.png" 
+                    alt="Collab 18"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies MEDIOBANCA.png" 
+                    alt="Collab 19"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Money Maze Podcast.png" 
+                    alt="Collab 20"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Morgan Stanley.jpg" 
+                    alt="Collab 21"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Natwest.png" 
+                    alt="Collab 22"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Nomura.png" 
+                    alt="Collab 23"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Oliver Wyman.png" 
+                    alt="Collab 24"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Point 72.png" 
+                    alt="Collab 25"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies PWP.png" 
+                    alt="Collab 26"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies RBC.png" 
+                    alt="Collab 27">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Scotiabank.png" 
+                    alt="Collab 28"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies SIG.png" 
+                    alt="Collab 29"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Societe Generale.jpg" 
+                    alt="Collab 30">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Sprints.png" 
+                    alt="Collab 31"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies Toscafund.png" 
+                    alt="Collab 32"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies UBS.jpg" 
+                    alt="Collab 33"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies UMushroom.png" 
+                    alt="Collab 34"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies WBS.png" 
+                    alt="Collab 35">
+            </div>
+
+            <div class="logoItem">
+                <img src="/static/images/base/Collabs/WFS Warwick Finance Societies World Quant.png" 
+                    alt="Collab 36"
+                    style="filter: brightness(0) invert(1);">
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button class="logoNavBtn" id="logoPrevCollab">&lt;</button>
+            <button class="logoNavBtn" id="logoNextCollab">&gt;</button>
         </div>
     </div>
-  </div>
 
   <center>
     <a class="btn btn-lg mt-4 mb-4 btn-outline-dark btn-secondary active hvr-glow hvr-pulse hvr-shutter-out-horizontal" 
@@ -418,7 +607,5 @@ WFS Warwick Finance Societies - Home
 
   <br><br><br><br><br><br><br>
 </div>
-
-
 
 {% endblock %}

@@ -1,0 +1,3457 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+
+
+      <title data-rolePage="{&#34;institutional-investors&#34;:&#34;/institutional/homepage&#34;,&#34;general-public&#34;:&#34;/homepage&#34;,&#34;wealth-professionals&#34;:&#34;/wealth/homepage&#34;}">Home | Apollo Global Management</title>
+<meta name="keywords" content="Do Not Translate"/>
+<meta name="description" content="Home"/>
+<meta name="template" content="page-content"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+      
+
+<meta property="og:title" content="Apollo Global Management "/>
+<meta property="og:description" content="Apollo is a leading provider of alternative asset management and retirement solutions."/>
+<meta property="og:url" content="https://www.apollo.com/homepage"/>
+<meta property="og:image" content="https://www.apollo.com/content/dam/apolloaem/images/brand/apollo-og-image%202023.png"/>
+
+
+
+
+<meta name="twitter:title" content="Home"/>
+<meta name="twitter:description" content="Apollo is a leading provider of alternative asset management and retirement solutions."/>
+<meta name="twitter:image" content="https://www.apollo.com/content/dam/apolloaem/images/brand/apollo-og-image%202023.png"/>
+<meta name="twitter:card" content="summary"/>
+
+<script type="module">
+  window.RUM_BASE = window.origin;
+  import { sampleRUM } from '/.rum/@adobe/helix-rum-js@%5E2/src/index.js';
+  window.hlx = window.hlx || {};
+  window.hlx.sampleRUM = sampleRUM;
+  sampleRUM();
+</script><link rel="canonical" href="https://www.apollo.com/homepage"/>
+
+<meta name="ap-role" content="General Public"/>
+
+<!-- Cookie scripts : Begin -->
+<link rel="stylesheet" type="text/css" href="//cdn.clarip.com/apollo/cookieconsent/assets/css/cookieconsent.min.css"/>
+<script src="//cdn.clarip.com/apollo/cookieconsent/assets/js/cookieconsent.min.js"></script>
+<script> var claripCdnHost = "cdn.clarip.com";
+var claripClientName = "apollo";
+var claripCookieConsentHost = "apollo.clarip.com";
+var claripCookieManagerIdentifier = "19f392a22eff2b4d76d2";
+</script>
+<script src="//cdn.clarip.com/apollo/cookieconsent/assets/js/clarip-cookie-manager.min.js"></script>
+
+<!-- Cookie scripts : End -->
+<meta name="google-site-verification" content="N8q5Ez1azvW-TrqhwcGwd1ii3wGBRiLEc0SKEtKtY_E"/>
+
+      <!-- Hreflang SEO : Start -->
+
+      <!-- Hreflang SEO : End -->
+
+
+
+    <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-NYE3K4ZTH2', {send_page_view: false});
+    </script>
+
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W7HBW49');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/apolloaem/clientlibs/clientlib-base.lc-6dd8f31175d6bd8af599d45650bc1ac9-lc.min.css" type="text/css">
+
+
+
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/apolloaem/clientlibs/clientlib-react.lc-693428bbb9f2fbcac153152ea0c6eed7-lc.min.css" type="text/css">
+
+
+
+
+<link rel="icon" type="image/svg" href="/etc.clientlibs/apolloaem/clientlibs/clientlib-site/resources/icons/apollo-favicon.svg"/>
+
+
+      
+          
+    
+<script src="/etc.clientlibs/apolloaem/components/common/site-role-clientlibs.lc-51015600c2fad09f59d0234d5318d5df-lc.min.js"></script>
+
+
+
+      
+
+    
+    
+
+    
+
+    
+    <script src="/etc.clientlibs/apolloaem/clientlibs/clientlib-dependencies.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.js"></script>
+
+
+    
+    <link rel="stylesheet" href="/etc.clientlibs/apolloaem/clientlibs/clientlib-dependencies.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/apolloaem/clientlibs/clientlib-site.lc-57301d219e58f7e3541c9831afe79d34-lc.min.css" type="text/css">
+
+
+    
+    
+    <script async src="/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js"></script>
+
+
+    
+    <script async src="/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js"></script>
+
+
+
+
+
+      
+          
+    <script type="application/ld+json">
+        {
+  "@context": "https://schema.org/",
+  "@type": "Organization",
+  "url": "https://www.apollo.com/",
+  "logo": "https://d1io3yog0oux5.cloudfront.net/_89a8fecd520bcfa7f96361eee84d6d4f/apollo/files/theme/images/logo-sm.svg",
+  "name": "Apollo Global Management",
+  "description": "Apollo Global Management Inc. is a leading global alternative asset management and retirement solutions provider. Founded in New York City in 1990 and led by CEO Marc Rowan, Apollo’s asset management business invests across credit, equity and real assets. Apollo’s retirement services business, Athene, provides a variety of retirement savings products.",
+  "address": "Apollo Global Management, Inc. 9 West 57th Street, 42nd Floor New York, NY 10019",
+  "telephone": "+1 (212) 515-3200",
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Apollo_Global_Management",
+    "https://www.youtube.com/channel/UCROIN9Kljg1XVf2GixjK6Sw",
+    "https://www.linkedin.com/company/apollo-global-management-inc",
+    "https://twitter.com/apolloglobal"
+  ],
+  "alternateName": "Apollo"
+}
+    </script>
+
+      
+      
+      <!-- Addition of Analytics Related Scripts Starts -->
+      <script async> function getCookie(name) {         var cookieList = document.cookie.split(';');         for (var i = 0; i < cookieList.length; i++) {             var cookie = cookieList[i].trim();             if (cookie.startsWith(name + '=')) {                 return cookie.substring(name.length + 1);             }         }         return null;     }     var count = 0;     var clientID;     var sessionID;     var visitorID;     var interval = setInterval(() => {         visitorID = getCookie('visitor_id1047283');         gtag('get', 'G-NYE3K4ZTH2', 'client_id', (field) => (clientID = field));         gtag('get', 'G-NYE3K4ZTH2', 'session_id', (field) => (sessionID = field));         if (clientID && sessionID) {             clientID = clientID?.replace(/\./g, '_'); console.log('pushed at count ' + count);             dataLayer.push({                 event: 'page_view',                 global_request_cid: clientID,                 global_session_id: sessionID,                 page_url: window.location.href,                 page_title: window.document.title,                 visitor_id: visitorID,             });             clearInterval(interval);         } else {     clientID = clientID?.replace(/\./g, '_');        count = count + 1;             console.log('count =' + count);             if (count === 6) {                 clientID = clientID || '';                 sessionID = sessionID || new Date()?.getTime()?.toString();                 visitorID = visitorID || '';                 dataLayer.push({                     event: 'page_view',                     global_request_cid: clientID,                     global_session_id: sessionID,                     page_url: window.location.href,                     page_title: window.document.title,                     visitor_id: visitorID,                 });                 clearInterval(interval);             }         }     }, 1000); </script>
+      <!-- Addition of Analytics Related Scripts Ends -->
+      
+
+<script async>
+    setTimeout(() => {
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+        pageType: `Non-Product`,
+        tickerId: ``,
+        assetClass: ``,
+        event: `Lead Scoring`
+    })}, 5000)
+</script>
+
+  </head>
+
+<body class="content-page basepage page basicpage standard-spacing enable-microinteraction " id="content-page-3043c5535a" data-cmp-data-layer-enabled data-currentpage="/content/apolloaem/global/en/general-public/homepage">
+<script>
+              window.adobeDataLayer = window.adobeDataLayer || [];
+              adobeDataLayer.push({
+                  page: JSON.parse("{\x22content\u002Dpage\u002D3043c5535a\x22:{\x22@type\x22:\x22apolloaem\/components\/page\/content\u002Dpage\x22,\x22repo:modifyDate\x22:\x222024\u002D09\u002D06T00:36:58Z\x22,\x22dc:title\x22:\x22Home\x22,\x22dc:description\x22:\x22Apollo is a leading provider of alternative asset management and retirement solutions.\x22,\x22xdm:template\x22:\x22\/conf\/apolloaem\/settings\/wcm\/templates\/page\u002Dcontent\x22,\x22xdm:language\x22:\x22en\x22,\x22xdm:tags\x22:[\x22Do Not Translate\x22],\x22repo:path\x22:\x22\/content\/apolloaem\/global\/en\/general\u002Dpublic\/homepage.html\x22}}"),
+                  event: 'cmp:show',
+                  eventInfo: {
+                      path: 'page.content\u002Dpage\u002D3043c5535a'
+                  }
+              });
+</script>
+
+
+    
+
+
+
+
+    
+<div class="root container responsivegrid">
+
+    
+    <div id="container-7e7be877fb" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="apollo-global-header aem-GridColumn aem-GridColumn--default--12">
+  <div class="cmp-navigation">
+    <div class="cmp-navigation__navbar" data-defaultexpirtaion="730" data-enableCorporates="false">
+      <div class="cmp-navigation__rolearea">
+        <div name="role" id="roles" class="cmp-navigation__role ">
+          <div id="role-switch-dialog-container"></div>
+          <div id="roleSelector" class="cmp-navigation__rolearea--roleselector ">
+            <button class="dropdown-roleselector">
+              <span class="cmp-dropdown-role-links-button" value="/homepage" data-item-index="1">General Public</span>
+            </button>
+            <div class="dropdown-role-links">
+              
+              <div class="dropdown-role-links--single">
+                <span class="cmp-dropdown-role-links-value" value="/institutional/homepage" data-item-index="2">Institutional Investors</span>
+              </div>
+              <div class="dropdown-role-links--single">
+                <span class="cmp-dropdown-role-links-value" value="/wealth/homepage" data-item-index="3">Wealth Professionals</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="login" class="cmp-navigation__rolearea--login">
+          <button class="dropdown-login">Login</button>
+          <div class="dropdown-links">
+            <div class="dropdown-links--single">
+              <a href="https://apolloid.okta.com/login/login.htm?fromURI=%2Fhome%2Fapolloid_efrontinvestorportal_1%2F0oa114871iE7i5g4i4x7%2Faln114d6iaULkO4uk4x7" target="_blank" title="Investors">Investors</a>
+            </div>
+          
+            <div class="dropdown-links--single">
+              <a href="https://wd5.myworkday.com/wday/authgwy/athene/login.htmld?returnTo=%2fathene%2fd%2fhome.htmld" target="_blank" title="Former Employees">Former Employees</a>
+            </div>
+          
+            <div class="dropdown-links--single">
+              <a href="https://apolloid.okta.com/app/salesforce/exk6bkwoi7F60ytTD4x7/sso/saml" target="_blank" title="Portfolio Companies">Portfolio Companies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cmp-navigation__menuarea" data-isbasicheader="false">
+        <div class="cmp-navigation__hamburger">
+          <button href="javascript:void(0)" class="cmp-navigation__hamburger--image" title="Menu"></button>
+        </div>
+        <a href="/homepage" class="cmp-navigation__home" title="Apollo"></a>
+        
+          <a href="javascript:void(0)" class="cmp-navigation__search search-header-icon" title="Search"></a>
+        
+        
+      </div>
+    </div>
+    
+  <!-- Tablet and Desktop View -->
+  <div class="cmp-navigation__menu hidden-mobile">
+    <div class="cmp-navigation__desktop-menu">
+      <div class="cmp-navigation-menuitems" id="label-1">
+        
+          <ul class="cmp-navigation__menuitems--l1">
+            <li class="cmp-navigation-menuitems__list">
+              <a class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__iconarrow" href="/insights-news/insights/2022/12/hertz-apollos-flexible-capital-at-work" target="_self">About Apollo</a>
+              <div class="cmp-navigation__subitems">
+                <ul class="cmp-navigation__menuitems--l2">
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/aboutus" target="_self" data-analytics-link="menu">Overview</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/aboutus/apollo-history" target="_self" data-analytics-link="menu">Our History</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/aboutus/leadership-and-people" target="_self" data-analytics-link="menu">Our People</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/aboutus/contact-us" target="_self" data-analytics-link="menu">Contact Us</a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <div class="cmp-navigation-featuredcontent__img">
+              
+                
+                  <div class="frameZoom">
+                    <a href="/insights-news/insights/2022/12/hertz-apollos-flexible-capital-at-work" target="_self">
+                      <img src="/content/dam/apolloaem/images/insights/2023/hertz-image.jpg" loading="lazy" class="cmp-navigation-featuredcontent__image"/>
+                    </a>
+                  </div>
+                
+                
+                  <a href="/insights-news/insights/2022/12/hertz-apollos-flexible-capital-at-work" class="cmp-navigation-featuredcontent__link" target="_self" title="Hertz: Apollo’s Flexible Capital at Work">Hertz: Apollo’s Flexible Capital at Work</a>
+				   
+                
+
+              
+            </div>
+          </ul>
+        
+          <ul class="cmp-navigation__menuitems--l1">
+            <li class="cmp-navigation-menuitems__list">
+              <a class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__iconarrow" href="/strategies/asset-management/credit/investment-grade-private-credit" target="_self">Strategies</a>
+              <div class="cmp-navigation__subitems">
+                <ul class="cmp-navigation__menuitems--l2">
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/strategies" target="_self" data-analytics-link="menu">Overview</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a data-analytics-link="menu">Asset Management</a>
+                    <ul class="cmp-navigation__menuitems--l3">
+                      <li class="cmp-navigation__l3-item  navigation-menuitems-grey-background" data-clear-site-role="false">
+                        <a href="/strategies/asset-management/credit" target="_self" data-analytics-link="menu" title="Credit">Credit</a>
+                      </li>
+                    
+                      <li class="cmp-navigation__l3-item  navigation-menuitems-grey-background" data-clear-site-role="false">
+                        <a href="/strategies/asset-management/equity" target="_self" data-analytics-link="menu" title="Equity">Equity</a>
+                      </li>
+                    
+                      <li class="cmp-navigation__l3-item  navigation-menuitems-grey-background" data-clear-site-role="false">
+                        <a href="/strategies/asset-management/real-assets" target="_self" data-analytics-link="menu" title="Real Assets">Real Assets</a>
+                      </li>
+                    
+                      <li class="cmp-navigation__l3-item  navigation-menuitems-blue-background" data-clear-site-role="false">
+                        <a href="/strategies/asset-management/capital-solutions" target="_self" data-analytics-link="menu" title="Capital Solutions">Capital Solutions</a>
+                      </li>
+                    
+                      <li class="cmp-navigation__l3-item  navigation-menuitems-blue-background" data-clear-site-role="false">
+                        <a href="/strategies/asset-management/financial-services" target="_self" data-analytics-link="menu" title="Financial Services">Financial Services</a>
+                      </li>
+                    </ul>
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/strategies/retirement" target="_self" data-analytics-link="menu">Retirement Solutions </a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <div class="cmp-navigation-featuredcontent__img">
+              
+                
+                  <div class="frameZoom">
+                    <a href="/strategies/asset-management/credit/investment-grade-private-credit" target="_self">
+                      <img src="/content/dam/apolloaem/images/strategies/private-ig/private-ig-image-16x9.png" loading="lazy" class="cmp-navigation-featuredcontent__image"/>
+                    </a>
+                  </div>
+                
+                
+                  <a href="/strategies/asset-management/credit/investment-grade-private-credit" class="cmp-navigation-featuredcontent__link" target="_self" title="Private Investment-Grade Credit">Private Investment-Grade Credit</a>
+				   
+                
+
+              
+            </div>
+          </ul>
+        
+          <ul class="cmp-navigation__menuitems--l1">
+            <li class="cmp-navigation-menuitems__list">
+              <a class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__iconarrow" href="/insights-news/pressreleases/2024/06/apollo-publishes-annual-sustainability-report-volume-15-driving-a-more-sustainable-future-2902948" target="_self">Sustainability &amp; Our Impact</a>
+              <div class="cmp-navigation__subitems">
+                <ul class="cmp-navigation__menuitems--l2">
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/impact" target="_self" data-analytics-link="menu">Overview</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/impact/driving-a-more-sustainable-future" target="_self" data-analytics-link="menu">Driving Sustainability</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/impact/expanding-opportunity" target="_self" data-analytics-link="menu">Expanding Opportunity</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/impact/transparency-reporting" target="_self" data-analytics-link="menu">Reporting &amp; Transparency</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/impact/the-apollo-opportunity-foundation" target="_self" data-analytics-link="menu">The Apollo Opportunity Foundation</a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <div class="cmp-navigation-featuredcontent__img">
+              
+                
+                  <div class="frameZoom">
+                    <a href="/insights-news/pressreleases/2024/06/apollo-publishes-annual-sustainability-report-volume-15-driving-a-more-sustainable-future-2902948" target="_self">
+                      <img src="/content/dam/apolloaem/images/impact/blue-ocean-sustainability.png" loading="lazy" class="cmp-navigation-featuredcontent__image"/>
+                    </a>
+                  </div>
+                
+                
+                  <a href="/insights-news/pressreleases/2024/06/apollo-publishes-annual-sustainability-report-volume-15-driving-a-more-sustainable-future-2902948" class="cmp-navigation-featuredcontent__link" target="_self" title="Apollo Publishes Annual Sustainability Report: Volume 15, “Driving a More Sustainable Future”">Apollo Publishes Annual Sustainability Report: Volume 15, “Driving a More Sustainable Future”</a>
+				   
+                
+
+              
+            </div>
+          </ul>
+        
+          <ul class="cmp-navigation__menuitems--l1">
+            <li class="cmp-navigation-menuitems__list">
+              <a class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__iconarrow" href="/insights-news/insights/2024/07/building-schools-of-the-future-global-schools-group" target="_self">Insights &amp; News</a>
+              <div class="cmp-navigation__subitems">
+                <ul class="cmp-navigation__menuitems--l2">
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/insights-news" target="_self" data-analytics-link="menu">Overview</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/insights-news/insights" target="_self" data-analytics-link="menu">Insights</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/insights-news/news" target="_self" data-analytics-link="menu">In the News</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/insights-news/pressreleases" target="_self" data-analytics-link="menu">Press Releases</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="https://apolloacademy.com/?partnerref=apo-academy-gpcom-nav-aalink" target="_blank" data-analytics-link="menu">Apollo Academy</a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <div class="cmp-navigation-featuredcontent__img">
+              
+                
+                  <div class="frameZoom">
+                    <a href="/insights-news/insights/2024/07/building-schools-of-the-future-global-schools-group" target="_self" alt="aerial view of a school playground and green grass ">
+                      <img src="/content/dam/apolloaem/images/insights/2024/global-schools-case-study-image.jpg" loading="lazy" class="cmp-navigation-featuredcontent__image" alt="aerial view of a school playground and green grass "/>
+                    </a>
+                  </div>
+                
+                
+                  <a href="/insights-news/insights/2024/07/building-schools-of-the-future-global-schools-group" class="cmp-navigation-featuredcontent__link" target="_self" title="Global Schools Group: Building Schools of the Future">Global Schools Group: Building Schools of the Future</a>
+				   
+                
+
+              
+            </div>
+          </ul>
+        
+          <ul class="cmp-navigation__menuitems--l1">
+            <li class="cmp-navigation-menuitems__list">
+              <a class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__iconarrow" href="/insights-news/insights/regional-qa/2023/04/greetings-from-apollo-london" target="_self">Careers</a>
+              <div class="cmp-navigation__subitems">
+                <ul class="cmp-navigation__menuitems--l2">
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/careers" target="_self" data-analytics-link="menu">Overview</a>
+                    
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a href="/careers/life-at-apollo" target="_self" data-analytics-link="menu">Life at Apollo</a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <div class="cmp-navigation-featuredcontent__img">
+              
+                
+                  <div class="frameZoom">
+                    <a href="/insights-news/insights/regional-qa/2023/04/greetings-from-apollo-london" target="_self" alt="View of London Bridge from above">
+                      <img src="/content/dam/apolloaem/images/locations/London_Wide_Compressed.jpg" loading="lazy" class="cmp-navigation-featuredcontent__image" alt="View of London Bridge from above"/>
+                    </a>
+                  </div>
+                
+                
+                  <a href="/insights-news/insights/regional-qa/2023/04/greetings-from-apollo-london" class="cmp-navigation-featuredcontent__link" target="_self" title="Greetings from Apollo London! ">Greetings from Apollo London! </a>
+				   
+                
+
+              
+            </div>
+          </ul>
+        
+          <ul class="cmp-navigation__menuitems--l1">
+            <li class="cmp-navigation-menuitems__list">
+              <a class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__iconarrow" href="/insights-news/insights/2024/06/2024-mid-year-outlook-an-unstable-economic-equilibrium" target="_self">Investors</a>
+              <div class="cmp-navigation__subitems">
+                <ul class="cmp-navigation__menuitems--l2">
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a data-analytics-link="menu">Public</a>
+                    <ul class="cmp-navigation__menuitems--l3">
+                      <li class="cmp-navigation__l3-item cmp-header__link--icons navigation-menuitems-grey-background" data-clear-site-role="false">
+                        <a href="https://ir.apollo.com/" target="_blank" data-analytics-link="menu" title="Apollo Global Management, Inc. (NYSE: APO)">Apollo Global Management, Inc. (NYSE: APO)</a>
+                      </li>
+                    
+                      <li class="cmp-navigation__l3-item cmp-header__link--icons navigation-menuitems-grey-background" data-clear-site-role="false">
+                        <a href="https://ir.athene.com/" target="_blank" data-analytics-link="menu" title="Athene (NYSE: ATH.PRA-D)">Athene (NYSE: ATH.PRA-D)</a>
+                      </li>
+                    
+                      <li class="cmp-navigation__l3-item cmp-header__link--icons navigation-menuitems-grey-background" data-clear-site-role="false">
+                        <a href="https://www.apollocref.com/" target="_blank" data-analytics-link="menu" title=" Apollo Commercial Real Estate Finance (NYSE: ARI)"> Apollo Commercial Real Estate Finance (NYSE: ARI)</a>
+                      </li>
+                    
+                      <li class="cmp-navigation__l3-item cmp-header__link--icons navigation-menuitems-grey-background" data-clear-site-role="false">
+                        <a href="https://www.midcapfinancialic.com/" target="_blank" data-analytics-link="menu" title=" MidCap Financial Investment Corp. (NASDAQ: MFIC)"> MidCap Financial Investment Corp. (NASDAQ: MFIC)</a>
+                      </li>
+                    </ul>
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-grey-background">
+                    <a data-analytics-link="menu">Private</a>
+                    <ul class="cmp-navigation__menuitems--l3">
+                      <li class="cmp-navigation__l3-item  navigation-menuitems-grey-background" data-clear-site-role="true">
+                        <a href="/institutional/homepage" target="_self" data-analytics-link="menu" title="Institutional Investors">Institutional Investors</a>
+                      </li>
+                    
+                      <li class="cmp-navigation__l3-item  navigation-menuitems-grey-background" data-clear-site-role="true">
+                        <a href="/wealth/homepage" target="_self" data-analytics-link="menu" title="Wealth Professionals">Wealth Professionals</a>
+                      </li>
+                    </ul>
+                  </li>
+                
+                  <li class="cmp-navigation__menuitems--l2-items navigation-menuitems-blue-background">
+                    <a href="https://www.athene.com/" target="_blank" data-analytics-link="menu">Athene, Retirement Services</a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <div class="cmp-navigation-featuredcontent__img">
+              
+                
+                  <div class="frameZoom">
+                    <a href="/insights-news/insights/2024/06/2024-mid-year-outlook-an-unstable-economic-equilibrium" target="_self">
+                      <img src="/content/dam/apolloaem/images/insights/2024/2024-mid-year-outlook-an-unstable-economic-equilibrium.png" loading="lazy" class="cmp-navigation-featuredcontent__image"/>
+                    </a>
+                  </div>
+                
+                
+                  <a href="/insights-news/insights/2024/06/2024-mid-year-outlook-an-unstable-economic-equilibrium" class="cmp-navigation-featuredcontent__link" target="_self" title="2024 Mid-Year Outlook: An Unstable Economic Equilibrium">2024 Mid-Year Outlook: An Unstable Economic Equilibrium</a>
+				   
+                
+
+              
+            </div>
+          </ul>
+        
+          <ul class="cmp-navigation__menuitems--l1">
+            <li class="cmp-navigation-menuitems__list">
+              <a class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__iconarrow" href="/media" target="_self">Media</a>
+              <div class="cmp-navigation__subitems">
+                
+              </div>
+            </li>
+            <div class="cmp-navigation-featuredcontent__img">
+              
+                
+                
+
+              
+            </div>
+          </ul>
+        
+      </div>
+      <div class="cmp-navigation-menuitems" id="label-2"></div>
+
+      <div class="cmp-navigation-menuitems" id="label-3">
+        <div id="display" class=""></div>
+        <div class="cmp-navigation-featuredcontent" id="featured-content">
+          
+            <h3 class="cmp-navigation-featuredcontent__title hidden">Featured Content</h3>
+          
+          <div class="cmp-navigation-featuredcontent__container"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  <!-- mobile view -->
+  <div class="cmp-navigation__menu hidden-desktop">
+    
+      <div class="cmp-navigation__hamclose">
+        <!-- <div class="cmp-navigation__ham-l1"> -->
+        <a href="/insights-news/insights/2022/12/hertz-apollos-flexible-capital-at-work" target="_self" class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__hamarrow">About Apollo</a>
+        <!-- </div> -->
+        <div class="cmp-navigation__hamdropdown--links">
+          <ul class="cmp-navigation__hamlists--l2">
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/aboutus" target="_self" data-analytics-link="menu" title="Overview">Overview</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/aboutus/apollo-history" target="_self" data-analytics-link="menu" title="Our History">Our History</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/aboutus/leadership-and-people" target="_self" data-analytics-link="menu" title="Our People">Our People</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/aboutus/contact-us" target="_self" data-analytics-link="menu" title="Contact Us">Contact Us</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="cmp-navigation__hamclose">
+        <!-- <div class="cmp-navigation__ham-l1"> -->
+        <a href="/strategies/asset-management/credit/investment-grade-private-credit" target="_self" class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__hamarrow">Strategies</a>
+        <!-- </div> -->
+        <div class="cmp-navigation__hamdropdown--links">
+          <ul class="cmp-navigation__hamlists--l2">
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/strategies" target="_self" data-analytics-link="menu" title="Overview">Overview</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a data-analytics-link="menu" title="Asset Management">Asset Management</a>
+              <ul class="cmp-navigation__hamlists--l3">
+                <li class="cmp-navigation__hamlists--l2-items  navigation-menuitems-clay-background" target="_self">
+                  <a href="/strategies/asset-management/credit" data-analytics-link="menu" data-clear-site-role="false">Credit</a>
+                </li>
+              
+                <li class="cmp-navigation__hamlists--l2-items  navigation-menuitems-clay-background" target="_self">
+                  <a href="/strategies/asset-management/equity" data-analytics-link="menu" data-clear-site-role="false">Equity</a>
+                </li>
+              
+                <li class="cmp-navigation__hamlists--l2-items  navigation-menuitems-clay-background" target="_self">
+                  <a href="/strategies/asset-management/real-assets" data-analytics-link="menu" data-clear-site-role="false">Real Assets</a>
+                </li>
+              
+                <li class="cmp-navigation__hamlists--l2-items  navigation-menuitems-blue-background" target="_self">
+                  <a href="/strategies/asset-management/capital-solutions" data-analytics-link="menu" data-clear-site-role="false">Capital Solutions</a>
+                </li>
+              
+                <li class="cmp-navigation__hamlists--l2-items  navigation-menuitems-blue-background" target="_self">
+                  <a href="/strategies/asset-management/financial-services" data-analytics-link="menu" data-clear-site-role="false">Financial Services</a>
+                </li>
+              </ul>
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/strategies/retirement" target="_self" data-analytics-link="menu" title="Retirement Solutions ">Retirement Solutions </a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="cmp-navigation__hamclose">
+        <!-- <div class="cmp-navigation__ham-l1"> -->
+        <a href="/insights-news/pressreleases/2024/06/apollo-publishes-annual-sustainability-report-volume-15-driving-a-more-sustainable-future-2902948" target="_self" class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__hamarrow">Sustainability &amp; Our Impact</a>
+        <!-- </div> -->
+        <div class="cmp-navigation__hamdropdown--links">
+          <ul class="cmp-navigation__hamlists--l2">
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/impact" target="_self" data-analytics-link="menu" title="Overview">Overview</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/impact/driving-a-more-sustainable-future" target="_self" data-analytics-link="menu" title="Driving Sustainability">Driving Sustainability</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/impact/expanding-opportunity" target="_self" data-analytics-link="menu" title="Expanding Opportunity">Expanding Opportunity</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/impact/transparency-reporting" target="_self" data-analytics-link="menu" title="Reporting &amp; Transparency">Reporting &amp; Transparency</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/impact/the-apollo-opportunity-foundation" target="_self" data-analytics-link="menu" title="The Apollo Opportunity Foundation">The Apollo Opportunity Foundation</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="cmp-navigation__hamclose">
+        <!-- <div class="cmp-navigation__ham-l1"> -->
+        <a href="/insights-news/insights/2024/07/building-schools-of-the-future-global-schools-group" target="_self" class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__hamarrow">Insights &amp; News</a>
+        <!-- </div> -->
+        <div class="cmp-navigation__hamdropdown--links">
+          <ul class="cmp-navigation__hamlists--l2">
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/insights-news" target="_self" data-analytics-link="menu" title="Overview">Overview</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/insights-news/insights" target="_self" data-analytics-link="menu" title="Insights">Insights</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/insights-news/news" target="_self" data-analytics-link="menu" title="In the News">In the News</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/insights-news/pressreleases" target="_self" data-analytics-link="menu" title="Press Releases">Press Releases</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="https://apolloacademy.com/?partnerref=apo-academy-gpcom-nav-aalink" target="_blank" data-analytics-link="menu" title="Apollo Academy">Apollo Academy</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="cmp-navigation__hamclose">
+        <!-- <div class="cmp-navigation__ham-l1"> -->
+        <a href="/insights-news/insights/regional-qa/2023/04/greetings-from-apollo-london" target="_self" class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__hamarrow">Careers</a>
+        <!-- </div> -->
+        <div class="cmp-navigation__hamdropdown--links">
+          <ul class="cmp-navigation__hamlists--l2">
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/careers" target="_self" data-analytics-link="menu" title="Overview">Overview</a>
+              
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a href="/careers/life-at-apollo" target="_self" data-analytics-link="menu" title="Life at Apollo">Life at Apollo</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="cmp-navigation__hamclose">
+        <!-- <div class="cmp-navigation__ham-l1"> -->
+        <a href="/insights-news/insights/2024/06/2024-mid-year-outlook-an-unstable-economic-equilibrium" target="_self" class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__hamarrow">Investors</a>
+        <!-- </div> -->
+        <div class="cmp-navigation__hamdropdown--links">
+          <ul class="cmp-navigation__hamlists--l2">
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a data-analytics-link="menu" title="Public">Public</a>
+              <ul class="cmp-navigation__hamlists--l3">
+                <li class="cmp-navigation__hamlists--l2-items cmp-header__link--icons navigation-menuitems-clay-background" target="_blank">
+                  <a href="https://ir.apollo.com/" data-analytics-link="menu" data-clear-site-role="false">Apollo Global Management, Inc. (NYSE: APO)</a>
+                </li>
+              
+                <li class="cmp-navigation__hamlists--l2-items cmp-header__link--icons navigation-menuitems-clay-background" target="_blank">
+                  <a href="https://ir.athene.com/" data-analytics-link="menu" data-clear-site-role="false">Athene (NYSE: ATH.PRA-D)</a>
+                </li>
+              
+                <li class="cmp-navigation__hamlists--l2-items cmp-header__link--icons navigation-menuitems-clay-background" target="_blank">
+                  <a href="https://www.apollocref.com/" data-analytics-link="menu" data-clear-site-role="false"> Apollo Commercial Real Estate Finance (NYSE: ARI)</a>
+                </li>
+              
+                <li class="cmp-navigation__hamlists--l2-items cmp-header__link--icons navigation-menuitems-clay-background" target="_blank">
+                  <a href="https://www.midcapfinancialic.com/" data-analytics-link="menu" data-clear-site-role="false"> MidCap Financial Investment Corp. (NASDAQ: MFIC)</a>
+                </li>
+              </ul>
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-grey-background">
+              <a data-analytics-link="menu" title="Private">Private</a>
+              <ul class="cmp-navigation__hamlists--l3">
+                <li class="cmp-navigation__hamlists--l2-items  navigation-menuitems-clay-background" target="_self">
+                  <a href="/institutional/homepage" data-analytics-link="menu" data-clear-site-role="true">Institutional Investors</a>
+                </li>
+              
+                <li class="cmp-navigation__hamlists--l2-items  navigation-menuitems-clay-background" target="_self">
+                  <a href="/wealth/homepage" data-analytics-link="menu" data-clear-site-role="true">Wealth Professionals</a>
+                </li>
+              </ul>
+            </li>
+          
+            <li class="cmp-navigation__hamlists--l2-items navigation-menuitems-blue-background">
+              <a href="https://www.athene.com/" target="_blank" data-analytics-link="menu" title="Athene, Retirement Services">Athene, Retirement Services</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="cmp-navigation__hamclose">
+        <!-- <div class="cmp-navigation__ham-l1"> -->
+        <a href="/media" target="_self" class="cmp-navigation__ham-l1 cmp-navigation__hamdropdown cmp-navigation__hamarrow">Media</a>
+        <!-- </div> -->
+        
+      </div>
+    
+  </div>
+
+  </div>
+  
+    
+
+
+
+
+    <div class="search-container" data-servletpath="/api/int.rolebasedsearch.json" data-searchresultpagepath="/search-results">
+        <div class="search-container_search-icon">
+
+        </div>
+
+        <div class="search-container__slide-hidden hidden">
+            <div class="search-container__search-result">
+
+                <div class="search-container__search-result_img-search">
+                    <img class="search-container__search-result_icon" alt="small-search-icon"/>
+                </div>
+
+                <div class="search-container__search-result_input-box">
+                    <input type="text" id="search-text" class="search-container__search-result_input-box_input-text" placeholder="Search..."/>
+                </div>
+
+                <div class="search-container__search-result_close">
+                    <span class="search-container__search-result_close clear-input">
+                        <img class="search-container__search-result_close_close-icon" alt="close-icon"/>
+                    </span>
+                </div>
+                <div class="search-container__search-result_search-button">
+                    <button type="button" class="search-container__search-result_search-button_btn">Search</button>
+                    <img class="mobile-image" alt="search-button"/>
+                </div>
+            </div>
+            <div class="search-container__search-real hidden">
+                <div class="search-container__search-real_search-box">
+                    <ul class="search-container__search-real_search-box_search-list" id="list-item">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="search-container__search-suggested">
+                <div class="search-container__search-result">
+                    <ul class="search-container__search-suggested_suggestion-list">
+                        <li class="search-container__search-suggested_suggestion-list_list-item-first">SUGGESTED</li>
+                        
+                            
+                            
+                                
+                                    <li class="search-container__search-suggested_suggestion-list_list">
+                                        <a href="/impact/transparency-reporting" title="2023 Sustainability Report">2023 Sustainability Report</a></li>
+                                
+                                    <li class="search-container__search-suggested_suggestion-list_list">
+                                        <a href="/strategies/retirement" title="Retirement Solutions">Retirement Solutions</a></li>
+                                
+                                    <li class="search-container__search-suggested_suggestion-list_list">
+                                        <a href="/insights-news" title="Perspectives">Perspectives</a></li>
+                                
+                            
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  
+
+</div>
+<main class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <div id="container-973e82f346" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="alertexperiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+
+</div>
+<div class="apolloteaser teaser dark-mode aem-GridColumn aem-GridColumn--default--12">
+<div>
+  
+  
+  
+    <div class="cmp-fullbleed-teaser">
+      <div class="cmp-fullbleed">
+        
+    <div class="cmp-fullbleed-hero">
+        <div class="cmp-fullbleed-hero__overlay"></div>
+        <div class="cmp-fullbleed-hero__image">
+            
+            
+                <apollo-video id="teaser-9c385b2882" videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6331355993112" isModalView="false" isFullBleed="true">
+                </apollo-video>
+            
+
+        </div>
+        <div class="cmp-fullbleed-hero__content">
+            <a class="cmp-teaser__title-link" href="/aboutus" target="_self" title="Investing in tomorrow, today.
+">
+                <h1 class="cmp-teaser__title cmp-hero-cta__title">
+                    <p>Investing in <i>tomorrow</i>, today.</p>
+
+                </h1>
+            </a>
+            
+    <div class="cmp-teaser__description cmp-hero-cta__description">
+      <p><p>We are empowering retirees, building and financing stronger businesses and driving a more sustainable future.</p>
+</p>
+    </div>
+
+            
+                <div class="cmp-fullbleed-hero__content--border"></div>
+                <a href="/aboutus" target="_self" class="cmp-fullbleed-hero__content--button" data-analytics-link="cta" title="About Apollo">About Apollo</a>
+            
+        </div>
+    </div>
+
+      </div>
+    </div>
+  
+  
+</div>
+
+    
+</div>
+<div class="breadcrumb aem-GridColumn aem-GridColumn--default--12"></div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-453e1b67bb" class="cmp-container">
+        
+        <div class="container responsivegrid show-separator">
+
+    
+    
+    
+    <div id="container-29587dba6e" class="cmp-container">
+        
+        <div class="geolocation"><!-- SDI include (path: /homepage/_jcr_content/root/container/container_1357743895/container/geolocation.nocache.html/apolloaem/components/geolocation, resourceType: apolloaem/components/geolocation) -->
+
+<div>
+    
+        
+    
+<script src="/etc.clientlibs/apolloaem/components/common/site-geolocation-clientlibs.lc-e5d2ebf75f12a14dad507ca8155201b9-lc.min.js"></script>
+
+
+
+    
+    <div id="geo-location-component" data-currentPageUrl="/content/apolloaem/global/en/general-public/homepage" data-apiEndpoint="/api/int.geoLocation.json">
+    </div>
+</div></div>
+<div class="container-column-block">
+
+    
+
+
+	<div class="cmp-container-column-layout--12  no-bottom-margin">
+		
+		<div class="cmp-container-column--4
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-ac8269eda8" class="cmp-container">
+        
+        <div class="container responsivegrid cmp-header-body-cta">
+
+    
+    
+    
+    <div id="container-78f0210ef5" class="cmp-container">
+        
+        <div class="title cmp-subheader-cta__title">
+<div>
+    <!-- Date and Tile card starts here -->
+    <div>
+
+        <div class="cmp-article-header__title">
+            <h5 tabindex="1" class="cmp-release-header__date">
+               
+                
+                 
+            </h5>
+            
+            <h3 tabindex="2" class="cmp-release-header__title cmp-wrap-title">An alternative asset management and retirement services leader </h3>
+            
+            
+            <span class="cmp-title-border-bottom"></span>
+            
+        </div>
+    </div>
+</div>
+
+    
+</div>
+
+        
+    </div>
+
+</div>
+
+        
+    </div>
+
+
+		</div>
+	
+		
+		<div class="cmp-container-column--6
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-5ead3b180c" class="cmp-container">
+        
+        <div class="text body1">
+<div data-cmp-data-layer="{&#34;text-e6c22af879&#34;:{&#34;@type&#34;:&#34;core/wcm/components/text/v2/text&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:58Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>Apollo is a leading provider of alternative asset management and retirement solutions. We help build and finance stronger businesses through innovative capital solutions that can generate excess risk-adjusted returns and retirement income. We invest alongside our clients and take a disciplined, responsible approach to drive positive outcomes.&lt;/p>\r\n&lt;p>Apollo Asset Management invests across Credit, Equity and Real Assets ecosystems in a wide range of asset classes and geographies, with a significant focus on the private investment grade and fixed income markets.&lt;/p>\r\n&lt;p>Our retirement services business, Athene, provides a suite of retirement savings products to help clients achieve financial security.&lt;/p>\r\n&#34;}}" id="text-e6c22af879" class="cmp-text cmp-apollo-text   ">
+    <p>Apollo is a leading provider of alternative asset management and retirement solutions. We help build and finance stronger businesses through innovative capital solutions that can generate excess risk-adjusted returns and retirement income. We invest alongside our clients and take a disciplined, responsible approach to drive positive outcomes.</p>
+<p>Apollo Asset Management invests across Credit, Equity and Real Assets ecosystems in a wide range of asset classes and geographies, with a significant focus on the private investment grade and fixed income markets.</p>
+<p>Our retirement services business, Athene, provides a suite of retirement savings products to help clients achieve financial security.</p>
+
+</div>
+
+    
+
+</div>
+<div class="button primary-btn-blck">
+<a id="button-a70800517a" class="cmp-button" data-cmp-clickable data-cmp-data-layer="{&#34;button-a70800517a&#34;:{&#34;@type&#34;:&#34;apolloaem/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2023-08-07T22:12:08Z&#34;,&#34;dc:title&#34;:&#34;View All Strategies&#34;,&#34;xdm:linkURL&#34;:&#34;/strategies&#34;}}" href="/strategies">
+    
+    
+
+    <span class="cmp-button__text">View All Strategies</span>
+</a>
+</div>
+<div class="separator">
+<div id="separator-733f128a0d" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule"/>
+</div></div>
+
+        
+    </div>
+
+
+		</div>
+	
+		
+		<div class="cmp-container-column--2
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-2174c2dda6" class="cmp-container">
+        
+        
+        
+    </div>
+
+
+		</div>
+	</div>
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container-column-block">
+
+    
+
+
+	<div class="cmp-container-column-layout--12  ">
+		
+		<div class="cmp-container-column--4
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-23a692e3df" class="cmp-container">
+        
+        
+        
+    </div>
+
+
+		</div>
+	
+		
+		<div class="cmp-container-column--8
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-84d51218d6" class="cmp-container">
+        
+        <div class="video embed">
+
+
+  <apollo-video id="embed-67d0f8ba76" videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6305295849112" isModalView="false" alt="Alt from image">
+  </apollo-video>
+
+
+
+    
+</div>
+
+        
+    </div>
+
+
+		</div>
+	</div>
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <div id="container-3dc7271db8" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid cmp-header-body-cta show-separator aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-7a856fa387" class="cmp-container">
+        
+        <div class="title cmp-header-body-cta__title">
+<div>
+    <!-- Date and Tile card starts here -->
+    <div>
+
+        <div class="cmp-article-header__title">
+            <h5 tabindex="1" class="cmp-release-header__date">
+               
+                
+                 
+            </h5>
+            
+            <h3 tabindex="2" class="cmp-release-header__title cmp-wrap-title">Insights</h3>
+            
+            
+            <span class="cmp-title-border-bottom"></span>
+            
+        </div>
+    </div>
+</div>
+
+    
+</div>
+<div class="button primary-btn-blck">
+<a id="button-bdb7d8e1b5" class="cmp-button" data-cmp-clickable data-cmp-data-layer="{&#34;button-bdb7d8e1b5&#34;:{&#34;@type&#34;:&#34;apolloaem/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2023-08-08T23:04:42Z&#34;,&#34;dc:title&#34;:&#34;View All&#34;,&#34;xdm:linkURL&#34;:&#34;/insights-news&#34;}}" href="/insights-news">
+    
+    
+
+    <span class="cmp-button__text">View All</span>
+</a>
+</div>
+
+        
+    </div>
+
+</div>
+<div class="apolloList list aem-GridColumn aem-GridColumn--default--12">
+    
+    
+    
+    
+        <div>
+            
+  <div class="cmp-insight-column-card">
+    
+      <div class="cmp-insight-column-card__container">
+        
+          <div class="cmp-insight-column-card__column-data">
+            <div class="cmp-insight-column-card__header">
+              <span class="cmp-insight-column-card__header__title">Empowering Retirees</span>
+            </div>
+            <div>
+              
+                <div class="cmp-insight-column-card__item ">
+                  <div class="cmp-insight-column-card__item__image-container">
+                    <a data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2023/01/at-the-forefront-of-democratizing-finance">
+                      <img src="/content/dam/apolloaem/images/brand/Retirement_Piggy%20Bank_432px.png" loading="lazy" alt="feature insights" class="cmp-insight-column-card__item__image-container--image"/>
+                    </a>
+                  </div>
+                  <div class="cmp-insight-column-card__item__details--flex">
+                    <div class="cmp-insight-column-card__item__details__tags">
+                      <span class="cmp-insight-column-card__item__details__tags--item">Retirement Solutions | Investment Insight</span>
+                    </div>
+                    <div class="cmp-insight-column-card__item__title">
+                      <a class="cmp-insight-column-card__item__title--link" data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2023/01/at-the-forefront-of-democratizing-finance">At the Forefront of Democratizing Finance</a>
+                    </div>
+                    
+                    <div class="cmp-insight-column-card__item__description">
+                      In a world of rising interest rates, inflationary pressure and volatility, alternatives play a critical role in allowing for returns and diversification. At Apollo, we aim to provide our clients with a best-in-class experience to help secure their futures.
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="cmp-insight-column-card__item ">
+                  <div class="cmp-insight-column-card__item__image-container">
+                    <a data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2022/10/empowering-people-to-retire-better">
+                      <img src="/content/dam/apolloaem/images/brand/APO%20Retirement_432px.png" loading="lazy" alt="plant growing in the shape of an upward arrow " class="cmp-insight-column-card__item__image-container--image"/>
+                    </a>
+                  </div>
+                  <div class="cmp-insight-column-card__item__details--flex">
+                    <div class="cmp-insight-column-card__item__details__tags">
+                      <span class="cmp-insight-column-card__item__details__tags--item">Retirement Solutions | Case Study</span>
+                    </div>
+                    <div class="cmp-insight-column-card__item__title">
+                      <a class="cmp-insight-column-card__item__title--link" data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2022/10/empowering-people-to-retire-better">Empowering People to Retire Better</a>
+                    </div>
+                    
+                    <div class="cmp-insight-column-card__item__description">
+                      At Apollo, we have built out an entire ecosystem around empowering retirees.
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        
+          <div class="cmp-insight-column-card__column-data">
+            <div class="cmp-insight-column-card__header">
+              <span class="cmp-insight-column-card__header__title">Building Stronger Businesses</span>
+            </div>
+            <div>
+              
+                <div class="cmp-insight-column-card__item ">
+                  <div class="cmp-insight-column-card__item__image-container">
+                    <a data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2024/07/building-schools-of-the-future-global-schools-group">
+                      <img src="/content/dam/apolloaem/images/insights/2024/global-schools-case-study-image.jpg" loading="lazy" alt="aerial view of a school playground and green grass " class="cmp-insight-column-card__item__image-container--image"/>
+                    </a>
+                  </div>
+                  <div class="cmp-insight-column-card__item__details--flex">
+                    <div class="cmp-insight-column-card__item__details__tags">
+                      <span class="cmp-insight-column-card__item__details__tags--item">Equity | Case Study</span>
+                    </div>
+                    <div class="cmp-insight-column-card__item__title">
+                      <a class="cmp-insight-column-card__item__title--link" data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2024/07/building-schools-of-the-future-global-schools-group">Global Schools Group: Building Schools of the Future</a>
+                    </div>
+                    
+                    <div class="cmp-insight-column-card__item__description">
+                      Apollo&#39;s Hybrid team partnered with Global Schools Group, a leading private international education company based in Singapore, on multiple financings to launch the company&#39;s international expansion and maintain its exceptional track record of academic outcomes for students. 
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="cmp-insight-column-card__item ">
+                  <div class="cmp-insight-column-card__item__image-container">
+                    <a data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2023/11/building-the-yahoo--of-today">
+                      <img src="/content/dam/apolloaem/images/insights/2023/thumbnail_yahoo%202.png" loading="lazy" alt="feature insights" class="cmp-insight-column-card__item__image-container--image"/>
+                    </a>
+                  </div>
+                  <div class="cmp-insight-column-card__item__details--flex">
+                    <div class="cmp-insight-column-card__item__details__tags">
+                      <span class="cmp-insight-column-card__item__details__tags--item">Equity | Case Study</span>
+                    </div>
+                    <div class="cmp-insight-column-card__item__title">
+                      <a class="cmp-insight-column-card__item__title--link" data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2023/11/building-the-yahoo--of-today">Building the Yahoo! of Today </a>
+                    </div>
+                    
+                    <div class="cmp-insight-column-card__item__description">
+                      Learn how Apollo’s Private Equity team is working with Yahoo! to help reinvigorate one of the most iconic brands in internet history.
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        
+          <div class="cmp-insight-column-card__column-data">
+            <div class="cmp-insight-column-card__header">
+              <span class="cmp-insight-column-card__header__title">Driving a More Sustainable Future</span>
+            </div>
+            <div>
+              
+                <div class="cmp-insight-column-card__item ">
+                  <div class="cmp-insight-column-card__item__image-container">
+                    <a data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2023/07/new-fortress-energy-energos-infrastructure">
+                      <img src="/content/dam/apolloaem/images/brand/Blue%20Windmill_432px.png" loading="lazy" alt="windmills on a hill with blue sky in the background " class="cmp-insight-column-card__item__image-container--image"/>
+                    </a>
+                  </div>
+                  <div class="cmp-insight-column-card__item__details--flex">
+                    <div class="cmp-insight-column-card__item__details__tags">
+                      <span class="cmp-insight-column-card__item__details__tags--item">Real Assets | Case Study</span>
+                    </div>
+                    <div class="cmp-insight-column-card__item__title">
+                      <a class="cmp-insight-column-card__item__title--link" data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2023/07/new-fortress-energy-energos-infrastructure">New Fortress Energy: Energos Infrastructure</a>
+                    </div>
+                    
+                    <div class="cmp-insight-column-card__item__description">
+                      Apollo Funds’ joint venture with New Fortress Energy formed Energos Infrastructure, a maritime platform with critical infrastructure to power countries around the world. Learn more about how Energos is helping to provide energy reliability and security.
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="cmp-insight-column-card__item ">
+                  <div class="cmp-insight-column-card__item__image-container">
+                    <a data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2022/09/energos-infrastructure-supports-eu-energy-security">
+                      <img src="/content/dam/apolloaem/images/insights/2023/article-09-22-2022.jpg" loading="lazy" alt="feature insights" class="cmp-insight-column-card__item__image-container--image"/>
+                    </a>
+                  </div>
+                  <div class="cmp-insight-column-card__item__details--flex">
+                    <div class="cmp-insight-column-card__item__details__tags">
+                      <span class="cmp-insight-column-card__item__details__tags--item">Real Assets | Case Study</span>
+                    </div>
+                    <div class="cmp-insight-column-card__item__title">
+                      <a class="cmp-insight-column-card__item__title--link" data-analytics-link="apollo-insights-column-cards-list" href="/insights-news/insights/2022/09/energos-infrastructure-supports-eu-energy-security">Energos Infrastructure Supports EU Energy Security</a>
+                    </div>
+                    
+                    <div class="cmp-insight-column-card__item__description">
+                      Opening of LNG import terminal including Floating Storage and Regasification Unit (“FSRU”) signals a significant step in Europe’s energy independence while bolstering energy security
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+        
+      </div>
+    
+    <div class="cmp-insight-column-card__pagination">
+      <button class="cmp-insight-column-card__pagination__button" data-viewMore="View More" data-viewLess="View Less" value="view-more">
+        View More
+      </button>
+    </div>
+  </div>
+
+        </div>
+    
+    
+    
+
+
+    
+</div>
+<div class="banner teaser aem-GridColumn aem-GridColumn--default--12">
+    
+        
+  <div class="cmp-cta-banner cmp-cta-banner--image cmp-cta-banner--clay " data-ctaimg="/content/dam/apolloaem/images/brand/tin-banner-desktop.png">
+      <div class="cmp-cta-banner__container">
+          <h2 class="cmp-cta-banner__title">The Only Constant is Change</h2>
+          <div class="cmp-cta-banner__description">
+              <p>At Apollo, we constantly adapt to new habitats. As markets change, Apollo transforms by creating innovative and differentiated strategies that are defining the future of finance. We think it through, then we Think It <i>New</i>.</p>
+
+          </div>
+          <a class="cmp-cta-banner__cta-button" data-analytics-link="cta" title="Explore More" href="/insights-news/think-it-new">Explore More</a>
+      </div>
+  </div>
+
+    
+    
+	
+	
+    
+
+
+    
+</div>
+<div class="ghost aem-GridColumn aem-GridColumn--default--12">
+
+</div>
+<div class="container responsivegrid cmp-header-body-cta show-separator aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-9ceb1adb83" class="cmp-container">
+        
+        <div class="title cmp-subheader-cta__title">
+<div>
+    <!-- Date and Tile card starts here -->
+    <div>
+
+        <div class="cmp-article-header__title">
+            <h5 tabindex="1" class="cmp-release-header__date">
+               
+                
+                 
+            </h5>
+            
+            <h3 tabindex="2" class="cmp-release-header__title cmp-wrap-title">Apollo Updates</h3>
+            
+            
+            <span class="cmp-title-border-bottom"></span>
+            
+        </div>
+    </div>
+</div>
+
+    
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container-column-block aem-GridColumn aem-GridColumn--default--12">
+
+    
+
+
+	<div class="cmp-container-column-layout--12  no-bottom-margin">
+		
+		<div class="cmp-container-column--4
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-3fcd5b4b1e" class="cmp-container">
+        
+        
+        
+    </div>
+
+
+		</div>
+	
+		
+		<div class="cmp-container-column--8
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-88357da220" class="cmp-container">
+        
+        <div class="apollo-carousel carousel panelcontainer cmp-apollo-carousel-items-column-1-full-width cmp-carousel-nav-white">
+  <div id="apollo-carousel-850978264d" class=" cmp-carousel" role="group" aria-live="polite" aria-roledescription="carousel" data-cmp-is="carousel" data-cmp-delay="5000" data-cmp-data-layer="{&#34;apollo-carousel-850978264d&#34;:{&#34;shownItems&#34;:[&#34;apollo-carousel-850978264d-item-dc4db17026&#34;],&#34;@type&#34;:&#34;apolloaem/components/apollo-carousel&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;}}" data-placeholder-text="false">
+  
+
+  <div class="isSwiperCarousel" data-isSwiperCarousel="false"></div>
+  <div class="isSwiperCardVariation" data-swiperCardVariation="false"></div>
+
+  
+  <div class="cmp-carousel__content" aria-atomic="false" aria-live="polite">
+       
+       
+            <div id="apollo-carousel-850978264d-item-dc4db17026-tabpanel" class="cmp-carousel__item cmp-carousel__item--active" role="tabpanel" aria-labelledby="apollo-carousel-850978264d-item-dc4db17026-tab" aria-roledescription="slide" aria-label="Slide 1 of 1" data-cmp-data-layer="{&#34;apollo-carousel-850978264d-item-dc4db17026&#34;:{&#34;@type&#34;:&#34;apolloaem/components/apollo-carousel/item&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;dc:title&#34;:&#34;Container&#34;}}" data-cmp-hook-carousel="item"><div class="container responsivegrid">
+
+    
+    
+    
+    <div id="container-dc4db17026" class="cmp-container">
+        
+        <div class="apolloteaser teaser dark-mode cmp-teaser-darkoverlay">
+<div>
+  
+    <div id="teaser-32c0d3e917" class="cmp-teaser cmp-hero-cta" data-cmp-data-layer="{&#34;teaser-32c0d3e917&#34;:{&#34;@type&#34;:&#34;core/wcm/components/teaser/v2/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;dc:description&#34;:&#34;CEO Marc Rowan spoke to CNBC about the foundations of our financial system, the shift we’re seeing towards integrating both public and private assets in investment portfolios, and the evolving role of private credit as a fixed income replacement.  &#34;,&#34;xdm:linkURL&#34;:&#34;/insights-news/insights/2024/05/apollo-ceo-marc-rowan-on-cnbc&#34;}}">
+      <div class="cmp-teaser__content cmp-hero-cta__content  " data-customalt="abstract shapes with a green ball on a tan background">
+        <div class="cmp-hero-cta__detail">
+          
+    <p class="cmp-teaser__pretitle cmp-hero-cta__pretitle">CNBC</p>
+
+          
+  <a class="cmp-teaser__title-link" href="/insights-news/insights/2024/05/apollo-ceo-marc-rowan-on-cnbc" target="_self" title="Marc Rowan on Private Markets
+">
+    <h5 class="cmp-teaser__title cmp-hero-cta__title">
+        <p>Marc Rowan on Private Markets</p>
+
+    </h5></a>
+
+          
+    <div class="cmp-teaser__description cmp-hero-cta__description">
+      <p>CEO Marc Rowan spoke to CNBC about the foundations of our financial system, the shift we’re seeing towards integrating both public and private assets in investment portfolios, and the evolving role of private credit as a fixed income replacement.  </p>
+    </div>
+
+        </div>
+        
+          
+            <div class="cmp-hero-cta__action">
+              
+                
+                    <a class="cmp-teaser__action-link primary-btn-wht" href="/insights-news/insights/2024/05/apollo-ceo-marc-rowan-on-cnbc" target="_self" data-analytics-link="cta" title="Learn More">
+                      Learn More
+                    </a>
+                
+              
+            </div>
+          
+        
+        
+      </div>
+      
+  <a class="cmp-teaser__title-link" href="/insights-news/insights/2024/05/apollo-ceo-marc-rowan-on-cnbc" target="_self" title="Marc Rowan on Private Markets
+">
+    <div class="cmp-teaser__image cmp-hero-cta__image">
+      <div class="cmp-image">
+        <img src="/content/dam/apolloaem/images/brand/apo-grey-background-16x9.png" loading="lazy" class="cmp-image__image" alt="abstract shapes with a green ball on a tan background"/>
+      </div>
+    </div>
+  </a>
+
+    </div>
+  
+  
+  
+  
+</div>
+
+    
+</div>
+<div class="apolloteaser teaser dark-mode cmp-teaser-darkoverlay">
+<div>
+  
+    <div id="teaser-d61c02735c" class="cmp-teaser cmp-hero-cta" data-cmp-data-layer="{&#34;teaser-d61c02735c&#34;:{&#34;@type&#34;:&#34;core/wcm/components/teaser/v2/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;dc:title&#34;:&#34;Greetings from Apollo London! &#34;,&#34;dc:description&#34;:&#34;Learn about the dynamic, ambitious, collaborative culture of our London office, which is home to team members representing nearly 50 different nationalities who all contribute a broad set of talents.&#34;,&#34;xdm:linkURL&#34;:&#34;/insights-news/insights/regional-qa/2023/04/greetings-from-apollo-london&#34;}}">
+      <div class="cmp-teaser__content cmp-hero-cta__content  ">
+        <div class="cmp-hero-cta__detail">
+          
+    <p class="cmp-teaser__pretitle cmp-hero-cta__pretitle">Life at Apollo | Regional Spotlight</p>
+
+          
+  <a class="cmp-teaser__title-link" href="/insights-news/insights/regional-qa/2023/04/greetings-from-apollo-london" target="_self" title="Greetings from Apollo London! ">
+    <h5 class="cmp-teaser__title cmp-hero-cta__title">
+        Greetings from Apollo London! 
+    </h5></a>
+
+          
+    <div class="cmp-teaser__description cmp-hero-cta__description">
+      <p>Learn about the dynamic, ambitious, collaborative culture of our London office, which is home to team members representing nearly 50 different nationalities who all contribute a broad set of talents.</p>
+    </div>
+
+        </div>
+        
+          
+            <div class="cmp-hero-cta__action">
+              
+                
+                    <a class="cmp-teaser__action-link primary-btn-wht" href="/insights-news/insights/regional-qa/2023/04/greetings-from-apollo-london" target="_self" data-analytics-link="cta" title="Learn More">
+                      Learn More
+                    </a>
+                
+              
+            </div>
+          
+        
+        
+      </div>
+      
+  <a class="cmp-teaser__title-link" href="/insights-news/insights/regional-qa/2023/04/greetings-from-apollo-london" target="_self" title="Greetings from Apollo London! ">
+    <div class="cmp-teaser__image cmp-hero-cta__image">
+      <div class="cmp-image">
+        <img src="/content/dam/apolloaem/images/locations/London_Wide_Compressed.jpg" loading="lazy" class="cmp-image__image"/>
+      </div>
+    </div>
+  </a>
+
+    </div>
+  
+  
+  
+  
+</div>
+
+    
+</div>
+<div class="apolloteaser teaser dark-mode cmp-teaser-darkoverlay">
+<div>
+  
+    <div id="teaser-0c824e78fc" class="cmp-teaser cmp-hero-cta" data-cmp-data-layer="{&#34;teaser-0c824e78fc&#34;:{&#34;@type&#34;:&#34;core/wcm/components/teaser/v2/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;xdm:linkURL&#34;:&#34;https://www.youtube.com/watch?v=jVCcAcFW1W4&#34;}}">
+      <div class="cmp-teaser__content cmp-hero-cta__content  " data-customalt="abstract shapes with a green ball on a tan background">
+        <div class="cmp-hero-cta__detail">
+          
+    <p class="cmp-teaser__pretitle cmp-hero-cta__pretitle">Norges Bank Investment Management Conference</p>
+
+          
+  <a class="cmp-teaser__title-link" href="https://www.youtube.com/watch?v=jVCcAcFW1W4" target="_blank" title="What Characterizes the Best Investors? Those That Adapt to Change.
+">
+    <h5 class="cmp-teaser__title cmp-hero-cta__title">
+        <p>What Characterizes the Best Investors? Those That Adapt to Change.</p>
+
+    </h5></a>
+
+          
+    <div class="cmp-teaser__description cmp-hero-cta__description">
+      <p><p>CEO Marc Rowan joined Adam Grant and Angela Duckworth for an engaging session on what characterizes the best investors. </p>
+</p>
+    </div>
+
+        </div>
+        
+          
+            <div class="cmp-hero-cta__action">
+              
+                
+                    <a class="cmp-teaser__action-link primary-btn-wht" href="https://www.youtube.com/watch?v=jVCcAcFW1W4" target="_blank" data-analytics-link="cta" title="Learn More">
+                      Learn More
+                    </a>
+                
+              
+            </div>
+          
+        
+        
+      </div>
+      
+  <a class="cmp-teaser__title-link" href="https://www.youtube.com/watch?v=jVCcAcFW1W4" target="_blank" title="What Characterizes the Best Investors? Those That Adapt to Change.
+">
+    <div class="cmp-teaser__image cmp-hero-cta__image">
+      <div class="cmp-image">
+        <img src="/content/dam/apolloaem/images/brand/apo-clay-background-16x9.png" loading="lazy" class="cmp-image__image" alt="abstract shapes with a green ball on a tan background"/>
+      </div>
+    </div>
+  </a>
+
+    </div>
+  
+  
+  
+  
+</div>
+
+    
+</div>
+<div class="apolloteaser teaser dark-mode cmp-teaser-darkoverlay">
+<div>
+  
+    <div id="teaser-9816f69f06" class="cmp-teaser cmp-hero-cta" data-cmp-data-layer="{&#34;teaser-9816f69f06&#34;:{&#34;@type&#34;:&#34;core/wcm/components/teaser/v2/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;dc:title&#34;:&#34;Marc Rowan at the Economic Club of Washington, D.C.&#34;,&#34;dc:description&#34;:&#34;In conversation with David Rubenstein at the Economic Club of Washington, D.C., Apollo CEO Marc Rowan covered a wide range of topics including how private credit helps fuel the economy, and how the depth and diversity of its funding sources promote resiliency in the financial system while generating much needed investment income for a growing population of retirees. &#34;,&#34;xdm:linkURL&#34;:&#34;/insights-news/insights/ecdc&#34;}}">
+      <div class="cmp-teaser__content cmp-hero-cta__content  " data-customalt="Washington DC">
+        <div class="cmp-hero-cta__detail">
+          
+    <p class="cmp-teaser__pretitle cmp-hero-cta__pretitle">Apollo Updates</p>
+
+          
+  <a class="cmp-teaser__title-link" href="/insights-news/insights/ecdc" target="_self" title="Marc Rowan at the Economic Club of Washington, D.C.">
+    <h5 class="cmp-teaser__title cmp-hero-cta__title">
+        Marc Rowan at the Economic Club of Washington, D.C.
+    </h5></a>
+
+          
+    <div class="cmp-teaser__description cmp-hero-cta__description">
+      <p>In conversation with David Rubenstein at the Economic Club of Washington, D.C., Apollo CEO Marc Rowan covered a wide range of topics including how private credit helps fuel the economy, and how the depth and diversity of its funding sources promote resiliency in the financial system while generating much needed investment income for a growing population of retirees. </p>
+    </div>
+
+        </div>
+        
+          
+            <div class="cmp-hero-cta__action">
+              
+                
+                    <a class="cmp-teaser__action-link primary-btn-wht" href="/insights-news/insights/ecdc" target="_self" data-analytics-link="cta" title="Learn More">
+                      Learn More
+                    </a>
+                
+              
+            </div>
+          
+        
+        
+      </div>
+      
+  <a class="cmp-teaser__title-link" href="/insights-news/insights/ecdc" target="_self" title="Marc Rowan at the Economic Club of Washington, D.C.">
+    <div class="cmp-teaser__image cmp-hero-cta__image">
+      <div class="cmp-image">
+        <img src="/content/dam/apolloaem/images/insights/2024/economic-club-recap-article-3.png" loading="lazy" class="cmp-image__image" alt="Washington DC"/>
+      </div>
+    </div>
+  </a>
+
+    </div>
+  
+  
+  
+  
+</div>
+
+    
+</div>
+<div class="apolloteaser teaser dark-mode cmp-teaser-darkoverlay">
+<div>
+  
+    <div id="teaser-4575620824" class="cmp-teaser cmp-hero-cta" data-cmp-data-layer="{&#34;teaser-4575620824&#34;:{&#34;@type&#34;:&#34;core/wcm/components/teaser/v2/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;dc:description&#34;:&#34;Private credit can help to finance business growth and innovation, support household prosperity and fuel the real economy.&#34;,&#34;xdm:linkURL&#34;:&#34;/strategies/asset-management/credit/investment-grade-private-credit&#34;}}">
+      <div class="cmp-teaser__content cmp-hero-cta__content  " data-customalt="Private credit ">
+        <div class="cmp-hero-cta__detail">
+          
+    <p class="cmp-teaser__pretitle cmp-hero-cta__pretitle">Apollo Updates</p>
+
+          
+  <a class="cmp-teaser__title-link" href="/strategies/asset-management/credit/investment-grade-private-credit" target="_self" title="Leading with Private Investment-Grade Credit
+">
+    <h5 class="cmp-teaser__title cmp-hero-cta__title">
+        <p>Leading with Private Investment-Grade Credit</p>
+
+    </h5></a>
+
+          
+    <div class="cmp-teaser__description cmp-hero-cta__description">
+      <p>Private credit can help to finance business growth and innovation, support household prosperity and fuel the real economy.</p>
+    </div>
+
+        </div>
+        
+          
+            <div class="cmp-hero-cta__action">
+              
+                
+                    <a class="cmp-teaser__action-link primary-btn-wht" href="/strategies/asset-management/credit/investment-grade-private-credit" target="_self" data-analytics-link="cta" title="Learn More">
+                      Learn More
+                    </a>
+                
+              
+            </div>
+          
+        
+        
+      </div>
+      
+  <a class="cmp-teaser__title-link" href="/strategies/asset-management/credit/investment-grade-private-credit" target="_self" title="Leading with Private Investment-Grade Credit
+">
+    <div class="cmp-teaser__image cmp-hero-cta__image">
+      <div class="cmp-image">
+        <img src="/content/dam/apolloaem/images/strategies/private-ig/private-ig-image-16x9.png" loading="lazy" class="cmp-image__image" alt="Private credit "/>
+      </div>
+    </div>
+  </a>
+
+    </div>
+  
+  
+  
+  
+</div>
+
+    
+</div>
+<div class="apolloteaser teaser dark-mode">
+<div>
+  
+    <div id="teaser-3357513a9d" class="cmp-teaser cmp-hero-cta" data-cmp-data-layer="{&#34;teaser-3357513a9d&#34;:{&#34;@type&#34;:&#34;core/wcm/components/teaser/v2/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;xdm:linkURL&#34;:&#34;https://www.parsintl.com/eprints/117660.pdf&#34;}}">
+      <div class="cmp-teaser__content cmp-hero-cta__content  " data-customalt="marc teaser">
+        <div class="cmp-hero-cta__detail">
+          
+    <p class="cmp-teaser__pretitle cmp-hero-cta__pretitle"> FORTUNE</p>
+
+          
+  <a class="cmp-teaser__title-link" href="https://www.parsintl.com/eprints/117660.pdf" target="_blank" title="Marc Rowan on Apollo’s Strategy to Deliver Private IG Credit&amp;nbsp;
+">
+    <h5 class="cmp-teaser__title cmp-hero-cta__title">
+        <p>Marc Rowan on Apollo’s Strategy to Deliver Private IG Credit </p>
+
+    </h5></a>
+
+          
+    <div class="cmp-teaser__description cmp-hero-cta__description">
+      <p><p>Apollo’s “golden age”: CEO Marc Rowan is already supercharging profits—and has a strategy to turn the Wall Street heavyweight into a $1 trillion business </p>
+</p>
+    </div>
+
+        </div>
+        
+          
+            <div class="cmp-hero-cta__action">
+              
+                
+                    <a class="cmp-teaser__action-link primary-btn-wht" href="https://www.parsintl.com/eprints/117660.pdf" target="_blank" data-analytics-link="cta" title="Learn More ">
+                      Learn More 
+                    </a>
+                
+              
+            </div>
+          
+        
+        
+      </div>
+      
+  <a class="cmp-teaser__title-link" href="https://www.parsintl.com/eprints/117660.pdf" target="_blank" title="Marc Rowan on Apollo’s Strategy to Deliver Private IG Credit&amp;nbsp;
+">
+    <div class="cmp-teaser__image cmp-hero-cta__image">
+      <div class="cmp-image">
+        <img src="/content/dam/apolloaem/images/brand/AbstractShapes2.png" loading="lazy" class="cmp-image__image" alt="marc teaser"/>
+      </div>
+    </div>
+  </a>
+
+    </div>
+  
+  
+  
+  
+</div>
+
+    
+</div>
+
+        
+    </div>
+
+</div>
+</div>
+
+       
+       
+       
+    <div class="cmp-carousel__actions">
+    <button class="cmp-carousel__action cmp-carousel__action--previous" type="button" aria-label="Previous" data-cmp-hook-carousel="previous">
+        <span class="cmp-carousel__action-icon"></span>
+        <span class="cmp-carousel__action-text">Previous</span>
+    </button>
+    <button class="cmp-carousel__action cmp-carousel__action--next" type="button" aria-label="Next" data-cmp-hook-carousel="next">
+        <span class="cmp-carousel__action-icon"></span>
+        <span class="cmp-carousel__action-text">Next</span>
+    </button>
+    
+    
+</div>
+
+       <ol class="cmp-carousel__indicators" role="tablist" aria-label="Choose a slide to display" data-cmp-hook-carousel="indicators">
+            <li id="apollo-carousel-850978264d-item-dc4db17026-tab" class="cmp-carousel__indicator cmp-carousel__indicator--active" role="tab" aria-controls="apollo-carousel-850978264d-item-dc4db17026-tabpanel" aria-label="Slide 1" data-cmp-hook-carousel="indicator">Container</li>
+
+       </ol>
+  </div>
+  
+  
+</div>
+</div>
+
+        
+    </div>
+
+
+		</div>
+	</div>
+
+</div>
+<div class="separator aem-GridColumn aem-GridColumn--default--12">
+<div id="separator-a878c3a35b" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule"/>
+</div></div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-33f1611456" class="cmp-container">
+        
+        <div class="container responsivegrid cmp-series-header-cta no-bottom-margin">
+
+    
+    
+    
+    <div id="container-659f297534" class="cmp-container">
+        
+        <div class="container responsivegrid cmp-series-header-cta__title-container">
+
+    
+    <div id="container-b22bd86079" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="title cmp-series-header-cta__title aem-GridColumn aem-GridColumn--default--12">
+<div>
+    <!-- Date and Tile card starts here -->
+    <div>
+
+        <div class="cmp-article-header__title">
+            <h5 tabindex="1" class="cmp-release-header__date">
+               
+                
+                 
+            </h5>
+            
+            
+            
+            <span tabindex="2" class="cmp-release-header__title cmp-wrap-title">Investor Relations</span>
+            <span class="cmp-title-border-bottom"></span>
+            
+        </div>
+    </div>
+</div>
+
+    
+</div>
+<div class="button primary-btn-blck aem-GridColumn aem-GridColumn--default--12">
+<a id="button-da02da9914" class="cmp-button" data-cmp-clickable data-cmp-data-layer="{&#34;button-da02da9914&#34;:{&#34;@type&#34;:&#34;apolloaem/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;dc:title&#34;:&#34;View More&#34;,&#34;xdm:linkURL&#34;:&#34;https://ir.apollo.com/&#34;}}" href="https://ir.apollo.com/" target="_blank">
+    
+    
+
+    <span class="cmp-button__text">View More</span>
+</a>
+</div>
+<div class="apolloteaser teaser dark-mode aem-GridColumn aem-GridColumn--default--12">
+<div>
+  
+  
+    <div class="cmp-featurecard-teaser">
+      <div class="cmp-featurecard">
+        
+<div class="cmp-featurecard__content" data-customalt="green ball in rows of grey boxes ">
+    
+  <a class="cmp-teaser__title-link" href="https://ir.apollo.com/financial-results" target="_blank" title="Apollo Reports Second Quarter 2024 Results
+">
+    <div class="cmp-teaser__image cmp-hero-cta__image">
+      <div class="cmp-image">
+        <img src="/content/dam/apolloaem/images/brand/Conceptual%20Image%20Earnings_880px.png" loading="lazy" class="cmp-image__image" alt="green ball in rows of grey boxes "/>
+      </div>
+    </div>
+  </a>
+
+    <div class="cmp-hero-cta__detail">
+        
+    <p class="cmp-teaser__pretitle cmp-hero-cta__pretitle">Financial Results</p>
+
+        
+  <a class="cmp-teaser__title-link" href="https://ir.apollo.com/financial-results" target="_blank" title="Apollo Reports Second Quarter 2024 Results
+">
+    <h6 class="cmp-teaser__title cmp-hero-cta__title">
+        <p>Apollo Reports Second Quarter 2024 Results</p>
+
+    </h6></a>
+
+        
+        <p class="cmp-featurecard__publisheddate"></p>
+    </div>
+</div>
+
+      </div>
+    </div>
+  
+  
+  
+</div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid cmp-series-header-cta__title-container">
+
+    
+    <div id="container-370ad23373" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="title cmp-series-header-cta__title aem-GridColumn aem-GridColumn--default--12">
+<div>
+    <!-- Date and Tile card starts here -->
+    <div>
+
+        <div class="cmp-article-header__title">
+            <h5 tabindex="1" class="cmp-release-header__date">
+               
+                
+                 
+            </h5>
+            
+            
+            
+            <span tabindex="2" class="cmp-release-header__title cmp-wrap-title">Announcements</span>
+            <span class="cmp-title-border-bottom"></span>
+            
+        </div>
+    </div>
+</div>
+
+    
+</div>
+<div class="button primary-btn-blck aem-GridColumn aem-GridColumn--default--12">
+<a id="button-1c500b379a" class="cmp-button" data-cmp-clickable data-cmp-data-layer="{&#34;button-1c500b379a&#34;:{&#34;@type&#34;:&#34;apolloaem/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2023-08-08T23:05:39Z&#34;,&#34;dc:title&#34;:&#34;View More&#34;,&#34;xdm:linkURL&#34;:&#34;/insights-news/pressreleases&#34;}}" href="/insights-news/pressreleases">
+    
+    
+
+    <span class="cmp-button__text">View More</span>
+</a>
+</div>
+<div class="apolloList list aem-GridColumn aem-GridColumn--default--12">
+    
+    
+    
+        <div>
+            
+    <div class="cmp-insightwithoutimage-cardlist cmp-insight-marketinginsights " data-tags="apollo:format/press-release" data-paginationtext="{0} of {1} Results" data-hideRecentArticle="false" data-servletresourcepath="/api/int.insightwithoutimage.json" data-currentPath="/content/apolloaem/global/en/general-public/homepage" data-searchTemplate="apolloaem/components/page/page-pressrelease" data-dateFormat="MMMM dd, yyyy">
+
+        
+            <div class="cmp-insightwithoutimage-cardlist__nopaginationcontainer">
+                <p class="cmp-insightwithoutimage-cardlist__pageresultstop"></p>
+            
+                <div class="cmp-insightwithoutimage-cardlist__container" data-maxCount="368">
+                    <div class="cmp-insightwithoutimage-cardlist__border"></div>
+                    
+
+                    <div class="cmp-insightwithoutimage-cardlist__items">
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/pressreleases/2024/09/apollo-to-acquire-dutch-equipment-leasing-specialist-beequip-from-nibc-2941095" target="_self" class="text-link-blck" title="Apollo to Acquire Dutch Equipment Leasing Specialist Beequip from NIBC">Apollo to Acquire Dutch Equipment Leasing Specialist Beequip from NIBC</a>
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/pressreleases/2024/09/apollo-to-acquire-dutch-equipment-leasing-specialist-beequip-from-nibc-2941095" target="_self" class="arrow-image__button" title="Apollo to Acquire Dutch Equipment Leasing Specialist Beequip from NIBC"></a>
+                    </div>
+                    <p class="cmp-insightwithoutimage-cardlist__date">
+                        September 05, 2024</p>
+                    
+                </div>
+            
+                <div class="cmp-insightwithoutimage-cardlist__container" data-maxCount="368">
+                    <div class="cmp-insightwithoutimage-cardlist__border"></div>
+                    
+
+                    <div class="cmp-insightwithoutimage-cardlist__items">
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/pressreleases/2024/09/apollo-to-present-at-barclays-22nd-annual-global-financial-services-conference-2939771" target="_self" class="text-link-blck" title="Apollo to Present at Barclays 22nd Annual Global Financial Services Conference">Apollo to Present at Barclays 22nd Annual Global Financial Services Conference</a>
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/pressreleases/2024/09/apollo-to-present-at-barclays-22nd-annual-global-financial-services-conference-2939771" target="_self" class="arrow-image__button" title="Apollo to Present at Barclays 22nd Annual Global Financial Services Conference"></a>
+                    </div>
+                    <p class="cmp-insightwithoutimage-cardlist__date">
+                        September 03, 2024</p>
+                    
+                </div>
+            
+                <div class="cmp-insightwithoutimage-cardlist__container" data-maxCount="368">
+                    <div class="cmp-insightwithoutimage-cardlist__border"></div>
+                    
+
+                    <div class="cmp-insightwithoutimage-cardlist__items">
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/pressreleases/2024/08/apollo-funds-together-with-rettig-complete-the-acquisition-of-a-94-53-stake-in-purmo-group-plc-2931570" target="_self" class="text-link-blck" title="Apollo Funds, together with Rettig, complete the acquisition of a 94.53% stake in Purmo Group Plc">Apollo Funds, together with Rettig, complete the acquisition of a 94.53% stake in Purmo Group Plc</a>
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/pressreleases/2024/08/apollo-funds-together-with-rettig-complete-the-acquisition-of-a-94-53-stake-in-purmo-group-plc-2931570" target="_self" class="arrow-image__button" title="Apollo Funds, together with Rettig, complete the acquisition of a 94.53% stake in Purmo Group Plc"></a>
+                    </div>
+                    <p class="cmp-insightwithoutimage-cardlist__date">
+                        August 16, 2024</p>
+                    
+                </div>
+            
+                <div class="cmp-insightwithoutimage-cardlist__container" data-maxCount="368">
+                    <div class="cmp-insightwithoutimage-cardlist__border"></div>
+                    
+
+                    <div class="cmp-insightwithoutimage-cardlist__items">
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/pressreleases/2024/08/apollo-and-vale-enter-into-joint-venture-partnership-related-to-the-vale-oman-distribution-center-2925570" target="_self" class="text-link-blck" title="Apollo and Vale Enter Into Joint Venture Partnership Related to the Vale Oman Distribution Center">Apollo and Vale Enter Into Joint Venture Partnership Related to the Vale Oman Distribution Center</a>
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/pressreleases/2024/08/apollo-and-vale-enter-into-joint-venture-partnership-related-to-the-vale-oman-distribution-center-2925570" target="_self" class="arrow-image__button" title="Apollo and Vale Enter Into Joint Venture Partnership Related to the Vale Oman Distribution Center"></a>
+                    </div>
+                    <p class="cmp-insightwithoutimage-cardlist__date">
+                        August 06, 2024</p>
+                    
+                </div>
+            
+        </div>
+            <p class="cmp-insightwithoutimage-cardlist__pageresultsbottom"></p>
+            <div class="cmp-insightwithoutimage-cardlist__pagination-container" id="card-container"></div>
+            <div class="cmp-insightwithoutimage-cardlist__pagination" id="pagination"></div>
+            <button class="cmp-insightwithoutimage-cardlist__button primary-btn-blck">Load More</button>
+        
+    </div>
+
+        </div>
+    
+    
+    
+    
+
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid cmp-header-body-cta show-separator">
+
+    
+    
+    
+    <div id="container-4083a0a111" class="cmp-container">
+        
+        <div class="title cmp-header-body-cta__title">
+<div>
+    <!-- Date and Tile card starts here -->
+    <div>
+
+        <div class="cmp-article-header__title">
+            <h5 tabindex="1" class="cmp-release-header__date">
+               
+                
+                 
+            </h5>
+            
+            <h3 tabindex="2" class="cmp-release-header__title cmp-wrap-title">Sustainability &amp; Our Impact</h3>
+            
+            
+            <span class="cmp-title-border-bottom"></span>
+            <p class="cmp-release-header__body">At Apollo, we leverage our full platform to help tackle some of the most pressing environmental and societal challenges we face today.</p>
+        </div>
+    </div>
+</div>
+
+    
+</div>
+<div class="button primary-btn-blck">
+<a id="button-b872c59d76" class="cmp-button" data-cmp-clickable data-cmp-data-layer="{&#34;button-b872c59d76&#34;:{&#34;@type&#34;:&#34;apolloaem/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2023-08-07T22:13:43Z&#34;,&#34;dc:title&#34;:&#34;Learn More&#34;,&#34;xdm:linkURL&#34;:&#34;/impact&#34;}}" href="/impact">
+    
+    
+
+    <span class="cmp-button__text">Learn More</span>
+</a>
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid">
+
+    
+    
+    
+    <div id="container-958517868e" class="cmp-container">
+        
+        <div class="container-column-block">
+
+    
+
+
+	<div class="cmp-container-column-layout--12  ">
+		
+		<div class="cmp-container-column--4
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-f8e6532472" class="cmp-container">
+        
+        
+        
+    </div>
+
+
+		</div>
+	
+		
+		<div class="cmp-container-column--8
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-b86c0b29ed" class="cmp-container">
+        
+        <div class="apolloteaser teaser dark-mode">
+<div>
+  
+    <div id="teaser-db177b1787" class="cmp-teaser cmp-hero-cta" data-cmp-data-layer="{&#34;teaser-db177b1787&#34;:{&#34;@type&#34;:&#34;core/wcm/components/teaser/v2/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;xdm:linkURL&#34;:&#34;/impact/transparency-reporting&#34;}}">
+      <div class="cmp-teaser__content cmp-hero-cta__content  " data-customalt="Rolling green hills">
+        <div class="cmp-hero-cta__detail">
+          
+    
+
+          
+  <a class="cmp-teaser__title-link" href="/impact/transparency-reporting" target="_self" title="Announcing the Launch of Our 15th Annual Sustainability Report
+">
+    <h5 class="cmp-teaser__title cmp-hero-cta__title">
+        <p>Announcing the Launch of Our 15th Annual Sustainability Report</p>
+
+    </h5></a>
+
+          
+    <div class="cmp-teaser__description cmp-hero-cta__description">
+      <p><p>Since 2009, Apollo has proudly published a comprehensive summary of our approach to sustainability across our ecosystem.</p>
+</p>
+    </div>
+
+        </div>
+        
+          
+            <div class="cmp-hero-cta__action">
+              
+                
+                    <a class="cmp-teaser__action-link primary-btn-wht" href="/impact/transparency-reporting" target="_self" data-analytics-link="cta" title="Read More">
+                      Read More
+                    </a>
+                
+              
+            </div>
+          
+        
+        
+      </div>
+      
+  <a class="cmp-teaser__title-link" href="/impact/transparency-reporting" target="_self" title="Announcing the Launch of Our 15th Annual Sustainability Report
+">
+    <div class="cmp-teaser__image cmp-hero-cta__image">
+      <div class="cmp-image">
+        <img src="/content/dam/apolloaem/images/brand/Rolling%20Green%20Hills_300px.jpg" loading="lazy" class="cmp-image__image" alt="Rolling green hills"/>
+      </div>
+    </div>
+  </a>
+
+    </div>
+  
+  
+  
+  
+</div>
+
+    
+</div>
+
+        
+    </div>
+
+
+		</div>
+	</div>
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid cmp-header-body-cta show-separator">
+
+    
+    
+    
+    <div id="container-a43b31f24d" class="cmp-container">
+        
+        <div class="title cmp-header-body-cta__title">
+<div>
+    <!-- Date and Tile card starts here -->
+    <div>
+
+        <div class="cmp-article-header__title">
+            <h5 tabindex="1" class="cmp-release-header__date">
+               
+                
+                 
+            </h5>
+            
+            <h3 tabindex="2" class="cmp-release-header__title cmp-wrap-title">Careers</h3>
+            
+            
+            <span class="cmp-title-border-bottom"></span>
+            <p class="cmp-release-header__body">We foster an entrepreneurial growth mindset and empower our people to succeed. Our people embrace complexity, challenge convention, and lead responsibly to drive our industry and our impact forward.</p>
+        </div>
+    </div>
+</div>
+
+    
+</div>
+<div class="button primary-btn-blck">
+<a id="button-af64818751" class="cmp-button" data-cmp-clickable data-cmp-data-layer="{&#34;button-af64818751&#34;:{&#34;@type&#34;:&#34;apolloaem/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2023-08-07T22:14:02Z&#34;,&#34;dc:title&#34;:&#34;View Careers&#34;,&#34;xdm:linkURL&#34;:&#34;/careers&#34;}}" href="/careers">
+    
+    
+
+    <span class="cmp-button__text">View Careers</span>
+</a>
+</div>
+
+        
+    </div>
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="container responsivegrid no-bottom-margin aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-85a092b6ee" class="cmp-container">
+        
+        <div class="container-column-block">
+
+    
+
+
+	<div class="cmp-container-column-layout--12  no-bottom-margin">
+		
+		<div class="cmp-container-column--4
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-f25380e7ce" class="cmp-container">
+        
+        
+        
+    </div>
+
+
+		</div>
+	
+		
+		<div class="cmp-container-column--6
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-bc6e2b94da" class="cmp-container">
+        
+        <div class="container responsivegrid cmp-series-header-cta no-bottom-margin">
+
+    
+    <div id="container-9e785a7b3d" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="title cmp-series-header-cta__title aem-GridColumn aem-GridColumn--default--12">
+<div>
+    <!-- Date and Tile card starts here -->
+    <div>
+
+        <div class="cmp-article-header__title">
+            <h5 tabindex="1" class="cmp-release-header__date">
+               
+                
+                 
+            </h5>
+            
+            
+            
+            <span tabindex="2" class="cmp-release-header__title cmp-wrap-title">Related content </span>
+            <span class="cmp-title-border-bottom"></span>
+            
+        </div>
+    </div>
+</div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="apolloList list">
+    
+    
+    
+        <div>
+            
+    <div class="cmp-insightwithoutimage-cardlist cmp-insight-marketinginsights " data-tags="apollo:topics/life-at-apollo" data-paginationtext="{0} of {1} Results" data-hideRecentArticle="false" data-servletresourcepath="/api/int.insightwithoutimage.json" data-currentPath="/content/apolloaem/global/en/general-public/homepage" data-searchTemplate="apolloaem/components/page/page-article" data-dateFormat="MMMM dd, yyyy">
+
+        
+            <div class="cmp-insightwithoutimage-cardlist__nopaginationcontainer">
+                <p class="cmp-insightwithoutimage-cardlist__pageresultstop"></p>
+            
+                <div class="cmp-insightwithoutimage-cardlist__container" data-maxCount="23">
+                    <div class="cmp-insightwithoutimage-cardlist__border"></div>
+                    
+
+                    <div class="cmp-insightwithoutimage-cardlist__items">
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/insights/9-9/2024/06/9-9-with-nina-zhou" target="_self" class="text-link-blck" title="9@9 with Nina Zhou">9@9 with Nina Zhou</a>
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/insights/9-9/2024/06/9-9-with-nina-zhou" target="_self" class="arrow-image__button" title="9@9 with Nina Zhou"></a>
+                    </div>
+                    <p class="cmp-insightwithoutimage-cardlist__date">
+                        June 26, 2024</p>
+                    
+                </div>
+            
+                <div class="cmp-insightwithoutimage-cardlist__container" data-maxCount="23">
+                    <div class="cmp-insightwithoutimage-cardlist__border"></div>
+                    
+
+                    <div class="cmp-insightwithoutimage-cardlist__items">
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/insights/9-9/2024/06/9-9-with-matt-michelini" target="_self" class="text-link-blck" title="9@9 with Matt Michelini">9@9 with Matt Michelini</a>
+                        <a data-analytics-link="apollo-list-without-image-filter" href="/insights-news/insights/9-9/2024/06/9-9-with-matt-michelini" target="_self" class="arrow-image__button" title="9@9 with Matt Michelini"></a>
+                    </div>
+                    <p class="cmp-insightwithoutimage-cardlist__date">
+                        June 05, 2024</p>
+                    
+                </div>
+            
+        </div>
+            <p class="cmp-insightwithoutimage-cardlist__pageresultsbottom"></p>
+            <div class="cmp-insightwithoutimage-cardlist__pagination-container" id="card-container"></div>
+            <div class="cmp-insightwithoutimage-cardlist__pagination" id="pagination"></div>
+            <button class="cmp-insightwithoutimage-cardlist__button primary-btn-blck">Load More</button>
+        
+    </div>
+
+        </div>
+    
+    
+    
+    
+
+
+    
+</div>
+<div class="text subhead1">
+<div data-cmp-data-layer="{&#34;text-fe4e78f530&#34;:{&#34;@type&#34;:&#34;core/wcm/components/text/v2/text&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;xdm:text&#34;:&#34;&lt;h4>Apollo is known for taking on complex challenges that demand rigorous thinking – and for pursuing opportunities that others miss. We accomplish this by seeking out talented, committed people and bringing them together as one team.&lt;/h4>\r\n&#34;}}" id="text-fe4e78f530" class="cmp-text cmp-apollo-text   ">
+    <h4>Apollo is known for taking on complex challenges that demand rigorous thinking – and for pursuing opportunities that others miss. We accomplish this by seeking out talented, committed people and bringing them together as one team.</h4>
+
+</div>
+
+    
+
+</div>
+<div class="separator">
+<div id="separator-ab0faeaec9" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule"/>
+</div></div>
+<div class="button primary-btn-blck">
+<a id="button-aca40fa0fe" class="cmp-button" data-cmp-clickable data-cmp-data-layer="{&#34;button-aca40fa0fe&#34;:{&#34;@type&#34;:&#34;apolloaem/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;,&#34;dc:title&#34;:&#34;Explore Employment Opportunities&#34;,&#34;xdm:linkURL&#34;:&#34;https://athene.wd5.myworkdayjobs.com/Apollo_Careers&#34;}}" href="https://athene.wd5.myworkdayjobs.com/Apollo_Careers" target="_blank">
+    
+    
+
+    <span class="cmp-button__text">Explore Employment Opportunities</span>
+</a>
+</div>
+
+        
+    </div>
+
+
+		</div>
+	
+		
+		<div class="cmp-container-column--2
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-f48b27d5fe" class="cmp-container">
+        
+        
+        
+    </div>
+
+
+		</div>
+	</div>
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="apollo-carousel carousel panelcontainer cmp-apollo-carousel-items-column-6 cmp-carousel-nav-black aem-GridColumn aem-GridColumn--default--12">
+  <div id="apollo-carousel-edf3fd36da" class=" cmp-carousel" role="group" aria-live="polite" aria-roledescription="carousel" data-cmp-is="carousel" data-cmp-delay="5000" data-cmp-data-layer="{&#34;apollo-carousel-edf3fd36da&#34;:{&#34;shownItems&#34;:[&#34;apollo-carousel-edf3fd36da-item-2f2554408e&#34;],&#34;@type&#34;:&#34;apolloaem/components/apollo-carousel&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;}}" data-placeholder-text="false">
+  
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  
+
+  <div class="isSwiperCarousel" data-isSwiperCarousel="true"></div>
+  <div class="isSwiperCardVariation" data-swiperCardVariation="false"></div>
+
+  
+  <div class="cmp-carousel__content" aria-atomic="false" aria-live="polite">
+       
+       
+       
+            <div class="swiper-slider-wrapper">
+                 <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                           <div id="apollo-carousel-edf3fd36da-item-2f2554408e-tabpanel" class="cmp-carousel__item cmp-carousel__item--active" role="tabpanel" aria-labelledby="apollo-carousel-edf3fd36da-item-2f2554408e-tab" aria-roledescription="slide" aria-label="Slide 1 of 1" data-cmp-data-layer="{&#34;apollo-carousel-edf3fd36da-item-2f2554408e&#34;:{&#34;@type&#34;:&#34;apolloaem/components/apollo-carousel/item&#34;,&#34;repo:modifyDate&#34;:&#34;2024-09-06T00:36:57Z&#34;}}" data-cmp-hook-carousel="item"><div class="container responsivegrid">
+
+    
+    
+    
+    <div id="container-2f2554408e" class="cmp-container">
+        
+        <div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6281223428001" isModalView="true" alt="Neil Mehta Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Neil Mehta</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, Strategy</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6281353402001" isModalView="true" alt="Heather Berger Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Heather Berger</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, Institutional Client and Product Solutions</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6281221841001" isModalView="true" alt="Reed Rayman Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Reed Rayman</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, Private Equity</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6281224180001" isModalView="true" alt="Salim Hirji Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Salim Hirji</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, Private Equity</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6318910118112" isModalView="true" alt="Jordan Lubkeman Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Jordan Lubkeman</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Principal, Impact Investing</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6324969702112" isModalView="true" alt="Madhura Shah Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Madhura Shah</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, Head of Infrastructure</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6318907527112" isModalView="true" alt="Jamal Cherry Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Jamal Cherry</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Associate, Natural Resources</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6324969880112" isModalView="true" alt="Matthew Michelini Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Matthew Michelini</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, Head of Asia-Pacific</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6318908133112" isModalView="true" alt="Akila Grewal Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Akila Grewal</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, Client &amp; Product Solutions</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6318909426112" isModalView="true" alt="Rajesh Jegadeesh Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Rajesh Jegadeesh</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Principal, Private Equity</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6318910503112" isModalView="true" alt="Paulomi Shah Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Paulomi Shah</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, Head of Enterprise Risk</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6318910887112" isModalView="true" alt="Ben Eppley Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Ben Eppley</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, AGRE</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+<div class="card embed"><div class="cmp-card">
+
+	
+	
+	
+		
+    <div class="cmp-card__video">
+        <div class="cmp-card__video__container">
+			
+            	<div class="cmp-card__video__container__content play-icon">
+                    <apollo-video videoSource="brightcove" accountId="5762013501001" brightcoveVideoId="6318911394112" isModalView="true" alt="Seda Yalcinkaya Video">
+  					</apollo-video>
+             	</div>
+			 
+			 
+            	<h2 class="cmp-card__video__container__content--title">Seda Yalcinkaya</h2>
+			 
+			
+            	<p class="cmp-card__video__container__content--sub-title"><span>Partner, Legal/Tax/Compliance</span></p>
+			
+			
+            <!-- redirect page link -->
+			
+		</div>
+	</div>
+
+	
+	
+	
+	
+	
+</div>
+
+    
+</div>
+
+        
+    </div>
+
+</div>
+</div>
+
+                      </div>
+                      
+                         <div class="swiper-scrollbar-wrapper">
+                              <div class="swiper-scrollbar"></div>
+                         </div>
+                          <div class="swiper-navigation-buttons-pagination-wrapper">
+                               <div class="swiper-button-prev"></div>
+                               <div class="swiper-pagination"></div>
+                               <div class="swiper-button-next"></div>
+                          </div>
+                      
+                 </div>
+            </div>
+       
+       
+    <div class="cmp-carousel__actions">
+    <button class="cmp-carousel__action cmp-carousel__action--previous" type="button" aria-label="Previous" data-cmp-hook-carousel="previous">
+        <span class="cmp-carousel__action-icon"></span>
+        <span class="cmp-carousel__action-text">Previous</span>
+    </button>
+    <button class="cmp-carousel__action cmp-carousel__action--next" type="button" aria-label="Next" data-cmp-hook-carousel="next">
+        <span class="cmp-carousel__action-icon"></span>
+        <span class="cmp-carousel__action-text">Next</span>
+    </button>
+    
+    
+</div>
+
+       <ol class="cmp-carousel__indicators" role="tablist" aria-label="Choose a slide to display" data-cmp-hook-carousel="indicators">
+            <li id="apollo-carousel-edf3fd36da-item-2f2554408e-tab" class="cmp-carousel__indicator cmp-carousel__indicator--active" role="tab" aria-controls="apollo-carousel-edf3fd36da-item-2f2554408e-tabpanel" aria-label="Slide 1" data-cmp-hook-carousel="indicator"></li>
+
+       </ol>
+  </div>
+  
+  
+       <!-- Swiper JS -->
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+</div>
+</div>
+<div class="container responsivegrid cmp-styled-container-saxe-blue-100 full-bleed-container no-bottom-margin aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-d258d558af" class="cmp-container">
+        
+        <div class="container-column-block">
+
+    
+
+
+	<div class="cmp-container-column-layout--12  no-bottom-margin">
+		
+		<div class="cmp-container-column--4
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-1bc79f1810" class="cmp-container">
+        
+        <div class="text white-text">
+<div data-cmp-data-layer="{&#34;text-90eb4c7ab2&#34;:{&#34;@type&#34;:&#34;core/wcm/components/text/v2/text&#34;,&#34;repo:modifyDate&#34;:&#34;2023-12-14T23:49:11Z&#34;,&#34;xdm:text&#34;:&#34;&lt;h3>Explore Our&lt;br />\r\nSolutions for...&lt;/h3>\r\n&#34;}}" id="text-90eb4c7ab2" class="cmp-text cmp-apollo-text  text-align-margin-above ">
+    <h3>Explore Our<br />
+Solutions for...</h3>
+
+</div>
+
+    
+
+</div>
+
+        
+    </div>
+
+
+		</div>
+	
+		
+		<div class="cmp-container-column--4
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-3e942437ad" class="cmp-container">
+        
+        <div class="card-with-optional-icon title card-with-optional-icon--whitetext"><div>
+
+    
+    
+        
+  <div class="cmp-role-selector " data-clear-site-role="true">
+    <div class="cmp-role-selector__container cmp-role-selector__container--separator no-body-text">
+      
+      <a href="/institutional/homepage" class="cmp-role-selector__cta-button mobile" title="Institutional Investors"></a>
+      
+        <div class="cmp-role-selector__maintitle">
+          <h5 class="cmp-role-selector__title">Institutional Investors</h5>
+        </div>
+      
+      
+      
+        <!-- <a href="/institutional/homepage" class="cmp-role-selector__cta-button">
+          <span class="cmp-role-selector__cta-icon"></span>
+          <span class="cmp-role-selector__cta-button__text"></span>
+        </a> -->
+        <div class="cmp-role-selector__button--container">
+          <a href="/institutional/homepage" class="cmp-role-selector__cta-button">
+            <span class="cmp-role-selector__cta-icon"></span>
+            <span class="cmp-role-selector__cta-button__text"></span>
+          </a>
+        </div>
+      
+    </div>
+  </div>
+
+    
+    
+
+
+</div>
+
+
+    
+</div>
+
+        
+    </div>
+
+
+		</div>
+	
+		
+		<div class="cmp-container-column--4
+		
+		
+		
+		
+		
+		">
+			
+
+    
+    
+    
+    <div id="container-01aba8b126" class="cmp-container">
+        
+        <div class="card-with-optional-icon title card-with-optional-icon--whitetext"><div>
+
+    
+    
+        
+  <div class="cmp-role-selector " data-clear-site-role="true">
+    <div class="cmp-role-selector__container cmp-role-selector__container--separator no-body-text">
+      
+      <a href="/wealth/homepage" class="cmp-role-selector__cta-button mobile" title="Wealth Professionals"></a>
+      
+        <div class="cmp-role-selector__maintitle">
+          <h5 class="cmp-role-selector__title">Wealth Professionals</h5>
+        </div>
+      
+      
+      
+        <!-- <a href="/wealth/homepage" class="cmp-role-selector__cta-button">
+          <span class="cmp-role-selector__cta-icon"></span>
+          <span class="cmp-role-selector__cta-button__text"></span>
+        </a> -->
+        <div class="cmp-role-selector__button--container">
+          <a href="/wealth/homepage" class="cmp-role-selector__cta-button">
+            <span class="cmp-role-selector__cta-icon"></span>
+            <span class="cmp-role-selector__cta-button__text"></span>
+          </a>
+        </div>
+      
+    </div>
+  </div>
+
+    
+    
+
+
+</div>
+
+
+    
+</div>
+
+        
+    </div>
+
+
+		</div>
+	</div>
+
+</div>
+
+        
+    </div>
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</main>
+<div class="apollo-global-footer aem-GridColumn aem-GridColumn--default--12">
+    <div class="cmp-footer">
+        <div class="cmp-footer__text">
+            <div class="cmp-footer__container">
+                <div class="cmp-footer__row">
+                    <div class="cmp-footer__heading">
+                        <p class="cmp-footer__header">Social</p>
+                        <ul class="cmp-footer__listitems">
+                            <li class="cmp-footer__list cmp-footer--socials">
+                                <div class="hover-footer-image-contents" style="--bg-image-hover:url(\2f content\2f dam\2f apolloaem\2flogo\2fLinkedin-Hover.svg);" tabindex="-1"></div>
+                                <a href="https://www.linkedin.com/company/apollo-global-management-inc/" class="cmp-footer__link" target="_blank" style="--bg-image: url(\2f content\2f dam\2f apolloaem\2flogo\2fLinkedin-Default.svg); --bg-image-hover:url(\2f content\2f dam\2f apolloaem\2flogo\2fLinkedin-Hover.svg);" title="LinkedIn"></a></li>
+                        
+                            <li class="cmp-footer__list cmp-footer--socials">
+                                <div class="hover-footer-image-contents" style="--bg-image-hover:url(\2f content\2f dam\2f apolloaem\2flogo\2fYoutube_Hover.svg);" tabindex="-1"></div>
+                                <a href="https://www.youtube.com/c/ApolloGlobalManagement" class="cmp-footer__link" target="_blank" style="--bg-image: url(\2f content\2f dam\2f apolloaem\2flogo\2fYoutube_Default.svg); --bg-image-hover:url(\2f content\2f dam\2f apolloaem\2flogo\2fYoutube_Hover.svg);" title="YouTube"></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cmp-footer__heading">
+                        <p class="cmp-footer__header">Explore Apollo</p>
+                        <ul class="cmp-footer__listitems">
+                            <li class="cmp-footer__list">
+                                <a href="/aboutus" class="cmp-footer__link  " target="_self" title="About Us">About Us</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/strategies" class="cmp-footer__link  " target="_self" title="Strategies">Strategies</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/impact" class="cmp-footer__link  " target="_self" title="Sustainability &amp; Our Impact">Sustainability &amp; Our Impact</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/insights-news" class="cmp-footer__link  " target="_self" title="Insights &amp; News">Insights &amp; News</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/careers" class="cmp-footer__link  " target="_self" title="Careers">Careers</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/media" class="cmp-footer__link  " target="_self" title="Media">Media</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cmp-footer__heading">
+                        <p class="cmp-footer__header">More Information</p>
+                        <ul class="cmp-footer__listitems">
+                            <li class="cmp-footer__list">
+                                <a href="https://www.athene.com/" class="cmp-footer__link cmp-footer__link--icons" target="_blank" title="Athene">Athene</a>
+                            </li>
+
+                        
+                            <li class="cmp-footer__list">
+                                <a href="https://apolloacademy.com/" class="cmp-footer__link cmp-footer__link--icons" target="_blank" title="Apollo Academy">Apollo Academy</a>
+                            </li>
+
+                        
+                            <li class="cmp-footer__list">
+                                <a href="https://ir.apollo.com/" class="cmp-footer__link cmp-footer__link--icons" target="_blank" title="Investor Relations (NYSE: APO)">Investor Relations (NYSE: APO)</a>
+                            </li>
+
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/aboutus/contact-us" class="cmp-footer__link " target="_self" title="Contact Us">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="cmp-footer__heading">
+                        <p class="cmp-footer__header">Governance</p>
+                        <ul class="cmp-footer__listitems">
+                            <li class="cmp-footer__list">
+                                <a href="/governance/terms-of-use" class="cmp-footer__link  " target="_self" title="Terms of Use">Terms of Use</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/governance/privacy-policy" class="cmp-footer__link  " target="_self" title="Privacy Policy">Privacy Policy</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/governance/web-fraud---phishing" class="cmp-footer__link  " target="_self" title="Web Fraud &amp; Phishing">Web Fraud &amp; Phishing</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/governance/disclosures" class="cmp-footer__link  " target="_self" title="Disclosures">Disclosures</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/governance/disclaimer" class="cmp-footer__link  " target="_self" title="Disclaimer">Disclaimer</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/governance/forward-looking-statements" class="cmp-footer__link  " target="_self" title="Forward-Looking Statements">Forward-Looking Statements</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/governance/form-crs" class="cmp-footer__link  " target="_self" title="Form CRS">Form CRS</a>
+                            </li>
+                        
+                            <li class="cmp-footer__list">
+                                <a href="/governance/cookies" class="cmp-footer__link  " target="_self" title="Cookies">Cookies</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cmp-footer__copywrite">
+            <span class="cmp-footer__copywrite--image">
+                <a href="/homepage" title="Apollo">
+                    <img src="/content/dam/apolloaem/logo/Apollo%20Footer%20Logo.svg" loading="lazy" alt="Apollo"/>
+                </a>
+            </span>
+                <span class="cmp-footer__trademark">© Apollo Global Management, Inc. 2024 All Rights Reserved.</span>
+            </div>
+        </div>
+        <div class="cmp-footer__stoke ">
+        </div>
+        
+    </div>
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+
+    
+    
+    <script src="/etc.clientlibs/apolloaem/clientlibs/clientlib-site.lc-abde8822b3aa64e4c4958f8ca29dbec0-lc.min.js"></script>
+<script src="/etc.clientlibs/apolloaem/clientlibs/clientlib-react.lc-d66e8ec797657b97404509df85c0a971-lc.min.js"></script>
+
+
+    
+
+    
+    
+<script src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js"></script>
+<script src="/etc.clientlibs/apolloaem/clientlibs/clientlib-base.lc-98b44ec74775c5bc76b0744df1c9b66c-lc.min.js"></script>
+
+
+
+    
+    
+
+
+
+
+
+
+<!-- Addition of Analytics Related Scripts Starts on Footer -->
+
+<!-- Addition of Analytics Related Scripts Ends on Footer-->
+    
+
+    
+
+    
+    
+
+
+<div class="cmp-loader" role="alert" aria-live="polite">
+    <div class="cmp-loader-spineer"></div>
+</div>
+</body>
+
+</html>

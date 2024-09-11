@@ -512,46 +512,57 @@ body {
   height: 100%;
 } 
 
-/* Image slider */
-.execSlider {
+/* Image slider container */
+.logoSlider-container {
   position: relative;
   width: 100%;
-  height: 370px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Slider */
+.logoSlider {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
-.execItem {
+/* Style for each logo item */
+.logoItem {
   position: absolute;
   width: 200px;
-  height: 320px;
-  background-color: #fff;
-  border-radius: 10px;
+  height: 200px;
   overflow: hidden;
-  left: calc(50% - 100px); 
-  top: 0;
   transition: transform 0.5s, filter 0.5s, opacity 0.5s;
-}
-
-.execItem img {
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
-}
-
-.execItem h1 {
+  cursor: pointer;
+  z-index: 1;
+  background: none;
+  border: none;
   margin: 0;
-  padding: 10px;
-  font-size: 1.25rem;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 0;
 }
 
-#execNext, #execPrev {
+/* Style for images within logo items */
+.logoItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation buttons */
+.logoNavBtn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   color: #fff;
-  background-color: transparent; 
+  background-color: transparent;
   border: none;
   font-size: 2rem;
   cursor: pointer;
@@ -564,11 +575,19 @@ body {
   outline: none;
 }
 
-#execNext {
+#logoNextSponsor {
   right: 20px;
 }
 
-#execPrev {
+#logoPrevSponsor {
+  left: 20px;
+}
+
+#logoNextCollab {
+  right: 20px;
+}
+
+#logoPrevCollab {
   left: 20px;
 }
 
