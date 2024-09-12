@@ -54,9 +54,9 @@ document.addEventListener("DOMContentLoaded", function() {
       updateSlider();
     }
 
-    // Set an interval for automatic sliding (10 seconds)
+    // Set an interval for automatic sliding (2 seconds)
     function startAutoSlide() {
-      autoSlideInterval = setInterval(goToNextSlide, 10000); 
+      autoSlideInterval = setInterval(goToNextSlide, 2000); 
     }
 
     // Function to stop the automatic slider

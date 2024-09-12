@@ -40,7 +40,8 @@
 
 /* Stops banner image from overflowing */
 body {
-  overflow-x: hidden;
+  overflow-x: hidden; 
+  overflow-y: auto;   
 }
 
 /* For sticky navbar */
@@ -555,7 +556,6 @@ body {
   height: 200px;
   overflow: hidden;
   transition: transform 0.5s, filter 0.5s, opacity 0.5s;
-  cursor: pointer;
   z-index: 1;
   background: none;
   border: none;
@@ -672,8 +672,8 @@ body {
 
 /* Responsiveness to change background when smaller screen */
 #mainContent {
-  height: 100vh;
-  transition: background-color 0.3s ease; 
+  min-height: 100vh; 
+  transition: background-color 0.3s ease;
 }
 
 @media (max-width: 576px) {
