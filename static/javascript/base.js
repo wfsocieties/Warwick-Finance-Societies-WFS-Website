@@ -6,19 +6,19 @@ document.addEventListener('DOMContentLoaded', function () {
             window.vantaEffect.destroy(); 
         }
 
-        var mainContent = document.getElementById('mainContent');
+        var fullPage = document.body; // Target the entire body or full-screen container
 
         // Ensure dimensions are accurate before initializing VANTA
-        var width = mainContent.offsetWidth;
-        var height = mainContent.offsetHeight;
+        var width = window.innerWidth;
+        var height = window.innerHeight;
 
         if (window.innerWidth > 576) {
-            mainContent.style.backgroundColor = 'transparent';
+            fullPage.style.backgroundColor = 'transparent';
 
             // Use requestAnimationFrame to ensure proper initialization
             window.requestAnimationFrame(function() {
                 window.vantaEffect = VANTA.WAVES({
-                    el: mainContent,
+                    el: fullPage,
                     mouseControls: true,
                     touchControls: true,
                     gyroControls: false,
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             });
         } else {
-            mainContent.style.backgroundColor = '#243282';
+            fullPage.style.backgroundColor = '#243282';
             if (window.vantaEffect) {
                 window.vantaEffect.destroy();
             }
@@ -52,4 +52,3 @@ document.addEventListener('DOMContentLoaded', function () {
         initVanta();
     });
 });
-
