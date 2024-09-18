@@ -5,6 +5,23 @@
 WFS Warwick Finance Societies - Advisory Division
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Advisory Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionAdvisory",
+        "description": "The Advisory Division of the Warwick Finance Societies provide expert guidance and external perspective to the Board.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
