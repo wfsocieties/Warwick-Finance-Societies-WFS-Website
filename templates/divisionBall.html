@@ -5,6 +5,28 @@
 WFS Warwick Finance Societies - Ball Division
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Ball Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionBall",
+        "description": "The Ball Division of the Warwick Finance Societies (WFS) organise the Spring Ball.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Ball Division of Warwick Finance Societies (WFS). The Ball team plan the highly anticipated Spring Ball, an evening of memories.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->

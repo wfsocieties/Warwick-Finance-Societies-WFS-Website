@@ -5,6 +5,28 @@
 WFS Warwick Finance Societies - Alumni Division 
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Alumni Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionAlumni",
+        "description": "The Alumni Division of the Warwick Finance Societies (WFS) forge connections with previous members of the society.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Alumni Division of Warwick Finance Societies (WFS). The Alumni team establish contact with Warwick alumni for insightful talks and events.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->

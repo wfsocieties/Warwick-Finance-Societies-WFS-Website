@@ -5,6 +5,28 @@
 WFS Warwick Finance Societies - Fintech Division 
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Fintech Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionFintech",
+        "description": "The Fintech Division of the Warwick Finance Societies (WFS) educates students about the evergrowing sector of financial technology.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Fintech Division of Warwick Finance Societies (WFS). The Fintech team host informative events about the fastest-paced area of finance.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
@@ -199,7 +221,7 @@ WFS Warwick Finance Societies - Fintech Division
                 src="/static/images/base/Fintech/WFSWarwickFinanceSocieties_Fintech1.jpg"
                 class="d-block w-100 img-fluid"
                 style="height: 100%; object-fit: cover;"
-                alt="Warwick University Warwick Finance Societies WFS Exec"
+                alt="Warwick University Warwick Finance Societies WFS Fintech Division"
               />
             </div>
       
@@ -208,7 +230,7 @@ WFS Warwick Finance Societies - Fintech Division
                 src="/static/images/base/Fintech/WFSWarwickFinanceSocieties_Fintech2.jpeg"
                 class="d-block w-100 img-fluid"
                 style="height: 100%; object-fit: cover;"
-                alt="Warwick University Warwick Finance Societies WFS Exec"
+                alt="Warwick University Warwick Finance Societies WFS Fintech Division"
               />
             </div>
           </div>

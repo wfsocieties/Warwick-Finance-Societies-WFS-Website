@@ -5,6 +5,28 @@
 WFS Warwick Finance Societies - Alternatives Division
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Alternatives Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionAlternatives",
+        "description": "The Alternatives Division of the Warwick Finance Societies (WFS) delves into research, portfolios and strategies across asset classes.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Alternatives Division of Warwick Finance Societies (WFS). The Alternatives team discusses various topics about the industry, and host numerous events regarding the Buy-Side of the financial world.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->

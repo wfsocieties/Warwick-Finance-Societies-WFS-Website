@@ -5,6 +5,28 @@
 WFS Warwick Finance Societies - Careers Division
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Careers Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionCareers",
+        "description": "The Careers Division of the Warwick Finance Societies (WFS) help prepare students for job applications within the fianancial world .",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Careers Division of Warwick Finance Societies (WFS). The Careers team run CV workshops and teach different interview techniques to help students with their applications.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->

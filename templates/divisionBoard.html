@@ -5,6 +5,28 @@
 WFS Warwick Finance Societies - Board Division
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Board Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionBoard",
+        "description": "The Board members of the Warwick Finance Societies (WFS) are in charge of leading the society.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Board members of Warwick Finance Societies (WFS). The Board members work together to manage the society, manage divisions, and create new ideas for WFS.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
