@@ -5,6 +5,28 @@
 WFS Markets
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Markets Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionMarkets",
+        "description": "The Markets Division of the Warwick Finance Societies (WFS) keep you up to date with the latest news about the financial markets",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Markets Division of Warwick Finance Societies (WFS). The Markets Team host weekly discussion events to talk more about recent updates in financial markets.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->

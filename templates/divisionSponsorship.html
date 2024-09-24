@@ -5,6 +5,28 @@
 WFS Sponsorships
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Sponsorship Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionSponsorship",
+        "description": "The Sponsorship Division of the Warwick Finance Societies (WFS) attract firms to help with WFS' growth and boost credibility",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Sponsorship Division of Warwick Finance Societies (WFS). The Sponsorship Team attract financial firms to help support WFS
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
@@ -137,9 +159,13 @@ WFS Sponsorships
     data-aos-offset="200">
         <div class="container">
         <p class="lead text-center">
-            Sponsorship helps to attract financial firms and organisations to support WFS, usually through events and competitions. Our sponsors are an integral differentiator that sets WFS apart from other universities’ finance societies, and helps WFS gain further credibility and achieve sustainable growth.
+            Sponsorship helps to attract financial firms and organisations to support WFS, usually through events 
+            and competitions. Our sponsors are an integral differentiator that sets WFS apart from other 
+            universities’ finance societies, and helps WFS gain further credibility and achieve sustainable growth.
             <br><br>
-            The past year, we’ve secured 11 Elite Sponsors to give our members closer access to the institutions that many wish to carve a career out at, such as Point72, Nomura and HSBC and more, alongside increasing the number of events we hold with existing sponsors specialising in other areas of finance such as trading.
+            The past year, we’ve secured 11 Elite Sponsors to give our members closer access to the institutions 
+            that many wish to carve a career out at, such as Point72, Nomura and HSBC and more, alongside increasing 
+            the number of events we hold with existing sponsors specialising in other areas of finance such as trading.
         </p>
         </div>
     </div>

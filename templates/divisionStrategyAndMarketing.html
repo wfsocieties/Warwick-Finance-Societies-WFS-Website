@@ -5,6 +5,28 @@
 WFS Strategy & Marketing
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Strategy and Marketing Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionStrategyandMarketing",
+        "description": "The Strategy and Marketing Division of the Warwick Finance Societies (WFS) work to promote all the events that WFS run.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Strategy and Marketing Division of Warwick Finance Societies (WFS). The Strategy and Marketing Team ensure that members and sponsors are informed of new WFS events.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->

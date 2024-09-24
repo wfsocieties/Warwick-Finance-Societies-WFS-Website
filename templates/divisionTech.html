@@ -5,6 +5,28 @@
 WFS Tech
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Tech Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionTech",
+        "description": "The Tech Division of the Warwick Finance Societies (WFS) monitor the society's website and other technological projects.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Tech Division of Warwick Finance Societies (WFS). The Tech Team manage the WFS website and create innovative projects to help the society.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
@@ -150,7 +172,10 @@ WFS Tech
     data-aos-offset="200">
         <div class="container">
         <p class="lead text-center">
-            As the Tech Team, we are responsible for the design, development, integration and maintenance of the website. We also perform technological projects and innovation across the society. We mainly aim to improve the website across the next year to make it as applicable for our members and then help keep the society at the technological forefront!
+            As the Tech Team, we are responsible for the design, development, integration and maintenance of the 
+            website. We also perform technological projects and innovation across the society. We mainly aim to 
+            improve the website across the next year to make it as applicable for our members and then help keep 
+            the society at the technological forefront!
         </p>
         </div>
     </div>

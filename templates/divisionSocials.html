@@ -5,6 +5,28 @@
 WFS Socials
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Socials Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionSocials",
+        "description": "The Socials Division of the Warwick Finance Societies (WFS) fosters community through engaging, light-hearted activities and events.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Socials Division of Warwick Finance Societies (WFS). The Socials Team run multiple stress-free events for everyone to enjoy, from circling to poker nights!
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
