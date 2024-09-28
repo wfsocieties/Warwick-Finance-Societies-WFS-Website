@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wfs-cloud-437011",
+  "private_key_id": "6c838e55632390668f829380e87f355edd5e8441",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCN0AlI24lz97Yn\nuKo7BzAZR53FV9/MYW9mk1XMl1r+ZBIeODfEINzdXzQFYsusyRtlNUHbrGm9wauh\nLI/2RIY/dtUoH5lWfukYr0145Ye/ZezvdqRSmlcOcKozq2r3q5cQ0uitdowfQfHs\nQXSVBpgrRCcn+nHAHZQspH3vVFaCDApq1Bi8IiLbvqiV0qot7PIkTmYp43Z7Sacm\nUXdiIqxCNYtzv7n7vSF8z2JSssrw1OvPbKkaG7Y5i7NyjQWEnD7hpUhjrbZ9cekY\npQdlmmJjK5QVqTFD3Ibpo6Vpj80H2B2n0yLUhxUqKgiivBeAOF2NMnhY9Ugx9pp9\nExyaKyytAgMBAAECggEAGLYTqBp5TTfxCeLn5vlNrFoKaATz/o1L+DfcT5ZgSMvv\nTEzHiumfEwQv8HBSxX0VxQEOxNS6aFKDMcauH1+5dP2kDyXSdnwO6jpB6bs1eGiu\nbNvjrnEuklmXjwFj1lyUKl5WJUPvDtNS8LRHOGC5y3BI0nKVt8BvvYe8WiP8HxTv\npFTEQyc7UHC8rnfDVBiWO1Pno8zzjMgh1ZiElkzH1gAzEHpx2pgRiLsxtaZktKVE\n7VDRTxWfAgVWCCVv5IMZErZYb4XhtAub2jyLUyY5jxVYwx6ja40ikxYFoWtD/rP5\nMeEd6LwfyIY7z+Jd03cFGIjicuxKBFCT2T1H+yGdkQKBgQC+9ecb9u2UVKsBUDes\nVPaSLfkt7f/m12zk9g/wjNnZD9kJlba4Au4dr37z5MHo0VEZM6mKkKc1kFGLPXW+\nrV+TAJOIIQEXXT3lU0WIPxXKv3IgbjZca92BDT8rLfqaNWxyRxagUIltskrlVUOF\nsSuJc0+tl15Mq5jfpeCvde5eqwKBgQC+HN0DaFJFXdQk0uk7F+kkPupcBI0L+D8Q\nm83Ol+vhwAjp3bt7oIhxoF/jmwqQoxooz3YJSbnEufy72yqk26dADv30IspdFmZo\n9sVS3JjuUYYqYq/tdAE3iBeG42t4t+E5uloPV2FxNHx/Ewx7cMp2UbRHChG3Rkka\nS6Y/wrvCBwKBgF5K/FCRsKTC3iHq42LEHXD3JIiqcechztKMMji8xEFrkucptyzL\nvZqI8u4pshptaVdBbGFQplBLsAhKU97Qq1XiPfdFHM3Vq9+WK8poJDGWMRuUcGFY\nnerAiMWgkZMd+CvBsIl+2y2AkX0Gii302yOm/dwg116SiQ0+UmExoX+7AoGBAJs0\nNx60CQ5GRo31faDXqWcE0hFjSb7u4JVvjPpPPqwjOWOruIZ6DUouMno/NcXU0eNl\nUyjL/pPjfrfiehLym70JQDwSNwD964dfhsJaA6Pz/EMYJCYHoYKzYPmnKjL4cy/M\nuf9yR8PCpKydYYBZGYC0vSeNyd7Ey6NjBQtisCP7AoGBALleU/Oz7pZBMeI8a2Ac\nOynEKYmXQAP3gUJlYyrw/+Ny5GKQz4hAifvMc85zyHjsTjAxu3IdsjuEgwQElRlF\ndLbT/uBVUKWVdFEAKJg/5U0fyDqlMNSYdm2en3j7U3OGE2NhBR0J+aK1VWdgfZGI\nKF8QM+T/d5DKF6OmSNprLSdd\n-----END PRIVATE KEY-----\n",
+  "client_email": "wfs-service-account@wfs-cloud-437011.iam.gserviceaccount.com",
+  "client_id": "102610050128597228285",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wfs-service-account%40wfs-cloud-437011.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
