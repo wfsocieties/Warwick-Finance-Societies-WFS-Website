@@ -1,7 +1,12 @@
 from flask import Flask, render_template, request, jsonify
 import os
+import io
 import requests
 import urllib.parse
+from googleapiclient.discovery import build 
+from googleapiclient.http import MediaIoBaseUpload 
+from google.oauth2.credentials import Credentials
+from google.oauth2 import service_account
 
 app = Flask(__name__)
 
@@ -111,54 +116,129 @@ def divisionBoard():
 def resourcesHub(): 
     return render_template("resourcesHub.html")
 
-# Form for webhooks
+def getGDriveService():
+    serviceAccountFile = "serviceKey.json"
+    SCOPES = ['https://www.googleapis.com/auth/drive']
+
+    creds = service_account.Credentials.from_service_account_file(serviceAccountFile, scopes=SCOPES)
+
+    driveService = build("drive", "v3", credentials=creds)
+    return driveService 
+
+def getFolderID(folderName):
+    driveService = getGDriveService()
+    
+    # Ensure this is the correct ID for "WFS Cloud"
+    parentFolderID = "1UD175_YR9jE5aazhw1v42zGrC9xUoxPt"
+
+    # List all folders in the specified parent folder
+    try:
+        query = f"'{parentFolderID}' in parents and mimeType='application/vnd.google-apps.folder' and trashed=false"
+        
+        print(f"Debug Query for listing folders: {query}")  # Log the query
+        
+        # Execute the query
+        results = driveService.files().list(q=query, fields="files(id, name)").execute()
+        folders = results.get("files", [])
+        
+        if folders:
+            print("Folders found in the specified parent folder:")
+            for folder in folders:
+                print(f"Folder Name: {folder['name']}, Folder ID: {folder['id']}")
+        else:
+            print("No folders found in the specified parent folder.")
+            
+    except Exception as e:
+        print(f"Error retrieving folders: {str(e)}")  # Log any errors
+    
+    # Adjusted query to search for a specific folder name
+    query = f"name='{folderName}' and mimeType='application/vnd.google-apps.folder' and '{parentFolderID}' in parents and trashed=false"
+    
+    print(f"Debug Query for searching folder '{folderName}': {query}")  # Log the query
+    
+    try:
+        results = driveService.files().list(q=query, fields="files(id, name)").execute()
+        folders = results.get("files", [])
+        
+        if folders:
+            print(f"Folder found: {folders[0]['name']} with ID: {folders[0]['id']}")  # Log found folder
+            return folders[0]["id"]
+        else:
+            print(f"No folder found for: {folderName}")  # Log no folder found
+            
+            # List all subfolders in the parent folder for debugging
+            allFolders = driveService.files().list(q=f"'{parentFolderID}' in parents and mimeType='application/vnd.google-apps.folder'",
+                                                   fields="files(id, name)").execute()
+            allFoldersList = allFolders.get("files", [])
+            print("Subfolders in parent folder for debugging:")
+            for folder in allFoldersList:
+                print(f"Folder Name: {folder['name']}, Folder ID: {folder['id']}")
+                
+            return None
+    except Exception as e:
+        print(f"Error retrieving folder ID: {str(e)}")  # Log any errors
+        return None
+
 @app.route("/webhook", methods=["POST"])
-def tallyWebhook():
+def formsWebhook():
     try:
         print("Webhook received!")
         payload = request.json
         print("Payload:", payload)
 
-        # Extract data from payload
         fields = payload.get('data', {}).get('fields', [])
         
         division = None
         fileURL = None
 
-        for field in fields:
-            if field.get('type') == 'DROPDOWN' and 'value' in field:
-                # Get division text from options
-                division = field.get('options', [{}])[0].get('text', 'Unknown')
-            elif field.get('type') == 'FILE_UPLOAD' and 'value' in field:
-                # Extract file URL from the list of file objects
+        for field in fields: 
+            if field.get("type") == "DROPDOWN" and "value" in field:
+                division = next((option['text'] for option in field.get('options', []) if option['id'] in field['value']), None)
+                print(f"Division selected: {division}")  # Log selected division
+
+            elif field.get("type") == "FILE_UPLOAD" and "value" in field:
                 fileURL = field.get('value', [{}])[0].get('url')
+                print(f"File URL: {fileURL}")  # Log file URL
 
         if division and fileURL:
-            # Sanitise file name to remove query parameters
-            fileName = urllib.parse.unquote(fileURL.split("/")[-1].split("?")[0])
-            folderPath = os.path.join("uploads", division)
-            os.makedirs(folderPath, exist_ok=True)
+            print(division + " THIS IS THE DIVISION NAME")
+            folderID = getFolderID(division)
 
-            filePath = os.path.join(folderPath, fileName)
+            if not folderID: 
+                print("Warning: Division folder not found in Google Drive")  # Warning message
+                return jsonify({"status": "failed", "message": "Division folder not found in Google Drive"}), 400
+            
+            fileResponse = requests.get(fileURL)
+            print(f"File response status: {fileResponse.status_code}")  # Log file response status
 
-            # Check if URL and file are accessible
-            try:
-                fileResponse = requests.get(fileURL)
+            if fileResponse.status_code == 200:
+                fileName = urllib.parse.unquote(fileURL.split("/")[-1].split("?")[0])
+                print(f"File name determined: {fileName}")  # Log determined file name
 
-                if fileResponse.status_code == 200:
-                    with open(filePath, "wb") as f:
-                        f.write(fileResponse.content)
-                    return jsonify({"status": "success", "file_path": filePath})
-                else:
-                    return jsonify({"status": "failed", "message": "Failed to retrieve file"}), 400
-            except Exception as e:
-                return jsonify({"status": "error", "message": "Error retrieving file"}), 500
-        
-        return jsonify({"status": "failed", "message": "data not found"})
+                media = MediaIoBaseUpload(io.BytesIO(fileResponse.content), mimetype=fileResponse.headers['Content-Type'])
+                
+                driveService = getGDriveService() 
+                fileMetadata = {
+                    "name": fileName,
+                    "parents": [folderID]
+                }
+                
+                # Upload file to Google Drive
+                driveService.files().create(body=fileMetadata, media_body=media, fields="id").execute()
+                print(f"File '{fileName}' uploaded successfully to folder ID: {folderID}")  # Log success
+
+                return jsonify({"status": "success", "file_name": fileName}), 200
+            else:
+                print(f"Failed to retrieve file: {fileResponse.status_code} - {fileResponse.text}")  # Log failure
+                return jsonify({"status": "failed", "message": "Failed to retrieve file"}), 400
+
+        print("Data not found in the payload")  # Log no data found
+        return jsonify({"status": "failed", "message": "Data not found"}), 400
     
     except Exception as e:
-        return jsonify({"status": "error", "message": str(e)})
-
+        print(f"Error occurred in webhook: {str(e)}")  # Log the error
+        return jsonify({"status": "error", "message": str(e)}), 500
+    
 # Ensures framework works
 if __name__ == "__main__":
     app.run(debug=True)
