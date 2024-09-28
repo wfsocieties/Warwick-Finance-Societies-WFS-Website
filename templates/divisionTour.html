@@ -5,6 +5,28 @@
 WFS Tour
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Tour Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionTour",
+        "description": "The Tour Division of the Warwick Finance Societies (WFS) organises exciting domestic and international trips for members.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Tour Division of Warwick Finance Societies (WFS). The Tour Team is responsibe for planning domestic and international trips for members to enjoy together!
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->

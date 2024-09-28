@@ -5,6 +5,29 @@
 WFS Women in Finance & Diversiy
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Women In Finance And Diversity Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionWomenInFinanceAndDiversity",
+        "description": "The Women In Finance And Diversity Division of the Warwick Finance Societies (WFS) help empower women and encourage them to join the finance industry.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Women In Finance And Diversity Division of Warwick Finance Societies (WFS). The WIF Team creates a welcoming and supportive community for women and members with diverse backgrounds.
+{% endblock %}
+
+
 {% block content %}
 
 <!-- Navbar -->

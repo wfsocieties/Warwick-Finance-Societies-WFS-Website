@@ -5,6 +5,28 @@
 WFS Quant Finance
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Quant Finance Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionQuantFinance",
+        "description": "The Quant Finance Division of the Warwick Finance Societies (WFS) works bridge the gap between students' quantitative skillsets and financial analysis.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Quant Finance Division of Warwick Finance Societies (WFS). The Quant Team educate aspiring quants and help develop their technical knowledge
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->

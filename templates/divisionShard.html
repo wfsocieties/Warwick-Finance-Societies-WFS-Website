@@ -5,6 +5,28 @@
 WFS Shard
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Shard Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionShard",
+        "description": "The Shard Division of the Warwick Finance Societies (WFS) host networking events at The Shard",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Shard Division of Warwick Finance Societies (WFS). The Shard Team host both Buy-Side and Sell-Side conferences at the Shard, allowing members to network with industry experts.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
