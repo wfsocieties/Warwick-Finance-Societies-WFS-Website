@@ -5,6 +5,28 @@
 WFS Sports
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Sport Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionSport",
+        "description": "The Sport Division of the Warwick Finance Societies (WFS) host numerous sports activities for members to enjoy.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Sport Division of Warwick Finance Societies (WFS). The Sports Team run different sports matches for members to compete and have fun!
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
@@ -137,7 +159,8 @@ WFS Sports
     data-aos-offset="200">
         <div class="container">
         <p class="lead text-center">
-            The Sports division creates opportunities for our members to compete for WFS in different sport matches and win trophies, enhancing the overall WFS member experience!
+            The Sports division creates opportunities for our members to compete for WFS in different sport 
+            matches and win trophies, enhancing the overall WFS member experience!
         </p>
         </div>
     </div>

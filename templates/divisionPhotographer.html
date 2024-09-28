@@ -5,6 +5,28 @@
 WFS Photographer
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Photographer Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionPhotographer",
+        "description": "The Photographer Division of the Warwick Finance Societies (WFS) captures key WFS events and offers LinkedIn photoshoots.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Photographer Division of Warwick Finance Societies (WFS). The Photographer will take high-quality pictures of society events throughout the academic year.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
@@ -137,7 +159,8 @@ WFS Photographer
     data-aos-offset="200">
         <div class="container">
         <p class="lead text-center">
-            As the official Photographer, I’ll be responsible for taking high-quality photos during society events, especially for WFS Flagship Events such as the Shard Conferences, Female in Finance Conference and FinTech Week. 
+            As the official Photographer, I’ll be responsible for taking high-quality photos during society events, 
+            especially for WFS Flagship Events such as the Shard Conferences, Female in Finance Conference and FinTech Week. 
             Linkedin Photoshoot will also be offered during Term 1!
         </p>
         </div>

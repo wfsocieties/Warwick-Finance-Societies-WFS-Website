@@ -5,6 +5,28 @@
 WFS Speaker Series
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Speaker Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionSpeaker",
+        "description": "The Speaker Division of the Warwick Finance Societies (WFS) invite industry experts to discuss the world of finance.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Speaker Division of Warwick Finance Societies (WFS). The Speaker team bring in different industry leaders to talk about their experiences in the financial sector, and provide valuable information to students.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
@@ -209,7 +231,7 @@ WFS Speaker Series
             <img
               src="/static/images/base/Speakers/WFS Warwick Finance Societies Holiwise.jpg"
               class="d-block w-100 img-fluid"
-              alt="Warwick University Warwick Finance Societies WFS Exec"
+              alt="Warwick University Warwick Finance Societies WFS Speaker Division Holiwise"
               style="height: 100%; object-fit: cover;"
             />
             <div class="carousel-caption d-none d-md-block">
@@ -222,7 +244,7 @@ WFS Speaker Series
             <img
               src="/static/images/base/Speakers/WFS Warwick Finance Societies CVC_Capital.jpg"
               class="d-block w-100 img-fluid"
-              alt="Warwick University Warwick Finance Societies WFS Exec"
+              alt="Warwick University Warwick Finance Societies WFS Speaker Division CVC Capital"
               style="height: 100%; object-fit: cover;"
             />
             <div class="carousel-caption d-none d-md-block">
@@ -235,7 +257,7 @@ WFS Speaker Series
             <img
               src="/static/images/base/Speakers/WFS Warwick Finance Societies Sprints_Growth.jpg"
               class="d-block w-100 img-fluid"
-              alt="Warwick University Warwick Finance Societies WFS Exec"
+              alt="Warwick University Warwick Finance Societies WFS Speaker Divisions Sprints Growth"
               style="height: 100%; object-fit: cover;"
             />
             <div class="carousel-caption d-none d-md-block">
@@ -248,7 +270,7 @@ WFS Speaker Series
             <img
               src="/static/images/base/Speakers/WFS Warwick Finance Societies Dare_Energy.jpg"
               class="d-block w-100 img-fluid"
-              alt="Warwick University Warwick Finance Societies WFS Exec"
+              alt="Warwick University Warwick Finance Societies WFS Speaker Division Dare Energy"
               style="height: 100%; object-fit: cover;"
             />
             <div class="carousel-caption d-none d-md-block">

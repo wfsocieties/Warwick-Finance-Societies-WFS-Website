@@ -5,6 +5,28 @@
 WFS Investment Banking
 {% endblock %}
 
+<!-- Schema markup -->
+{% block extra_head %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Investment Banking Division - Warwick Finance Societies",
+        "url": "https://www.warwickfinancesocieties.org/divisionInvestmentBanking",
+        "description": "The Investment Banking Division of the Warwick Finance Societies (WFS) equip students with the necessary skills needed to obtain a career in Investment Banking.",
+        "mainEntityOfPage": {
+            "@type": "Organization",
+            "name": "Warwick Finance Societies"
+        }
+    }
+    </script>
+{% endblock %}
+
+<!-- Meta Description -->
+{% block meta_description %}
+Explore the Investment Banking Division of Warwick Finance Societies (WFS). The Investment Banking team host technical events, deep dives, and case studies to help students learn more about Investment Banking.
+{% endblock %}
+
 {% block content %}
 
 <!-- Navbar -->
