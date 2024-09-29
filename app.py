@@ -115,7 +115,7 @@ def divisionBoard():
 
 # Upload files to cloud
 def getGDriveService():
-    serviceAccountFile = "serviceKey.json"
+    serviceAccountFile = '/home/WarwickFinanceSocieties/serviceKey.json'
     SCOPES = ['https://www.googleapis.com/auth/drive']
 
     creds = service_account.Credentials.from_service_account_file(serviceAccountFile, scopes=SCOPES)
@@ -241,7 +241,7 @@ def formsWebhook():
 def getFilesInFolder(folderID):
     SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 
-    serviceAccountFile = "serviceKey.json"
+    serviceAccountFile = '/home/WarwickFinanceSocieties/serviceKey.json'
     creds = service_account.Credentials.from_service_account_file(serviceAccountFile, scopes=SCOPES)
     driveService = build("drive", "v3", credentials=creds)
 
