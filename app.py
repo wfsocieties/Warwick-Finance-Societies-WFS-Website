@@ -7,6 +7,9 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseUpload 
 from google.oauth2.credentials import Credentials
 from google.oauth2 import service_account
+from googleapiclient.errors import HttpError
+import time 
+import random
 
 app = Flask(__name__)
 
@@ -206,6 +209,9 @@ def formsWebhook():
                 print("Warning: Division folder not found in Google Drive")  # Warning message
                 return jsonify({"status": "failed", "message": "Division folder not found in Google Drive"}), 400
             
+            # Add initial delay before fetching the file
+            time.sleep(3)  # Wait for 3 seconds
+
             fileResponse = requests.get(fileURL)
             print(f"File response status: {fileResponse.status_code}")  # Log file response status
 
@@ -221,11 +227,26 @@ def formsWebhook():
                     "parents": [folderID]
                 }
                 
-                # Upload file to Google Drive
-                driveService.files().create(body=fileMetadata, media_body=media, fields="id").execute()
-                print(f"File '{fileName}' uploaded successfully to folder ID: {folderID}")  # Log success
-
-                return jsonify({"status": "success", "file_name": fileName}), 200
+                # Initialize retry parameters
+                max_retries = 5
+                for attempt in range(max_retries):
+                    try:
+                        # Upload file to Google Drive
+                        driveService.files().create(body=fileMetadata, media_body=media, fields="id").execute()
+                        print(f"File '{fileName}' uploaded successfully to folder ID: {folderID}")  # Log success
+                        return jsonify({"status": "success", "file_name": fileName}), 200
+                    except HttpError as e:
+                        if e.resp.status == 429:  # Too Many Requests
+                            wait_time = 2 ** attempt + random.uniform(0, 1)  # Exponential backoff with jitter
+                            print(f"Rate limit exceeded. Retrying in {wait_time:.2f} seconds...")
+                            time.sleep(wait_time)
+                        else:
+                            print(f"An error occurred during file upload: {str(e)}")
+                            break  # Break if it's not a rate limit issue
+                
+                print("Max retries reached. File upload failed.")
+                return jsonify({"status": "failed", "message": "File upload failed after multiple attempts"}), 500
+            
             else:
                 print(f"Failed to retrieve file: {fileResponse.status_code} - {fileResponse.text}")  # Log failure
                 return jsonify({"status": "failed", "message": "Failed to retrieve file"}), 400
