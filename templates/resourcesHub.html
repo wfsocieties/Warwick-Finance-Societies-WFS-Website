@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}
-WFS Warwick Finance Societies - Sponsors
+WFS Resource Hub
 {% endblock %}
 
 {% block content %}
@@ -93,11 +93,11 @@ WFS Warwick Finance Societies - Sponsors
         <div class="d-flex justify-content-center align-items-center h-100">
             <div class="container text-center">
                 <h1 class="display-4 mb-2 text-white" data-aos="fade-down" data-aos-delay="1000" data-aos-easing="ease-in-out">
-                    Warwick Finance Societies <br> Resources
+                    Resource Hub
                 </h1>
                 <div class="row mt-2 mb-5">
                     <div class="col text-center lead mb-0 text-white" data-aos="fade-down" data-aos-delay="400" data-aos-easing="ease-in-out">
-                        Sentence about resources
+                        Empowering our members with valuable resources and insights through shared materials, including slides from our events, to enhance career opportunities in finance.
                     </div>
                 </div>
             </div>
@@ -112,14 +112,17 @@ WFS Warwick Finance Societies - Sponsors
 <div id="mainContent" style="height:100%">
     <!-- WFS Resource paragraph -->
     <br><br>
-    <div class="jumbotron mx-5 jumbotron-fluid bg-white border-dark border rounded" style="border-width: 2px; border-radius: 10px;"
+    <!-- Society description -->
+    <div class="jumbotron mx-5 jumbotron-fluid custom-jumbotron border-dark border rounded" 
+    style="background-image: url('/static/images/base/Text Backgrounds/WFS%20Warwick%20University%20Warwick%20Finance%20Societies%20Text%20Background.jpeg');"
     data-aos="zoom-in"
     data-aos-easing="ease-in-out"
     data-aos-delay="100"
     data-aos-offset="200">
         <div class="container">
+            <h1 class="display-4 text-center">WFS Resources</h1>
             <p class="lead text-center">
-                Lorem ipsum
+                At the Warwick Finance Societies (WFS), we are dedicated to providing our members with a wealth of resources to support their career aspirations in the finance industry. One of the ways we achieve this is by sharing valuable materials, such as slides from our events, workshops, and guest speaker sessions. These resources are designed to enhance your understanding of various finance topics, from investment banking to private equity, and to equip you with the knowledge needed to excel in competitive roles. By making these materials accessible, we aim to foster a collaborative learning environment where members can gain insights from real professionals and apply their learning to real-world scenarios. Together, we are committed to ensuring that every member has the tools and opportunities necessary to thrive in their finance careers.
             </p>
         </div>
     </div>
@@ -130,28 +133,163 @@ WFS Warwick Finance Societies - Sponsors
         data-aos="fade-right"
         data-aos-easing="ease-in-out"
         data-aos-offset="250"
-        data-aos-delay="100">Division Resources</p>
-    </center> 
-
+        data-aos-delay="100">WFS Division Resources</p>
+    </center>
+  
     <div class="container mt-4">
         <!-- Row 2 -->
-        <div class="row mb-4 d-flex justify-content-center">
-            <div class="col-md-3 col-sm-6 mb-4 hvr-shrink">
-                <div class="card card-container-exec hvr-glow tilting-div floating-3d"
-                data-aos="zoom-in"
-                data-aos-easing="ease-in-out"
-                data-aos-delay="100"
-                data-aos-offset="150"
-                style="cursor: pointer;"
-                onclick="window.location.href='{{ url_for('resourcesHub') }}'">
-                    <img src="https://via.placeholder.com/400x300" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
-                    <div class="card-overlay-exec">
-                        <h3 class="card-title-exec">Alternatives</h3>
+        <center>
+            <div class="row mb-4">
+            
+                <div class="col-md-4 col-sm-12 mb-4 hvr-shrink">
+                    <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-offset="150"
+                    style="cursor: pointer;"
+                    onclick="window.location.href='/marketsResources';">
+                        <img src="/static/images/base/Markets/WFS Warwick University Warwick Finance Societies Markets1.jpg" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                        <div class="card-overlay-exec">
+                            <h3 class="card-title-exec">Markets</h3>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 col-sm-12 mb-4 hvr-shrink">
+                    <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-offset="150"
+                    style="cursor: pointer;"
+                    onclick="window.location.href='/quantFinanceResources';">
+                        <img src="/static/images/base/Quant Finance/WFS Warwick University Warwick Finance Societies Quant Finance1.jpg" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                        <div class="card-overlay-exec">
+                            <h3 class="card-title-exec">Quant Finance</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-4 hvr-shrink">
+                    <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-offset="150"
+                    style="cursor: pointer;"
+                    onclick="window.location.href='/investmentBankingResources';">
+                        <img src="/static/images/base/Investment Banking/WFS Warwick University Warwick Finance Societies Investment Banking1.jpg" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                        <div class="card-overlay-exec">
+                            <h3 class="card-title-exec">Investment Banking</h3>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </center>
+    
+        <!-- Row 3 -->
+        <center>
+            <div class="row mb-4">
+                <div class="col-md-4 col-sm-12 mb-4 hvr-shrink">
+                    <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-offset="150"
+                    style="cursor: pointer;"
+                    onclick="window.location.href='/alternativesResources';">
+                        <img src="/static/images/base/Alternatives/WFS Warwick University Warwick Finance Societies Alternatives1.jpeg" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                        <div class="card-overlay-exec">
+                            <h3 class="card-title-exec">Alternatives</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 mb-4 hvr-shrink">
+                    <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-offset="150"
+                    style="cursor: pointer;"
+                    onclick="window.location.href='/fintechResources';">
+                        <img src="/static/images/base/Fintech/WFS Warwick University Warwick Finance Societies Fintech1.jpg" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                        <div class="card-overlay-exec">
+                            <h3 class="card-title-exec">Fintech</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 mb-4 hvr-shrink">
+                    <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-offset="150"
+                    style="cursor: pointer;"
+                    onclick="window.location.href='/wifResources';">
+                        <img src="/static/images/base/WIF and Diversity/WFS Warwick University Warwick Finance Societies WIF1.jpg" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                        <div class="card-overlay-exec">
+                            <h3 class="card-title-exec">Women in Finance <br> & <br> Diversity</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+    
+        <!-- Row 4 -->
+        <center>
+            <div class="row mb-4">
+
+                <div class="col-md-4 col-sm-12 mb-4 hvr-shrink">
+                    <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-offset="150"
+                    style="cursor: pointer;"
+                    onclick="window.location.href='/insightsResources';">
+                        <img src="/static/images/base/Insights/WFS Warwick University Warwick Finance Societies Insights1.jpg" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                        <div class="card-overlay-exec">
+                            <h3 class="card-title-exec">Insights</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 mb-4 hvr-shrink">
+                    <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-offset="150"
+                    style="cursor: pointer;"
+                    onclick="window.location.href='/speakerSeriesResources';">
+                        <img src="/static/images/base/Speakers/WFS Warwick University Warwick Finance Societies Speakers1.jpg" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                        <div class="card-overlay-exec">
+                            <h3 class="card-title-exec">Speaker Series</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-12 mb-4 hvr-shrink">
+                    <div class="card card-container-exec hvr-glow tilting-div floating-3d"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="100"
+                    data-aos-offset="150"
+                    style="cursor: pointer;"
+                    onclick="window.location.href='/careersResources';">
+                        <img src="/static/images/base/Careers/WFS Warwick University Warwick Finance Societies Careers1.png" class="card-img-exec img-fluid" alt="Warwick University Warwick Finance Societies WFS Exec and Division">
+                        <div class="card-overlay-exec">
+                            <h3 class="card-title-exec">Careers</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
     </div>
+
+    
 
     <br><br><br><br><br><br>
 </div>

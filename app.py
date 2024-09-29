@@ -111,11 +111,9 @@ def divisionAdvisory():
 def divisionBoard():
     return render_template("divisionBoard.html")
 
-# Resources area 
-@app.route("/resourcesHub", methods=["POST","GET"])
-def resourcesHub(): 
-    return render_template("resourcesHub.html")
+# Resources
 
+# Upload files to cloud
 def getGDriveService():
     serviceAccountFile = "serviceKey.json"
     SCOPES = ['https://www.googleapis.com/auth/drive']
@@ -239,6 +237,96 @@ def formsWebhook():
         print(f"Error occurred in webhook: {str(e)}")  # Log the error
         return jsonify({"status": "error", "message": str(e)}), 500
     
+# Get files from Google Drive folder
+def getFilesInFolder(folderID):
+    SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
+
+    serviceAccountFile = "serviceKey.json"
+    creds = service_account.Credentials.from_service_account_file(serviceAccountFile, scopes=SCOPES)
+    driveService = build("drive", "v3", credentials=creds)
+
+    try:
+        results = driveService.files().list(
+            q=f"'{folderID}' in parents and trashed=false",
+            fields="files(id, name, mimeType, webContentLink, createdTime)",
+            orderBy="createdTime desc"  # Sort by created time in descending order
+        ).execute()
+        
+        return results.get("files", [])
+    
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return []
+
+# Resource pages
+# Resource hub
+@app.route("/resourcesHub", methods=["POST","GET"])
+def resourcesHub(): 
+    return render_template("resourcesHub.html")
+
+# Markets
+@app.route("/marketsResources")
+def marketsResources():
+    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    files = getFilesInFolder(folderID)
+    return render_template("marketsResources.html", files=files)
+
+# Quant Finance
+@app.route("/quantFinanceResources")
+def quantFinanceResources():
+    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    files = getFilesInFolder(folderID)
+    return render_template("quantFinanceResources.html", files=files)
+
+# Investment Banking
+@app.route("/investmentBankingResources")
+def investmentBankingResources():
+    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    files = getFilesInFolder(folderID)
+    return render_template("investmentBankingResources.html", files=files)
+
+# Alternatives
+@app.route("/alternativesResources")
+def alternativesResources():
+    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    files = getFilesInFolder(folderID)
+    return render_template("alternativesResources.html", files=files)
+
+# Fintech
+@app.route("/fintechResources")
+def fintechResources():
+    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    files = getFilesInFolder(folderID)
+    return render_template("fintechResources.html", files=files)
+
+# WIF
+@app.route("/wifResources")
+def wifResources():
+    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    files = getFilesInFolder(folderID)
+    return render_template("wifResources.html", files=files)
+
+# Insights
+@app.route("/insightsResources")
+def insightsResources():
+    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    files = getFilesInFolder(folderID)
+    return render_template("insightsResources.html", files=files)
+
+# Speaker Series
+@app.route("/speakerSeriesResources")
+def speakerSeriesResources():
+    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    files = getFilesInFolder(folderID)
+    return render_template("speakerSeriesResources.html", files=files)
+
+# Careers
+@app.route("/careersResources")
+def careersResources():
+    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    files = getFilesInFolder(folderID)
+    return render_template("careersResources.html", files=files)
+
 # Ensures framework works
 if __name__ == "__main__":
     app.run(debug=True)

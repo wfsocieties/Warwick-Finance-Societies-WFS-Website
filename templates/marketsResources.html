@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markets Files</title>
+</head>
+<body>
+    <h1>Files for Markets</h1>
+    <ul>
+        {% for file in files %}
+            <li>
+                <a href="{{ file.webContentLink }}" download>{{ file.name }}</a>
+                {% if file.mimeType == 'application/vnd.ms-powerpoint' %}
+                    <span>(PowerPoint File)</span>
+                {% elif file.mimeType == 'application/vnd.openxmlformats-officedocument.presentationml.presentation' %}
+                    <span>(PowerPoint File)</span>
+                {% else %}
+                    <span>(Other File Type)</span>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
