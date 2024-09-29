@@ -127,7 +127,7 @@ def getFolderID(folderName):
     driveService = getGDriveService()
     
     # Ensure this is the correct ID for "WFS Cloud"
-    parentFolderID = "1UD175_YR9jE5aazhw1v42zGrC9xUoxPt"
+    parentFolderID = "1q1MFF0mkI-H4VNrLaSn03Zkg7-jl6rGh"
 
     # List all folders in the specified parent folder
     try:
@@ -267,63 +267,63 @@ def resourcesHub():
 # Markets
 @app.route("/marketsResources")
 def marketsResources():
-    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    folderID = "12cb6VLtd-hv3zNr9nzg0MpkHiZ-PfPjL"  # This is the folder ID in Google Drive
     files = getFilesInFolder(folderID)
     return render_template("marketsResources.html", files=files)
 
 # Quant Finance
 @app.route("/quantFinanceResources")
 def quantFinanceResources():
-    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    folderID = "1plTvwABxYHPjbMTMvjdrFhtkI2vHqEUE"  # This is the folder ID in Google Drive
     files = getFilesInFolder(folderID)
     return render_template("quantFinanceResources.html", files=files)
 
 # Investment Banking
 @app.route("/investmentBankingResources")
 def investmentBankingResources():
-    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    folderID = "1RoeMko0CENKyIw0d8n29njSmdvU2s80f"  # This is the folder ID in Google Drive
     files = getFilesInFolder(folderID)
     return render_template("investmentBankingResources.html", files=files)
 
 # Alternatives
 @app.route("/alternativesResources")
 def alternativesResources():
-    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    folderID = "1-gb6ZKnEpPRZR8XaBCfpVvFVMTlSOUlq"  # This is the folder ID in Google Drive
     files = getFilesInFolder(folderID)
     return render_template("alternativesResources.html", files=files)
 
 # Fintech
 @app.route("/fintechResources")
 def fintechResources():
-    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    folderID = "17j84nZiisC1tc6GJ00wsYtDJy0DbNFgs"  # This is the folder ID in Google Drive
     files = getFilesInFolder(folderID)
     return render_template("fintechResources.html", files=files)
 
 # WIF
 @app.route("/wifResources")
 def wifResources():
-    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    folderID = "1tBZP5p4oxyLLDeWzRvBsYANyow76a8ie"  # This is the folder ID in Google Drive
     files = getFilesInFolder(folderID)
     return render_template("wifResources.html", files=files)
 
 # Insights
 @app.route("/insightsResources")
 def insightsResources():
-    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    folderID = "124FTau0kNnfcw03J_zqIPqaVlYcitofy"  # This is the folder ID in Google Drive
     files = getFilesInFolder(folderID)
     return render_template("insightsResources.html", files=files)
 
 # Speaker Series
 @app.route("/speakerSeriesResources")
 def speakerSeriesResources():
-    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    folderID = "14jisQWA2f0XkVp_z9n-bs82zqNDZ1k-m"  # This is the folder ID in Google Drive
     files = getFilesInFolder(folderID)
     return render_template("speakerSeriesResources.html", files=files)
 
 # Careers
 @app.route("/careersResources")
 def careersResources():
-    folderID = "1QN8tOuJgnBdwjEI5iQ_0xOUEK0sgwEJ-"  # This is the folder ID in Google Drive
+    folderID = "16UwERHPBlrUYFUeS8Oh2mKF03WNgQiTV"  # This is the folder ID in Google Drive
     files = getFilesInFolder(folderID)
     return render_template("careersResources.html", files=files)
 
