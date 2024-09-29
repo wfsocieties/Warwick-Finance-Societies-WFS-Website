@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}
+WFS Insights Resources
+{% endblock %}
+
+{% block content %}
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #0c154a; z-index: 1039; top: 54px;">
+    <div class="container-fluid">
+        <!-- Navbar toggler (visible on small screens and up) -->
+        <button class="navbar-toggler d-md-none ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: #ffffff;"></span>
+        </button>
+  
+        <!-- Navbar content -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <!-- Flagships Dropdown -->
+                <li class="nav-item dropdown mx-3 mx-md-4 mx-lg-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownFlagships" role="button" aria-expanded="false">
+                        Flagships
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownFlagships" style="background-color: #0c154a;">
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('marketsResources') }}" style="font-size: 0.9rem;">Markets</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('quantFinanceResources') }}" style="font-size: 0.9rem;">Quant Finance</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('investmentBankingResources') }}" style="font-size: 0.9rem;">Investment Banking</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('speakerSeriesResources') }}" style="font-size: 0.9rem;">Speaker Series</a></li>
+                    </ul>
+                </li>
+                <!-- Finance Dropdown -->
+                <li class="nav-item dropdown mx-3 mx-md-4 mx-lg-5">
+                    <a class="nav-link dropdown-toggle text-white hvr-underline-from-center hvr-glow hvr-grow hvr-bob" href="#" id="navbarDropdownFinance" role="button" aria-expanded="false">
+                        Finance
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownFinance" style="background-color: #0c154a;">
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('alternativesResources') }}" style="font-size: 0.9rem;">Alternatives</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('fintechResources') }}" style="font-size: 0.9rem;">Fintech</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('wifResources') }}" style="font-size: 0.9rem;">Women in Finance & Diversity</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('insightsResources') }}" style="font-size: 0.9rem;">Insights</a></li>
+                        <li><a class="dropdown-item hvr-shutter-out-vertical text-white" href="{{ url_for('careersResources') }}" style="font-size: 0.9rem;">Careers</a></li>
+                    </ul>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero image -->
+<div class="hero-image position-relative" style="background-image: url('/static/images/base/Insights/WFS Warwick Finance Societies Insights2.png'); background-size: cover; background-position: center; width: 100vw; height: 50vh; filter: grayscale(100%);">
+    <div class="mask">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="container text-center">
+                <h1 class="display-4 mb-2 text-white" data-aos="fade-down" data-aos-delay="1000" data-aos-easing="ease-in-out">
+                    Insights 
+                </h1>
+                <div class="row mt-2 mb-5">
+                    <div class="col text-center lead mb-0 text-white" data-aos="fade-down" data-aos-delay="400" data-aos-easing="ease-in-out">
+                      Simplifying finance through engaging content and exciting competitions.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Border below hero image -->
+<div class="border-bottom"></div>
+
+<!-- Main content -->
+<div id="mainContent" style="height:100%">
+    <!-- WFS Resource paragraph -->
+    <br><br>
+
+    <div class="jumbotron mx-5 jumbotron-fluid custom-jumbotron border-dark border rounded" 
+    style="background-image: url('/static/images/base/Text Backgrounds/WFS%20Warwick%20University%20Warwick%20Finance%20Societies%20Text%20Background2.jpg');"
+    data-aos="zoom-in"
+    data-aos="zoom-in"
+    data-aos-easing="ease-in-out"
+    data-aos-delay="100"
+    data-aos-offset="200">
+        <div class="container">
+            <h1 class="display-4 text-center">Insights Slides</h1>
+
+            <p class="lead text-center">
+                {% if files %}
+                    <ul class="text-left mx-auto" style="max-width: 600px;">
+                        {% for file in files %}
+                            <li class="mb-3">
+                                <a href="{{ file.webContentLink }}" class="text-white" download>{{ file.name }}</a>
+                                {% if file.mimeType == 'application/vnd.ms-powerpoint' %}
+                                    <span class="text-muted"></span>
+                                {% elif file.mimeType == 'application/vnd.openxmlformats-officedocument.presentationml.presentation' %}
+                                    <span class="text-muted"></span>
+                                {% else %}
+                                    <span class="text-muted"></span>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p class="text-white">There's nothing here yet :(</p>
+                {% endif %}
+            </p>
+
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+</div>
+
+{% endblock %}
